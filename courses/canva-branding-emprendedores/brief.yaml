@@ -1,5 +1,4 @@
-# CAMBIAR antes de publicar: checkout_url, instructor.nombre/bio/foto (ver nota abajo).
-# Todo lo demás está completo con base en el temario que pasaste.
+# CAMBIAR antes de publicar: checkout_url, instructor.foto (ver nota abajo).
 
 slug: canva-branding-emprendedores
 nombre: "Canva y Branding para Emprendedores"
@@ -63,20 +62,13 @@ modulos:
     clases: 4
     resultado: "Tienes tu link en bio, tus presentaciones de venta y tu papelería lista para usar"
 
-# Propuesta de bonus — CONFIRMAR que son entregables reales antes de publicar.
 bonus:
-  - nombre: "Kit de 50 plantillas editables"
-    descripcion: "Posts, historias y carruseles ya diseñados. Cambias colores y textos con tu Kit de Marca y quedan listos."
-    valor: 47
-  - nombre: "Paletas y tipografías por nicho"
-    descripcion: "Combinaciones ya armadas para 10 tipos de negocio distintos, para no partir de cero."
-    valor: 27
-  - nombre: "Checklist de Marca en 1 página"
-    descripcion: "PDF para revisar antes de publicar o imprimir cualquier pieza — el mismo que se enseña en el Módulo 5."
+  - nombre: "+150 plantillas prediseñadas"
+    descripcion: "Marketing, ventas y redes sociales. Cambias colores y textos con tu Kit de Marca y quedan listas para usar."
+    valor: 97
+  - nombre: "Certificado de finalización"
+    descripcion: "Para respaldar que completaste el curso."
     valor: 19
-  - nombre: "Comunidad privada de soporte"
-    descripcion: "Para resolver dudas mientras construyes tu marca."
-    valor: 37
 
 precio: 35
 precio_ancla: 97
@@ -100,12 +92,14 @@ prueba_social: []
 
 metricas: {}
 
-# CAMBIAR: nombre, bio y foto reales de la profesora (el temario dice "presentación de la
-# profesora" pero no me diste su nombre — no lo voy a inventar).
+# CAMBIAR: foto real de Olga (la que pegaste en el chat es un frame de video con el ícono
+# de play superpuesto — no llega como archivo, así que no puedo usarla directamente. Sube
+# el archivo a courses/canva-branding-emprendedores/assets/olga.jpg o pásame una URL).
 instructor:
-  nombre: "[NOMBRE DE LA PROFESORA]"
-  bio: "[Bio real: experiencia con Canva/diseño/marca, a cuántas personas ha ayudado, credenciales]"
-  credenciales: []
+  nombre: "Olga Portocarrero"
+  bio: "Olga Portocarrero es diseñadora gráfica y la profesora de este curso, creado para que cualquier emprendedor pueda construir su propia identidad de marca en Canva sin depender de un diseñador."
+  credenciales:
+    - "Diseñadora gráfica"
   foto: ""
 
 faq_extra: []

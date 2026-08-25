@@ -55,7 +55,7 @@
 
   "instructor": {
     "headline": "Quién te va a enseñar esto",
-    "bio": "[COMPLETAR — bio real de la profesora: años de experiencia con Canva y diseño de marca, a cuántos emprendedores ha ayudado, por qué es la persona indicada para enseñar esto.]"
+    "bio": "Olga Portocarrero es diseñadora gráfica y la profesora de este curso, creado para que cualquier emprendedor pueda construir su propia identidad de marca en Canva sin depender de un diseñador."
   },
 
   "price": {
@@ -128,7 +128,7 @@
       { "titular": "Tu marca se ve\nigual a la de todos.", "tipo": "gancho" },
       { "titular": "No es falta de gusto.\nEs falta de sistema.", "tipo": "dolor" },
       { "titular": "El Sistema\nADN de Marca", "subtitulo": "Estrategia · Sistema · Producción", "tipo": "mecanismo" },
-      { "titular": "6 módulos.\n24 clases.\n4 bonus.", "tipo": "oferta" },
+      { "titular": "6 módulos.\n24 clases.\n+150 plantillas.", "tipo": "oferta" },
       { "titular": "$35", "subtitulo": "7 días de garantía", "tipo": "cta" }
     ]
   }

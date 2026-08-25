@@ -2059,7 +2059,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Kit de 50 plantillas editables",
+                    "title": "+150 plantillas prediseñadas",
                     "header_size": "h3",
                     "title_color": "#241814",
                     "typography_typography": "custom",
@@ -2079,7 +2079,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Posts, historias y carruseles ya diseñados. Cambias colores y textos con tu Kit de Marca y quedan listos.</p>",
+                    "editor": "<p>Marketing, ventas y redes sociales. Cambias colores y textos con tu Kit de Marca y quedan listas para usar.</p>",
                     "text_color": "#7A6A5C",
                     "typography_typography": "custom",
                     "typography_font_size": {
@@ -2101,7 +2101,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Valor: $47",
+                    "title": "Valor: $97",
                     "header_size": "div",
                     "title_color": "#E8A33D",
                     "typography_typography": "custom",
@@ -2199,7 +2199,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Paletas y tipografías por nicho",
+                    "title": "Certificado de finalización",
                     "header_size": "h3",
                     "title_color": "#241814",
                     "typography_typography": "custom",
@@ -2219,7 +2219,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Combinaciones ya armadas para 10 tipos de negocio distintos, para no partir de cero.</p>",
+                    "editor": "<p>Para respaldar que completaste el curso.</p>",
                     "text_color": "#7A6A5C",
                     "typography_typography": "custom",
                     "typography_font_size": {
@@ -2241,7 +2241,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Valor: $27",
+                    "title": "Valor: $19",
                     "header_size": "div",
                     "title_color": "#E8A33D",
                     "typography_typography": "custom",
@@ -2259,286 +2259,6 @@
                 }
               ],
               "id": "1438ff0"
-            },
-            {
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 10,
-                  "column": "10",
-                  "row": "10",
-                  "isLinked": true
-                },
-                "width": {
-                  "unit": "px",
-                  "size": 340
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "26",
-                  "right": "24",
-                  "bottom": "26",
-                  "left": "24",
-                  "isLinked": false
-                },
-                "background_background": "classic",
-                "background_color": "#FFFDF8",
-                "border_radius": {
-                  "unit": "px",
-                  "top": 14,
-                  "right": 14,
-                  "bottom": 14,
-                  "left": 14,
-                  "isLinked": true
-                },
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "2",
-                  "right": "2",
-                  "bottom": "2",
-                  "left": "2",
-                  "isLinked": true
-                },
-                "border_color": "#2F6F5E",
-                "__globals__": {
-                  "background_color": "globals/colors?id=a1c2e30",
-                  "border_color": "globals/colors?id=secondary"
-                }
-              },
-              "elements": [
-                {
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "BONUS 3",
-                    "header_size": "div",
-                    "title_color": "#2F6F5E",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12
-                    },
-                    "typography_font_weight": "700",
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": 1.2
-                    },
-                    "__globals__": {
-                      "title_color": "globals/colors?id=secondary"
-                    }
-                  },
-                  "elements": [],
-                  "id": "cca933f"
-                },
-                {
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Checklist de Marca en 1 página",
-                    "header_size": "h3",
-                    "title_color": "#241814",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "typography_font_weight": "700",
-                    "__globals__": {
-                      "title_color": "globals/colors?id=text"
-                    }
-                  },
-                  "elements": [],
-                  "id": "20c498e"
-                },
-                {
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>PDF para revisar antes de publicar o imprimir cualquier pieza — el mismo que se enseña en el Módulo 5.</p>",
-                    "text_color": "#7A6A5C",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.55
-                    },
-                    "__globals__": {
-                      "text_color": "globals/colors?id=e0f5b63"
-                    }
-                  },
-                  "elements": [],
-                  "id": "bf49c36"
-                },
-                {
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Valor: $19",
-                    "header_size": "div",
-                    "title_color": "#E8A33D",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_font_weight": "700",
-                    "__globals__": {
-                      "title_color": "globals/colors?id=accent"
-                    }
-                  },
-                  "elements": [],
-                  "id": "e8b5394"
-                }
-              ],
-              "id": "d4365bb"
-            },
-            {
-              "elType": "container",
-              "isInner": true,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 10,
-                  "column": "10",
-                  "row": "10",
-                  "isLinked": true
-                },
-                "width": {
-                  "unit": "px",
-                  "size": 340
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "26",
-                  "right": "24",
-                  "bottom": "26",
-                  "left": "24",
-                  "isLinked": false
-                },
-                "background_background": "classic",
-                "background_color": "#FFFDF8",
-                "border_radius": {
-                  "unit": "px",
-                  "top": 14,
-                  "right": 14,
-                  "bottom": 14,
-                  "left": 14,
-                  "isLinked": true
-                },
-                "border_border": "solid",
-                "border_width": {
-                  "unit": "px",
-                  "top": "2",
-                  "right": "2",
-                  "bottom": "2",
-                  "left": "2",
-                  "isLinked": true
-                },
-                "border_color": "#2F6F5E",
-                "__globals__": {
-                  "background_color": "globals/colors?id=a1c2e30",
-                  "border_color": "globals/colors?id=secondary"
-                }
-              },
-              "elements": [
-                {
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "BONUS 4",
-                    "header_size": "div",
-                    "title_color": "#2F6F5E",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12
-                    },
-                    "typography_font_weight": "700",
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": 1.2
-                    },
-                    "__globals__": {
-                      "title_color": "globals/colors?id=secondary"
-                    }
-                  },
-                  "elements": [],
-                  "id": "2aae68a"
-                },
-                {
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Comunidad privada de soporte",
-                    "header_size": "h3",
-                    "title_color": "#241814",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 21
-                    },
-                    "typography_font_weight": "700",
-                    "__globals__": {
-                      "title_color": "globals/colors?id=text"
-                    }
-                  },
-                  "elements": [],
-                  "id": "53b94d9"
-                },
-                {
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Para resolver dudas mientras construyes tu marca.</p>",
-                    "text_color": "#7A6A5C",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.55
-                    },
-                    "__globals__": {
-                      "text_color": "globals/colors?id=e0f5b63"
-                    }
-                  },
-                  "elements": [],
-                  "id": "448ba17"
-                },
-                {
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Valor: $37",
-                    "header_size": "div",
-                    "title_color": "#E8A33D",
-                    "typography_typography": "custom",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_font_weight": "700",
-                    "__globals__": {
-                      "title_color": "globals/colors?id=accent"
-                    }
-                  },
-                  "elements": [],
-                  "id": "b61d317"
-                }
-              ],
-              "id": "d03416c"
             }
           ],
           "id": "2984207"
@@ -2547,7 +2267,7 @@
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Valor total de los bonus: $130",
+            "title": "Valor total de los bonus: $116",
             "header_size": "h3",
             "align": "center",
             "title_color": "#241814",
@@ -2645,7 +2365,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>[COMPLETAR — bio real de la profesora: años de experiencia con Canva y diseño de marca, a cuántos emprendedores ha ayudado, por qué es la persona indicada para enseñar esto.]</p>",
+                "editor": "<p>Olga Portocarrero es diseñadora gráfica y la profesora de este curso, creado para que cualquier emprendedor pueda construir su propia identidad de marca en Canva sin depender de un diseñador.</p>",
                 "text_color": "#7A6A5C",
                 "typography_typography": "custom",
                 "typography_font_size": {
@@ -2662,6 +2382,43 @@
               },
               "elements": [],
               "id": "41688e8"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "fbfeeaf",
+                    "text": "Diseñadora gráfica",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_color": "#2F6F5E",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_color": "#F7F1E8",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=secondary",
+                  "text_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "313339d"
             }
           ],
           "id": "7d2f7f6"
@@ -2786,7 +2543,7 @@
                   },
                   {
                     "_id": "190cda7",
-                    "text": "Kit de 50 plantillas editables — <strong>$47</strong>",
+                    "text": "+150 plantillas prediseñadas — <strong>$97</strong>",
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
@@ -2794,23 +2551,7 @@
                   },
                   {
                     "_id": "59096d9",
-                    "text": "Paletas y tipografías por nicho — <strong>$27</strong>",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "_id": "550728b",
-                    "text": "Checklist de Marca en 1 página — <strong>$19</strong>",
-                    "selected_icon": {
-                      "value": "fas fa-check",
-                      "library": "fa-solid"
-                    }
-                  },
-                  {
-                    "_id": "1504856",
-                    "text": "Comunidad privada de soporte — <strong>$37</strong>",
+                    "text": "Certificado de finalización — <strong>$19</strong>",
                     "selected_icon": {
                       "value": "fas fa-check",
                       "library": "fa-solid"
@@ -2862,7 +2603,7 @@
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Valor real: $227",
+                "title": "Valor real: $213",
                 "header_size": "div",
                 "align": "center",
                 "title_color": "#7A6A5C",
