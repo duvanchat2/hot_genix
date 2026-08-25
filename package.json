@@ -1,0 +1,22 @@
+{
+  "name": "hot-genix",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Fábrica de landings de venta para los cursos de Genix: brief → copy → estructura → Elementor JSON → creativos de Meta.",
+  "scripts": {
+    "new": "node scripts/new-course.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "ads": "node scripts/render.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "playwright": "^1.56.0",
+    "yaml": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,3623 @@
+{
+  "version": "0.4",
+  "title": "Agentes de IA para Negocios",
+  "type": "page",
+  "content": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B12",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Academia Genix",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#6C4CF1",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "__globals__": {
+              "title_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "54955c0"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Tu negocio sigue perdiendo clientes mientras tú duermes",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#F2F3F7",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.12
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 82
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "7f16841"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Monta un agente de IA que responde en segundos, califica al cliente y le agenda la cita. En 14 días, sin escribir una línea de código.</p>",
+            "text_color": "#6B7280",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "bb0cf4c"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Quiero mi agente funcionando",
+            "link": {
+              "url": "https://pay.hotmart.com/EJEMPLO-CAMBIAR",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#6C4CF1",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "44",
+              "bottom": "20",
+              "left": "44",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_weight": "700",
+            "__globals__": {
+              "background_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "619a0dc"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Acceso inmediato · 7 días de garantía · Pago único</p>",
+            "text_color": "#6B7280",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "10f39cf"
+        }
+      ],
+      "id": "e9b91e2"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_justify_content": "space-around",
+        "flex_align_items": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "20",
+          "bottom": "32",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F5F9",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 4,
+              "column": "4",
+              "row": "4",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 190
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "1,200+",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6C4CF1",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "__globals__": {
+                  "title_color": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "id": "a973ea0"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "alumnos",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "500",
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "a70d3f8"
+            }
+          ],
+          "id": "ed572e8"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 4,
+              "column": "4",
+              "row": "4",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 190
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "4.8/5",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6C4CF1",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "__globals__": {
+                  "title_color": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "id": "fbe30ae"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "valoración promedio",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "500",
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "052630c"
+            }
+          ],
+          "id": "2959cb9"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 4,
+              "column": "4",
+              "row": "4",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 190
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "9h",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6C4CF1",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "__globals__": {
+                  "title_color": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "id": "576d5cc"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "de contenido",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "500",
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "b140272"
+            }
+          ],
+          "id": "29530fc"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 4,
+              "column": "4",
+              "row": "4",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 190
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "24",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6C4CF1",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "__globals__": {
+                  "title_color": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "id": "0e5bbab"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "clases",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "500",
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "b36ea52"
+            }
+          ],
+          "id": "ed54efe"
+        }
+      ],
+      "id": "2db5b79"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "No es que no sepas vender. Es que no llegas a contestar.",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "2a5c0b4"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Todo negocio digital llega al mismo techo: el día tiene las horas que tiene, y responder consume las que deberías usar para vender.</p>",
+            "text_color": "#6B7280",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "c0c1861"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "icon-list",
+          "settings": {
+            "icon_list": [
+              {
+                "_id": "20d4400",
+                "text": "Contestas a las 6 horas y el cliente ya le compró a otro",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "24d207b",
+                "text": "Pasas la mañana repitiendo el mismo precio por WhatsApp",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "64d02dd",
+                "text": "Probaste ChatGPT y te dio respuestas genéricas que espantan gente",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "60cde8f",
+                "text": "Para crecer solo se te ocurre contratar a alguien más",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "20cb45a",
+                "text": "Trabajas más cada mes y facturas casi lo mismo",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              }
+            ],
+            "space_between": {
+              "unit": "px",
+              "size": 16
+            },
+            "icon_color": "#F59E0B",
+            "icon_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "text_color": "#0E1116",
+            "icon_typography_typography": "custom",
+            "text_indent": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.5
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 62
+            },
+            "__globals__": {
+              "icon_color": "globals/colors?id=accent",
+              "text_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "4c4c6e2"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "El problema no es tu oferta. Es que tu negocio depende de que tú estés despierto.",
+            "header_size": "h3",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.35
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 66
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "ea0f90d"
+        }
+      ],
+      "id": "2db3790"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B12",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "El Sistema de 3 Capas",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#12B981",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "__globals__": {
+              "title_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "c9b457b"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Por qué tu agente anterior no funcionó",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#F2F3F7",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "4432eae"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Casi todos fallan por lo mismo: le meten todo a un solo prompt gigante. Funciona en la demo y se rompe con el primer cliente raro. Un agente que aguanta producción se arma en tres capas separadas — así cuando algo falla, arreglas esa capa sin romper las otras.</p>",
+            "text_color": "#6B7280",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 70
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "e41fe7a"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 320
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#262636"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "01",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e15378d"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "El conocimiento",
+                    "header_size": "h3",
+                    "title_color": "#F2F3F7",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e61e6e4"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Tus precios, servicios y políticas cargados de forma que la IA los consulte en vez de inventarlos.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "07c296c"
+                }
+              ],
+              "id": "26eb181"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 320
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#262636"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "02",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "5743908"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "La conversación",
+                    "header_size": "h3",
+                    "title_color": "#F2F3F7",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8971faf"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Las reglas de cómo habla, qué pregunta para calificar y en qué momento exacto pasa a un humano.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6155895"
+                }
+              ],
+              "id": "22e8d32"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 320
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#262636"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "03",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6e687a9"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "La acción",
+                    "header_size": "h3",
+                    "title_color": "#F2F3F7",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e0cfa86"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Agenda, pagos y CRM conectados. El agente ejecuta, no solo responde bonito.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "29674af"
+                }
+              ],
+              "id": "22ef8ef"
+            }
+          ],
+          "id": "4862d6d"
+        }
+      ],
+      "id": "e9b0cf5"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qué vas a construir, módulo a módulo",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "8d7fcb9"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Cada módulo termina con algo funcionando, no con teoría. Al final del último tienes un agente atendiendo clientes reales.</p>",
+            "text_color": "#6B7280",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "6a79803"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 86
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 1",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bf83024"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Fundamentos sin humo",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "828f0f6"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Qué es y qué no es un agente, y por qué el 90% de los tutoriales que viste no llegan a producción.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "52daf76"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "56a9f62",
+                        "text": "Sabes distinguir un agente real de un chatbot con esteroides",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#12B981",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "93e1c87"
+                }
+              ],
+              "id": "869a707"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 2",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "c1df8c5"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Capa 1 — El conocimiento de tu negocio",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "ebc3a96"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Cómo cargar tus precios, servicios, políticas y casos frecuentes para que el agente responda con datos tuyos y deje de inventar.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "00eab9b"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "fa43f0d",
+                        "text": "Tu agente responde con la información real de tu negocio",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#12B981",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "fa53b83"
+                }
+              ],
+              "id": "4297c6d"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 3",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "dbb8b53"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Capa 2 — Cómo debe conversar",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "00cb75f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Las reglas que hacen que suene a tu marca, califique al cliente y sepa cuándo pasar a un humano.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b12c274"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "4b9ba52",
+                        "text": "El agente califica solo y escala cuando toca",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#12B981",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "c5a75d5"
+                }
+              ],
+              "id": "429e829"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 4",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6b449d4"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Capa 3 — Que ejecute, no solo hable",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6201776"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Conexión con WhatsApp Business, Google Calendar y tu pasarela de pago.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "c279b5f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "faa056b",
+                        "text": "El agente agenda citas y cobra sin que intervengas",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#12B981",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "c9eb965"
+                }
+              ],
+              "id": "469c4a4"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 5",
+                    "header_size": "div",
+                    "title_color": "#6C4CF1",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a7e599d"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Lanzamiento y monitoreo",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "266852e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Cómo probarlo con clientes reales sin quemar la marca, y qué revisar cada semana.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6383861"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "a29205c",
+                        "text": "Tu agente está en producción atendiendo clientes reales",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#12B981",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "1fd9452"
+                }
+              ],
+              "id": "868fe31"
+            }
+          ],
+          "id": "d2942df"
+        }
+      ],
+      "id": "e9c2188"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F5F9",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Y además te llevas esto",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "e7e693b"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 340
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "24",
+                  "bottom": "26",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "border_color": "#12B981",
+                "__globals__": {
+                  "background_color": "globals/colors?id=a1c2e30",
+                  "border_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 1",
+                    "header_size": "div",
+                    "title_color": "#12B981",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b34a8f7"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Biblioteca de 40 prompts de negocio",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 21
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "45152dd"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Los prompts exactos de cada capa, listos para copiar y adaptar.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "ab2ba8f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Valor: $97",
+                    "header_size": "div",
+                    "title_color": "#F59E0B",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=accent"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6326c61"
+                }
+              ],
+              "id": "aec2b02"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 340
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "24",
+                  "bottom": "26",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "border_color": "#12B981",
+                "__globals__": {
+                  "background_color": "globals/colors?id=a1c2e30",
+                  "border_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 2",
+                    "header_size": "div",
+                    "title_color": "#12B981",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "79e4758"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Plantilla de conexión WhatsApp + Calendar",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 21
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "76ddb09"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>El flujo ya armado. Cambias tus credenciales y funciona.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6133c70"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Valor: $147",
+                    "header_size": "div",
+                    "title_color": "#F59E0B",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=accent"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bcf5dbc"
+                }
+              ],
+              "id": "aac06b4"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 340
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "24",
+                  "bottom": "26",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "border_color": "#12B981",
+                "__globals__": {
+                  "background_color": "globals/colors?id=a1c2e30",
+                  "border_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 3",
+                    "header_size": "div",
+                    "title_color": "#12B981",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "d4c5fae"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Sesión de preguntas en vivo al mes",
+                    "header_size": "h3",
+                    "title_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 21
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "4587d16"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Traes tu caso y lo resolvemos en pantalla.</p>",
+                    "text_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "78467a9"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Valor: $197",
+                    "header_size": "div",
+                    "title_color": "#F59E0B",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=accent"
+                    }
+                  },
+                  "elements": [],
+                  "id": "adc18da"
+                }
+              ],
+              "id": "aac8ba0"
+            }
+          ],
+          "id": "568ae72"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Valor total de los bonus: $441",
+            "header_size": "h3",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "d0b9bc7"
+        }
+      ],
+      "id": "edbfe03"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 30,
+          "column": "30",
+          "row": "30",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Lo que pasó cuando lo montaron",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "1c1cc1a"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 350
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>“[EJEMPLO] Llevaba meses contestando WhatsApp de madrugada. Armé el agente en un fin de semana y ahora me llega la cita ya agendada.”</p>",
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "typography_font_style": "italic",
+                    "__globals__": {
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "dab714d"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "De 6 horas a 3 minutos de respuesta",
+                    "header_size": "div",
+                    "title_color": "#12B981",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a455e55"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[EJEMPLO] Nombre Apellido · Agencia de marketing",
+                    "header_size": "div",
+                    "title_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "0c1b640"
+                }
+              ],
+              "id": "01019df"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 350
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F4F5F9",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>“[EJEMPLO] Lo que me destrabó fue separarlo en capas. Antes tenía un prompt de dos páginas que se rompía solo.”</p>",
+                    "text_color": "#0E1116",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "typography_font_style": "italic",
+                    "__globals__": {
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8433869"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "18 citas agendadas el primer mes",
+                    "header_size": "div",
+                    "title_color": "#12B981",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "2d41511"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "[EJEMPLO] Nombre Apellido · Consultor independiente",
+                    "header_size": "div",
+                    "title_color": "#6B7280",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8fab3d8"
+                }
+              ],
+              "id": "bd03717"
+            }
+          ],
+          "id": "ab6e658"
+        }
+      ],
+      "id": "2dbe065"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_justify_content": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 44,
+          "column": "44",
+          "row": "44",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B12",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 560
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quién te va a enseñar esto",
+                "header_size": "h2",
+                "title_color": "#F2F3F7",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "2f880a9"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Llevo años aplicando IA a negocios digitales y enseñando lo que de verdad llega a producción, no lo que se ve bonito en una demo. He acompañado a más de mil personas en Academia Genix a montar sus primeros sistemas con IA.</p>",
+                "text_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "__globals__": {
+                  "text_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "d2f2f92"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "b0d3ae9",
+                    "text": "Fundador de Academia Genix",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "f4d6583",
+                    "text": "+1.000 alumnos acompañados",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "b4d9c50",
+                    "text": "Creador de @byduvan_ai",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_color": "#12B981",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_color": "#F2F3F7",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=secondary",
+                  "text_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "42b6291"
+            }
+          ],
+          "id": "3ab169b"
+        }
+      ],
+      "id": "29bbc17"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 26,
+          "column": "26",
+          "row": "26",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B0B12",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Lo que cuesta seguir contestando tú mismo",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#F2F3F7",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "efa0b76"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 620
+            },
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "36",
+              "bottom": "40",
+              "left": "36",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            },
+            "__globals__": {
+              "background_color": "globals/colors?id=a1c2e30"
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "2ed55c9",
+                    "text": "Agentes de IA para Negocios — <strong>$197</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "ead8c32",
+                    "text": "Biblioteca de 40 prompts de negocio — <strong>$97</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "ead0745",
+                    "text": "Plantilla de conexión WhatsApp + Calendar — <strong>$147</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "2ed31e0",
+                    "text": "Sesión de preguntas en vivo al mes — <strong>$197</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_color": "#12B981",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_color": "#0E1116",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=secondary",
+                  "text_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "id": "5e83b4a"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "color": "#E3E5EC",
+                "gap": {
+                  "unit": "px",
+                  "size": 6
+                }
+              },
+              "elements": [],
+              "id": "737aac9"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Valor real: $638",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_font_weight": "600",
+                "typography_text_decoration": "line-through",
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "f8f94e4"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "$47 USD",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#0E1116",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 62
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 46
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "id": "845476c"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pago único. Acceso de por vida y actualizaciones incluidas.",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B7280",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "49f9ef0"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quiero mi agente funcionando",
+                "link": {
+                  "url": "https://pay.hotmart.com/EJEMPLO-CAMBIAR",
+                  "is_external": "on",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align": "justify",
+                "size": "lg",
+                "background_color": "#6C4CF1",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 999,
+                  "right": 999,
+                  "bottom": 999,
+                  "left": 999,
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "40",
+                  "bottom": "22",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_font_weight": "700",
+                "__globals__": {
+                  "background_color": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "id": "625846d"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Precio de lanzamiento: sube a $97 al cerrar el primer grupo",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#F59E0B",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "700",
+                "__globals__": {
+                  "title_color": "globals/colors?id=accent"
+                }
+              },
+              "elements": [],
+              "id": "9c438fe"
+            }
+          ],
+          "id": "3f5a0e4"
+        }
+      ],
+      "id": "29a4682"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 18,
+          "column": "18",
+          "row": "18",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F4F5F9",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "icon-box",
+          "settings": {
+            "selected_icon": {
+              "value": "fas fa-shield-alt",
+              "library": "fa-solid"
+            },
+            "position": "top",
+            "title_text": "Garantía de 7 días",
+            "description_text": "Entra, mira los módulos, arma tu primer agente. Si en 7 días sientes que no es para ti, escribes un correo y te devolvemos todo. Sin formularios ni preguntas.",
+            "title_size": "h3",
+            "primary_color": "#12B981",
+            "title_color": "#0E1116",
+            "description_color": "#6B7280",
+            "icon_size": {
+              "unit": "px",
+              "size": 46
+            },
+            "title_typography_typography": "custom",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 26
+            },
+            "title_typography_font_weight": "800",
+            "description_typography_typography": "custom",
+            "description_typography_font_size": {
+              "unit": "px",
+              "size": 17
+            },
+            "description_typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "text_align": "center",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 62
+            },
+            "__globals__": {
+              "primary_color": "globals/colors?id=secondary",
+              "title_color": "globals/colors?id=text",
+              "description_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "8c71a6a"
+        }
+      ],
+      "id": "2da22fe"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Antes de que preguntes",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0E1116",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "bf3140b"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "850eee4",
+                "tab_title": "¿Necesito saber programar?",
+                "tab_content": "<p>No. Todo el curso usa herramientas visuales y prompts. Si sabes usar WhatsApp y Google Calendar, tienes el nivel.</p>"
+              },
+              {
+                "_id": "890cb60",
+                "tab_title": "¿Cuánto me va a costar la IA cada mes?",
+                "tab_content": "<p>Para un negocio con volumen normal de mensajes, entre 5 y 20 dólares al mes. En el módulo 5 te muestro cómo medirlo y cómo bajarlo.</p>"
+              },
+              {
+                "_id": "c90adc2",
+                "tab_title": "¿Funciona con mi WhatsApp Business?",
+                "tab_content": "<p>Sí. El módulo 4 cubre la conexión con WhatsApp Business paso a paso, y también con Instagram y web.</p>"
+              },
+              {
+                "_id": "c508974",
+                "tab_title": "¿Y si mi negocio es muy específico?",
+                "tab_content": "<p>Eso es justo lo que resuelve la capa de conocimiento: el agente responde con TU información, no con lo que la IA cree saber de tu sector.</p>"
+              },
+              {
+                "_id": "c519e06",
+                "tab_title": "¿Cuánto tiempo necesito por semana?",
+                "tab_content": "<p>Entre 3 y 4 horas. Los módulos son cortos y cada uno termina con algo construido, no con teoría.</p>"
+              }
+            ],
+            "selected_icon": {
+              "value": "fas fa-plus",
+              "library": "fa-solid"
+            },
+            "selected_active_icon": {
+              "value": "fas fa-minus",
+              "library": "fa-solid"
+            },
+            "title_html_tag": "h3",
+            "title_color": "#0E1116",
+            "content_color": "#6B7280",
+            "icon_color": "#6C4CF1",
+            "title_typography_typography": "custom",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "title_typography_font_weight": "700",
+            "content_typography_typography": "custom",
+            "content_typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "content_typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text",
+              "content_color": "globals/colors?id=e0f5b63",
+              "icon_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "4e00861"
+        }
+      ],
+      "id": "bd7a453"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#6C4CF1",
+        "__globals__": {
+          "background_color": "globals/colors?id=primary"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Mañana vas a contestar los mismos mensajes otra vez",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.18
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 74
+            }
+          },
+          "elements": [],
+          "id": "64ca789"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">O montas el agente que los contesta por ti. Son 14 días y $47.</p>",
+            "text_color": "#F0EDFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 64
+            }
+          },
+          "elements": [],
+          "id": "d301fd3"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Empezar ahora",
+            "link": {
+              "url": "https://pay.hotmart.com/EJEMPLO-CAMBIAR",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#FFFFFF",
+            "button_text_color": "#6C4CF1",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "22",
+              "right": "48",
+              "bottom": "22",
+              "left": "48",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "button_text_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "80e8474"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "7 días de garantía · Acceso de por vida",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#E4DEFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            }
+          },
+          "elements": [],
+          "id": "103a663"
+        }
+      ],
+      "id": "b97c7d8"
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "content_width": {
+      "unit": "px",
+      "size": 1140
+    }
+  }
+}

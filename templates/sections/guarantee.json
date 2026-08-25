@@ -1,0 +1,88 @@
+{
+  "nombre": "guarantee",
+  "descripcion": "Reversión de riesgo. Se omite sola si el brief no declara garantía.",
+  "requiere": [
+    "curso.garantia.dias"
+  ],
+  "nodos": [
+    {
+      "_if": "curso.garantia.dias",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 18,
+          "column": "18",
+          "row": "18",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": {
+          "_color": "surface_muted"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "icon-box",
+          "settings": {
+            "selected_icon": {
+              "value": "fas fa-shield-alt",
+              "library": "fa-solid"
+            },
+            "position": "top",
+            "title_text": "Garantía de {{curso.garantia.dias}} días",
+            "description_text": "{{copy.guarantee.texto}}",
+            "title_size": "h3",
+            "primary_color": {
+              "_color": "secondary"
+            },
+            "title_color": {
+              "_color": "text"
+            },
+            "description_color": {
+              "_color": "text_muted"
+            },
+            "icon_size": {
+              "unit": "px",
+              "size": 46
+            },
+            "title_typography_typography": "custom",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 26
+            },
+            "title_typography_font_weight": "800",
+            "description_typography_typography": "custom",
+            "description_typography_font_size": {
+              "unit": "px",
+              "size": 17
+            },
+            "description_typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "text_align": "center",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 62
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

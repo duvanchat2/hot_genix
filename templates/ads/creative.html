@@ -1,0 +1,184 @@
+<!--
+  Creativo de anuncio para Meta. Un solo archivo cubre 1:1, 4:5 y 9:16.
+
+  render.mjs inyecta las variables, fija el viewport al tamaño exacto y fotografía
+  #lienzo. El texto lo compone el navegador, NO un modelo de imagen: así las tildes
+  salen bien, la tipografía es la de marca y cambiar un titular no cuesta otra
+  generación. La IA solo aporta el fondo.
+
+  Tokens disponibles: {{formato}} {{ancho}} {{alto}} {{titular}} {{subtitulo}}
+  {{eyebrow}} {{cta}} {{precio}} {{fondo}} {{logo}} y todo el objeto {{marca}}.
+-->
+<style>
+  @font-face {
+    font-family: 'MarcaTitular';
+    src: {{fuenteTitularSrc}};
+    font-weight: 100 900;
+    font-display: block;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #000;
+    /* Sin scroll ni márgenes: el lienzo debe cuadrar al píxel con el viewport. */
+    overflow: hidden;
+  }
+
+  #lienzo {
+    position: relative;
+    width: {{ancho}}px;
+    height: {{alto}}px;
+    overflow: hidden;
+    font-family: 'MarcaTitular', {{fuenteFallback}};
+    color: {{marca.colores.text_on_dark.hex}};
+    background-color: {{marca.colores.surface_dark.hex}};
+    /* Malla de color de marca: hace que el creativo funcione sin imagen generada. */
+    background-image:
+      radial-gradient(120% 90% at 12% 4%, {{marca.colores.primary.hex}}66 0%, transparent 58%),
+      radial-gradient(100% 80% at 92% 96%, {{marca.colores.secondary.hex}}40 0%, transparent 55%),
+      radial-gradient(80% 60% at 78% 12%, {{marca.colores.accent.hex}}26 0%, transparent 60%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  #fondo {
+    position: absolute;
+    inset: 0;
+    background-image: {{fondoCss}};
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*
+    Velo oscuro: sin él, el texto sobre una imagen generada deja de leerse.
+    Solo cuando hay imagen — sobre la malla de marca apagaría el color sin
+    aportar nada, porque ahí el contraste ya está controlado.
+  */
+  #velo { position: absolute; inset: 0; }
+  #lienzo[data-fondo='si'] #velo {
+    background: linear-gradient(180deg, #05050ACC 0%, #05050A66 42%, #05050AE6 100%);
+  }
+
+  #contenido {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--pad-y) var(--pad-x);
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 12px;
+    font-size: var(--fs-eyebrow);
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: {{marca.colores.text_on_dark.hex}};
+    background: #FFFFFF1A;
+    border: 1px solid #FFFFFF2E;
+    padding: 12px 22px;
+    border-radius: 999px;
+    backdrop-filter: blur(6px);
+  }
+
+  .bloque-texto { display: flex; flex-direction: column; gap: var(--gap); }
+
+  h1 {
+    font-size: var(--fs-titular);
+    font-weight: 800;
+    line-height: 1.04;
+    letter-spacing: -.02em;
+    /* Respeta los saltos de línea que escribe el copy en el JSON. */
+    white-space: pre-line;
+    text-wrap: balance;
+  }
+
+  .subtitulo {
+    font-size: var(--fs-sub);
+    font-weight: 500;
+    line-height: 1.4;
+    color: #D6D8E4;
+    max-width: 30ch;
+  }
+
+  .pie { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+
+  .cta {
+    font-size: var(--fs-cta);
+    font-weight: 800;
+    color: #fff;
+    background: {{marca.colores.primary.hex}};
+    padding: var(--cta-pad-y) var(--cta-pad-x);
+    border-radius: 999px;
+  }
+
+  .precio {
+    font-size: var(--fs-cta);
+    font-weight: 800;
+    color: {{marca.colores.surface_dark.hex}};
+    background: {{marca.colores.accent.hex}};
+    padding: var(--cta-pad-y) var(--cta-pad-x);
+    border-radius: 999px;
+  }
+
+  .logo { height: var(--logo-h); width: auto; opacity: .95; }
+  /* Sin archivo de logo se oculta: la marca ya va en el chip de arriba y
+     repetirla en texto solo resta sitio al CTA. */
+  #lienzo[data-logo='no'] .logo { display: none; }
+
+  /* ---- Medidas por formato ---- */
+
+  #lienzo[data-formato='1x1'] {
+    --pad-x: 84px; --pad-y: 84px; --gap: 26px;
+    --fs-eyebrow: 24px; --fs-titular: 92px; --fs-sub: 36px; --fs-cta: 30px;
+    --cta-pad-y: 20px; --cta-pad-x: 40px; --logo-h: 44px;
+  }
+
+  #lienzo[data-formato='4x5'] {
+    --pad-x: 84px; --pad-y: 96px; --gap: 28px;
+    --fs-eyebrow: 24px; --fs-titular: 100px; --fs-sub: 38px; --fs-cta: 31px;
+    --cta-pad-y: 21px; --cta-pad-x: 42px; --logo-h: 46px;
+  }
+
+  /*
+    9:16 va en Historias y Reels, donde Meta superpone su propia interfaz.
+    Los ~14% de arriba y ~20% de abajo se dejan libres para que ni el titular
+    ni el CTA queden debajo del avatar, la barra de progreso o el "Enviar mensaje".
+  */
+  #lienzo[data-formato='9x16'] {
+    --pad-x: 80px; --gap: 30px;
+    --fs-eyebrow: 26px; --fs-titular: 104px; --fs-sub: 40px; --fs-cta: 34px;
+    --cta-pad-y: 24px; --cta-pad-x: 46px; --logo-h: 50px;
+    --pad-y: 0;
+  }
+  #lienzo[data-formato='9x16'] #contenido {
+    padding-top: calc({{alto}}px * .14);
+    padding-bottom: calc({{alto}}px * .20);
+  }
+</style>
+
+<div id="lienzo" data-formato="{{formato}}" data-fondo="{{tieneFondo}}" data-logo="{{tieneLogo}}">
+  <div id="fondo"></div>
+  <div id="velo"></div>
+
+  <div id="contenido">
+    <div class="eyebrow">{{eyebrow}}</div>
+
+    <div class="bloque-texto">
+      <h1>{{titular}}</h1>
+      <div class="subtitulo">{{subtitulo}}</div>
+    </div>
+
+    <div class="pie">
+      <div class="cta">{{cta}}</div>
+      <div class="precio">{{precio}}</div>
+      <div style="flex:1"></div>
+      <img class="logo" src="{{logoSrc}}" alt="">
+    </div>
+  </div>
+</div>

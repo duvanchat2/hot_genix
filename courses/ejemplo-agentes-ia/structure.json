@@ -1,0 +1,17 @@
+{
+  "$comment": "Estructura canónica de una landing de curso Genix. Es el punto de partida, no una jaula: reordena, desactiva con \"activa\": false, o mete secciones nuevas del catálogo templates/sections/.",
+  "secciones": [
+    { "seccion": "hero-copy", "nota": "cámbiala por hero-vsl si el curso tiene VSL" },
+    { "seccion": "proof-bar", "nota": "se omite sola si no hay métricas reales" },
+    { "seccion": "pain", "nota": "el problema en las palabras del avatar" },
+    { "seccion": "mechanism", "nota": "por qué este método sí funciona" },
+    { "seccion": "offer", "nota": "módulo a módulo" },
+    { "seccion": "bonus", "nota": "se omite sola si no hay bonus" },
+    { "seccion": "testimonials", "nota": "se omite sola si no hay prueba social real" },
+    { "seccion": "instructor", "nota": "por qué creerle" },
+    { "seccion": "price", "nota": "stack de valor, ancla y CTA" },
+    { "seccion": "guarantee", "nota": "se omite sola si no hay garantía" },
+    { "seccion": "faq", "nota": "usa faq-plain si el widget acordeón no está disponible" },
+    { "seccion": "final-cta", "nota": "cierre" }
+  ]
+}

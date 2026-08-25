@@ -1,0 +1,111 @@
+<!--
+  Diapositiva de carrusel para Meta (1080×1080 por defecto).
+
+  El carrusel no son cinco anuncios sueltos: es un arco. El tipo de cada slide
+  ({{tipo}}) cambia el tratamiento visual para que se note el avance —
+  gancho y dolor van oscuros, mecanismo cambia el acento, cta se invierte a
+  color pleno. Los números de página empujan a deslizar.
+-->
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #000; overflow: hidden; }
+
+  @font-face {
+    font-family: 'MarcaTitular';
+    src: {{fuenteTitularSrc}};
+    font-weight: 100 900;
+    font-display: block;
+  }
+
+  #lienzo {
+    position: relative;
+    width: {{ancho}}px;
+    height: {{alto}}px;
+    overflow: hidden;
+    font-family: 'MarcaTitular', {{fuenteFallback}};
+    background-color: {{marca.colores.surface_dark.hex}};
+    background-image:
+      radial-gradient(110% 85% at 10% 6%, {{marca.colores.primary.hex}}59 0%, transparent 60%),
+      radial-gradient(90% 70% at 94% 94%, {{marca.colores.secondary.hex}}38 0%, transparent 58%);
+    color: {{marca.colores.text_on_dark.hex}};
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 88px 84px;
+  }
+
+  /* La última slide se invierte a color pleno: el salto visual marca el cierre. */
+  #lienzo[data-tipo='cta'] {
+    background-color: {{marca.colores.primary.hex}};
+    background-image: none;
+  }
+
+  #lienzo[data-tipo='mecanismo'] h1 { color: {{marca.colores.secondary.hex}}; }
+
+  .cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    opacity: .82;
+  }
+
+  h1 {
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 1.06;
+    letter-spacing: -.02em;
+    white-space: pre-line;
+    text-wrap: balance;
+  }
+  #lienzo[data-tipo='cta'] h1 { font-size: 168px; }
+
+  .subtitulo {
+    margin-top: 24px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.35;
+    color: #D6D8E4;
+  }
+  #lienzo[data-tipo='cta'] .subtitulo { color: #EFEBFF; }
+
+  .pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .desliza {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    background: #FFFFFF1F;
+    border: 1px solid #FFFFFF33;
+    padding: 16px 28px;
+    border-radius: 999px;
+  }
+  #lienzo[data-tipo='cta'] .desliza { background: #FFFFFF; color: {{marca.colores.primary.hex}}; border-color: #FFFFFF; }
+
+  .paginacion { opacity: .7; letter-spacing: .08em; }
+</style>
+
+<div id="lienzo" data-tipo="{{tipo}}">
+  <div class="cabecera">
+    <span>{{nombreMarca}}</span>
+    <span class="paginacion">{{indice}} / {{total}}</span>
+  </div>
+
+  <div>
+    <h1>{{titular}}</h1>
+    <div class="subtitulo">{{subtitulo}}</div>
+  </div>
+
+  <div class="pie">
+    <span class="desliza">{{pie}}</span>
+  </div>
+</div>

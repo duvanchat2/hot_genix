@@ -1,0 +1,128 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# CURSO DE EJEMPLO — no publicar. Existe para documentar el formato con datos
+# reales de aspecto, y para que `npm run build` tenga siempre algo que construir.
+# Los testimonios van marcados [EJEMPLO] y verificable: false a propósito.
+# ─────────────────────────────────────────────────────────────────────────────
+
+slug: ejemplo-agentes-ia
+nombre: "Agentes de IA para Negocios"
+subtitulo: "De cero a tu primer agente que trabaja mientras duermes"
+
+promesa: "Monta tu primer agente de IA que responde clientes y agenda citas solo, en 14 días, sin escribir una línea de código"
+
+hero_type: copy
+
+avatar:
+  quien: "Dueños de negocios digitales, agencias y freelancers latinos entre 25 y 45 años que ya venden algo y se les está acumulando el trabajo operativo"
+  nivel: principiante
+  dolor:
+    - "Se me van clientes porque contesto los mensajes 6 horas tarde"
+    - "Paso el día respondiendo lo mismo por WhatsApp en vez de vender"
+    - "Probé ChatGPT para automatizar y terminé con respuestas genéricas que espantan clientes"
+    - "Cada vez que quiero crecer, la única salida que veo es contratar a alguien más"
+  objeciones:
+    - "¿Necesito saber programar?"
+    - "¿Cuánto me va a costar la IA cada mes?"
+    - "¿Funciona con mi WhatsApp Business?"
+    - "¿Y si mi negocio es muy específico?"
+  estado_deseado: "Que el negocio atienda y agende solo mientras yo trabajo en lo que sí paga"
+
+transformacion:
+  antes: "Contestando mensajes a las 11 de la noche y perdiendo clientes por demoras"
+  despues: "Un agente que responde en segundos, califica al cliente y llena tu calendario"
+  plazo: "14 días"
+
+mecanismo:
+  nombre: "El Sistema de 3 Capas"
+  explicacion: "La mayoría falla porque le pide todo a un solo prompt gigante. Un agente que funciona se arma en capas: primero el conocimiento del negocio, después las reglas de conversación, y encima las acciones que puede ejecutar. Separadas, cada capa se arregla sin romper las otras."
+  pasos:
+    - "Capa de conocimiento: todo lo que tu negocio sabe, ordenado para que la IA lo consulte sin inventar"
+    - "Capa de conversación: las reglas de cómo habla, qué pregunta y cuándo pasa a un humano"
+    - "Capa de acción: conectar agenda, pagos y CRM para que el agente ejecute, no solo responda"
+
+modulos:
+  - titulo: "Fundamentos sin humo"
+    descripcion: "Qué es y qué no es un agente, y por qué el 90% de los tutoriales que viste no llegan a producción."
+    clases: 4
+    resultado: "Sabes distinguir un agente real de un chatbot con esteroides"
+  - titulo: "Capa 1 — El conocimiento de tu negocio"
+    descripcion: "Cómo cargar tus precios, servicios, políticas y casos frecuentes para que el agente responda con datos tuyos y deje de inventar."
+    clases: 5
+    resultado: "Tu agente responde con la información real de tu negocio"
+  - titulo: "Capa 2 — Cómo debe conversar"
+    descripcion: "Las reglas que hacen que suene a tu marca, califique al cliente y sepa cuándo pasar a un humano."
+    clases: 5
+    resultado: "El agente califica solo y escala cuando toca"
+  - titulo: "Capa 3 — Que ejecute, no solo hable"
+    descripcion: "Conexión con WhatsApp Business, Google Calendar y tu pasarela de pago."
+    clases: 6
+    resultado: "El agente agenda citas y cobra sin que intervengas"
+  - titulo: "Lanzamiento y monitoreo"
+    descripcion: "Cómo probarlo con clientes reales sin quemar la marca, y qué revisar cada semana."
+    clases: 4
+    resultado: "Tu agente está en producción atendiendo clientes reales"
+
+bonus:
+  - nombre: "Biblioteca de 40 prompts de negocio"
+    descripcion: "Los prompts exactos de cada capa, listos para copiar y adaptar."
+    valor: 97
+  - nombre: "Plantilla de conexión WhatsApp + Calendar"
+    descripcion: "El flujo ya armado. Cambias tus credenciales y funciona."
+    valor: 147
+  - nombre: "Sesión de preguntas en vivo al mes"
+    descripcion: "Traes tu caso y lo resolvemos en pantalla."
+    valor: 197
+
+precio: 47
+precio_ancla: 197
+moneda: USD
+
+pago:
+  nota: "Pago único. Acceso de por vida y actualizaciones incluidas."
+
+checkout_url: "https://pay.hotmart.com/EJEMPLO-CAMBIAR"
+
+garantia:
+  dias: 7
+  texto: "Entra, mira los módulos, arma tu primer agente. Si en 7 días sientes que no es para ti, escribes un correo y te devolvemos todo. Sin formularios ni preguntas."
+
+urgencia:
+  tipo: precio
+  detalle: "El precio de lanzamiento sube a $97 cuando cerremos el primer grupo"
+
+# [EJEMPLO] — testimonios de relleno para probar el render. NO usar en producción.
+prueba_social:
+  - texto: "[EJEMPLO] Llevaba meses contestando WhatsApp de madrugada. Armé el agente en un fin de semana y ahora me llega la cita ya agendada."
+    autor: "[EJEMPLO] Nombre Apellido"
+    rol: "Agencia de marketing"
+    resultado: "De 6 horas a 3 minutos de respuesta"
+    verificable: false
+  - texto: "[EJEMPLO] Lo que me destrabó fue separarlo en capas. Antes tenía un prompt de dos páginas que se rompía solo."
+    autor: "[EJEMPLO] Nombre Apellido"
+    rol: "Consultor independiente"
+    resultado: "18 citas agendadas el primer mes"
+    verificable: false
+
+metricas:
+  alumnos: 1200
+  valoracion: 4.8
+  horas_contenido: 9
+
+instructor:
+  nombre: "Duvan"
+  bio: "Llevo años aplicando IA a negocios digitales y enseñando lo que de verdad llega a producción, no lo que se ve bonito en una demo. He acompañado a más de mil personas en Academia Genix a montar sus primeros sistemas con IA."
+  credenciales:
+    - "Fundador de Academia Genix"
+    - "+1.000 alumnos acompañados"
+    - "Creador de @byduvan_ai"
+  foto: ""
+
+faq_extra:
+  - pregunta: "¿Cuánto tiempo necesito por semana?"
+    respuesta: "Entre 3 y 4 horas. Los módulos son cortos y cada uno termina con algo construido, no con teoría."
+
+seo:
+  title: "Agentes de IA para Negocios — Academia Genix"
+  description: "Monta tu primer agente de IA que responde clientes y agenda citas solo, en 14 días y sin programar."
+
+idioma: es-419

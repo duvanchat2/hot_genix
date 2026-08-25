@@ -1,0 +1,185 @@
+{
+  "nombre": "hero-copy",
+  "descripcion": "Hero sin video: eyebrow, titular, subtítulo, CTA y microcopy de reversión de riesgo. Fondo oscuro.",
+  "requiere": [
+    "copy.hero.headline",
+    "copy.hero.subhead",
+    "copy.hero.cta",
+    "curso.checkout_url"
+  ],
+  "nodos": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": {
+          "_color": "surface_dark"
+        }
+      },
+      "elements": [
+        {
+          "_if": "copy.hero.eyebrow",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "{{copy.hero.eyebrow}}",
+            "header_size": "div",
+            "align": "center",
+            "title_color": {
+              "_color": "primary"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase"
+          },
+          "elements": []
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "{{copy.hero.headline}}",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": {
+              "_color": "text_on_dark"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "{{marca.escala.h1}}"
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.12
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 82
+            }
+          },
+          "elements": []
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">{{copy.hero.subhead}}</p>",
+            "text_color": {
+              "_color": "text_muted"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            }
+          },
+          "elements": []
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "{{copy.hero.cta}}",
+            "link": {
+              "url": "{{curso.checkout_url}}",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": {
+              "_color": "primary"
+            },
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "{{marca.escala.radioBoton}}",
+              "right": "{{marca.escala.radioBoton}}",
+              "bottom": "{{marca.escala.radioBoton}}",
+              "left": "{{marca.escala.radioBoton}}",
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "44",
+              "bottom": "20",
+              "left": "44",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_weight": "700"
+          },
+          "elements": []
+        },
+        {
+          "_if": "copy.hero.microcopy",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">{{copy.hero.microcopy}}</p>",
+            "text_color": {
+              "_color": "text_muted"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://genix.internal/schemas/brief.schema.json",
+  "title": "Brief de curso Genix",
+  "description": "Entrada única del pipeline. Si este archivo está completo, ningún paso posterior tiene que adivinar nada.",
+  "type": "object",
+  "required": [
+    "slug",
+    "nombre",
+    "promesa",
+    "hero_type",
+    "avatar",
+    "transformacion",
+    "modulos",
+    "precio",
+    "checkout_url",
+    "instructor"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Identificador en kebab-case. Debe coincidir con el nombre de la carpeta en courses/."
+    },
+    "nombre": { "type": "string", "minLength": 3 },
+    "subtitulo": { "type": "string", "description": "Descriptor corto de apoyo al nombre." },
+    "promesa": {
+      "type": "string",
+      "minLength": 15,
+      "description": "El resultado concreto en una frase. Es la materia prima del H1. Específica y medible: 'Publica tu primer agente de IA que atiende clientes en 14 días', no 'Aprende IA'."
+    },
+    "hero_type": {
+      "enum": ["vsl", "copy"],
+      "description": "vsl = hero con Video Sales Letter. copy = hero de titular + subtítulo + CTA."
+    },
+    "vsl": {
+      "type": "object",
+      "description": "Obligatorio cuando hero_type = vsl.",
+      "required": ["url"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "plataforma": { "enum": ["youtube", "vimeo", "bunny", "hosted"], "default": "youtube" },
+        "duracion_seg": { "type": "integer", "minimum": 30 },
+        "portada": { "type": "string", "description": "Ruta o URL de la miniatura." }
+      }
+    },
+    "avatar": {
+      "type": "object",
+      "description": "A quién le vendemos. Alimenta el tono de todo el copy.",
+      "required": ["quien", "dolor", "objeciones"],
+      "additionalProperties": false,
+      "properties": {
+        "quien": { "type": "string", "minLength": 10 },
+        "nivel": { "enum": ["principiante", "intermedio", "avanzado"], "default": "principiante" },
+        "dolor": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string" },
+          "description": "En sus palabras, no en las tuyas. Frases que esa persona diría en voz alta."
+        },
+        "objeciones": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string" },
+          "description": "Cada objeción se convierte en una pregunta del FAQ."
+        },
+        "estado_deseado": { "type": "string" }
+      }
+    },
+    "transformacion": {
+      "type": "object",
+      "required": ["antes", "despues"],
+      "additionalProperties": false,
+      "properties": {
+        "antes": { "type": "string" },
+        "despues": { "type": "string" },
+        "plazo": { "type": "string", "description": "Ej: '30 días'. Hace la promesa creíble y concreta." }
+      }
+    },
+    "mecanismo": {
+      "type": "object",
+      "description": "El 'por qué esto sí funciona'. Sin esto la landing es una lista de temas, no una oferta.",
+      "additionalProperties": false,
+      "properties": {
+        "nombre": { "type": "string", "description": "Ponerle nombre propio al método lo vuelve un activo: 'El Sistema de 3 Capas'." },
+        "explicacion": { "type": "string" },
+        "pasos": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "modulos": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["titulo"],
+        "additionalProperties": false,
+        "properties": {
+          "titulo": { "type": "string" },
+          "descripcion": { "type": "string" },
+          "clases": { "type": "integer", "minimum": 1 },
+          "duracion": { "type": "string" },
+          "resultado": { "type": "string", "description": "Qué sabe hacer el alumno al terminar este módulo." }
+        }
+      }
+    },
+    "bonus": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nombre", "valor"],
+        "additionalProperties": false,
+        "properties": {
+          "nombre": { "type": "string" },
+          "descripcion": { "type": "string" },
+          "valor": { "type": "number", "minimum": 0, "description": "Valor percibido en la moneda del curso. Alimenta el stack de valor." }
+        }
+      }
+    },
+    "precio": { "type": "number", "minimum": 0 },
+    "precio_ancla": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Precio tachado. Debe ser mayor que precio."
+    },
+    "moneda": { "type": "string", "default": "USD", "pattern": "^[A-Z]{3}$" },
+    "pago": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cuotas": { "type": "integer", "minimum": 1 },
+        "nota": { "type": "string" }
+      }
+    },
+    "checkout_url": { "type": "string", "format": "uri" },
+    "garantia": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dias": { "type": "integer", "minimum": 1 },
+        "texto": { "type": "string" }
+      }
+    },
+    "urgencia": {
+      "type": "object",
+      "description": "Omitir si no hay escasez real. La escasez inventada se nota y quema la marca.",
+      "additionalProperties": false,
+      "properties": {
+        "tipo": { "enum": ["fecha", "cupos", "precio", "ninguna"] },
+        "detalle": { "type": "string" },
+        "fecha_limite": { "type": "string", "format": "date" }
+      }
+    },
+    "prueba_social": {
+      "type": "array",
+      "description": "Solo testimonios y cifras reales. Inventarlos es fraude publicitario y Meta rechaza los anuncios.",
+      "items": {
+        "type": "object",
+        "required": ["texto"],
+        "additionalProperties": false,
+        "properties": {
+          "texto": { "type": "string" },
+          "autor": { "type": "string" },
+          "rol": { "type": "string" },
+          "resultado": { "type": "string" },
+          "foto": { "type": "string" },
+          "verificable": { "type": "boolean", "default": false }
+        }
+      }
+    },
+    "metricas": {
+      "type": "object",
+      "description": "Cifras duras para la barra de prueba. Solo reales.",
+      "additionalProperties": false,
+      "properties": {
+        "alumnos": { "type": "integer" },
+        "valoracion": { "type": "number", "minimum": 0, "maximum": 5 },
+        "horas_contenido": { "type": "number" },
+        "otras": { "type": "array", "items": { "type": "object", "required": ["valor", "etiqueta"], "properties": { "valor": { "type": "string" }, "etiqueta": { "type": "string" } }, "additionalProperties": false } }
+      }
+    },
+    "instructor": {
+      "type": "object",
+      "required": ["nombre", "bio"],
+      "additionalProperties": false,
+      "properties": {
+        "nombre": { "type": "string" },
+        "bio": { "type": "string", "minLength": 20 },
+        "credenciales": { "type": "array", "items": { "type": "string" } },
+        "foto": { "type": "string" }
+      }
+    },
+    "faq_extra": {
+      "type": "array",
+      "description": "Preguntas además de las que se derivan de avatar.objeciones.",
+      "items": {
+        "type": "object",
+        "required": ["pregunta", "respuesta"],
+        "additionalProperties": false,
+        "properties": {
+          "pregunta": { "type": "string" },
+          "respuesta": { "type": "string" }
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "maxLength": 60 },
+        "description": { "type": "string", "maxLength": 160 }
+      }
+    },
+    "idioma": { "type": "string", "default": "es-419" }
+  }
+}

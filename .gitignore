@@ -1,0 +1,19 @@
+node_modules/
+.env
+.env.local
+
+# Nunca versionar claves
+*.key
+secrets/
+
+# Assets generados por IA (pesados, reproducibles desde assets.json)
+courses/*/assets/*
+!courses/*/assets/.gitkeep
+
+# Salidas del build
+courses/*/ads/*.png
+courses/*/preview/
+
+# Sistema
+.DS_Store
+Thumbs.db

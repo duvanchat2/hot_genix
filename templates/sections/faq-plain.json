@@ -1,0 +1,161 @@
+{
+  "nombre": "faq-plain",
+  "descripcion": "Misma función que 'faq' pero sin acordeón: pares de pregunta/respuesta con widgets básicos. Variante a prueba de balas, no depende de que el widget clásico esté disponible.",
+  "requiere": [
+    "copy.faq"
+  ],
+  "nodos": [
+    {
+      "_if": "copy.faq",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "{{marca.escala.seccionPaddingY}}",
+          "right": "20",
+          "bottom": "{{marca.escala.seccionPaddingY}}",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": {
+          "_color": "surface_light"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "{{copy.faq_headline}}",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": {
+              "_color": "text"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "{{marca.escala.h2}}"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800"
+          },
+          "elements": []
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 14,
+              "column": "14",
+              "row": "14",
+              "isLinked": true
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            }
+          },
+          "elements": [
+            {
+              "_repeat": "copy.faq",
+              "_as": "q",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 6,
+                  "column": "6",
+                  "row": "6",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "24",
+                  "bottom": "22",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": {
+                  "_color": "surface_muted"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "{{marca.escala.radio}}",
+                  "right": "{{marca.escala.radio}}",
+                  "bottom": "{{marca.escala.radio}}",
+                  "left": "{{marca.escala.radio}}",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "{{q.pregunta}}",
+                    "header_size": "h3",
+                    "title_color": {
+                      "_color": "text"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>{{q.respuesta}}</p>",
+                    "text_color": {
+                      "_color": "text_muted"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

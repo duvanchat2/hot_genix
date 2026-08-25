@@ -1,0 +1,192 @@
+{
+  "nombre": "testimonials",
+  "descripcion": "Resultados reales de alumnos. La sección se omite sola si el brief no trae prueba social: mejor sin testimonios que con testimonios inventados.",
+  "requiere": [
+    "curso.prueba_social"
+  ],
+  "nodos": [
+    {
+      "_if": "curso.prueba_social",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 30,
+          "column": "30",
+          "row": "30",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "{{marca.escala.seccionPaddingY}}",
+          "right": "20",
+          "bottom": "{{marca.escala.seccionPaddingY}}",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": {
+          "_color": "surface_light"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "{{copy.testimonials.headline}}",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": {
+              "_color": "text"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "{{marca.escala.h2}}"
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            }
+          },
+          "elements": []
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "_repeat": "curso.prueba_social",
+              "_as": "t",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 12,
+                  "column": "12",
+                  "row": "12",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 350
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "26",
+                  "bottom": "28",
+                  "left": "26",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": {
+                  "_color": "surface_muted"
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "{{marca.escala.radio}}",
+                  "right": "{{marca.escala.radio}}",
+                  "bottom": "{{marca.escala.radio}}",
+                  "left": "{{marca.escala.radio}}",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>“{{t.texto}}”</p>",
+                    "text_color": {
+                      "_color": "text"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "typography_font_style": "italic"
+                  },
+                  "elements": []
+                },
+                {
+                  "_if": "t.resultado",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "{{t.resultado}}",
+                    "header_size": "div",
+                    "title_color": {
+                      "_color": "secondary"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "_if": "t.autor",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "{{t.autor}} · {{t.rol}}",
+                    "header_size": "div",
+                    "title_color": {
+                      "_color": "text_muted"
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "600"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

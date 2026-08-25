@@ -1,0 +1,102 @@
+{
+  "nombre": "proof-bar",
+  "descripcion": "Barra de cifras duras justo debajo del hero. Solo números reales del brief: si no hay métricas, la sección desaparece sola.",
+  "requiere": [],
+  "nodos": [
+    {
+      "_if": "d.metricas_lista",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_justify_content": "space-around",
+        "flex_align_items": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "32",
+          "right": "20",
+          "bottom": "32",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": {
+          "_color": "surface_muted"
+        }
+      },
+      "elements": [
+        {
+          "_repeat": "d.metricas_lista",
+          "_as": "m",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 4,
+              "column": "4",
+              "row": "4",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 190
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{m.valor}}",
+                "header_size": "div",
+                "align": "center",
+                "title_color": {
+                  "_color": "primary"
+                },
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "{{m.etiqueta}}",
+                "header_size": "div",
+                "align": "center",
+                "title_color": {
+                  "_color": "text_muted"
+                },
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "500"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

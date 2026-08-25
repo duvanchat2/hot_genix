@@ -1,0 +1,144 @@
+{
+  "$comment": "Paso 2 del pipeline. Estructurado por bloque, no en prosa: cada clave alimenta una sección concreta. Las 'variantes' existen para A/B — el build usa siempre el valor principal.",
+
+  "hero": {
+    "eyebrow": "Academia Genix",
+    "headline": "Tu negocio sigue perdiendo clientes mientras tú duermes",
+    "subhead": "Monta un agente de IA que responde en segundos, califica al cliente y le agenda la cita. En 14 días, sin escribir una línea de código.",
+    "cta": "Quiero mi agente funcionando",
+    "microcopy": "Acceso inmediato · 7 días de garantía · Pago único",
+    "variantes": {
+      "headline": [
+        "Tu negocio sigue perdiendo clientes mientras tú duermes",
+        "Deja de contestar WhatsApp a las 11 de la noche",
+        "El cliente que te escribió hace 6 horas ya le compró a otro"
+      ],
+      "cta": ["Quiero mi agente funcionando", "Empezar ahora por $47"]
+    }
+  },
+
+  "pain": {
+    "headline": "No es que no sepas vender. Es que no llegas a contestar.",
+    "intro": "Todo negocio digital llega al mismo techo: el día tiene las horas que tiene, y responder consume las que deberías usar para vender.",
+    "bullets": [
+      "Contestas a las 6 horas y el cliente ya le compró a otro",
+      "Pasas la mañana repitiendo el mismo precio por WhatsApp",
+      "Probaste ChatGPT y te dio respuestas genéricas que espantan gente",
+      "Para crecer solo se te ocurre contratar a alguien más",
+      "Trabajas más cada mes y facturas casi lo mismo"
+    ],
+    "cierre": "El problema no es tu oferta. Es que tu negocio depende de que tú estés despierto."
+  },
+
+  "mechanism": {
+    "headline": "Por qué tu agente anterior no funcionó",
+    "explicacion": "Casi todos fallan por lo mismo: le meten todo a un solo prompt gigante. Funciona en la demo y se rompe con el primer cliente raro. Un agente que aguanta producción se arma en tres capas separadas — así cuando algo falla, arreglas esa capa sin romper las otras.",
+    "pasos": [
+      {
+        "titulo": "El conocimiento",
+        "descripcion": "Tus precios, servicios y políticas cargados de forma que la IA los consulte en vez de inventarlos."
+      },
+      {
+        "titulo": "La conversación",
+        "descripcion": "Las reglas de cómo habla, qué pregunta para calificar y en qué momento exacto pasa a un humano."
+      },
+      {
+        "titulo": "La acción",
+        "descripcion": "Agenda, pagos y CRM conectados. El agente ejecuta, no solo responde bonito."
+      }
+    ]
+  },
+
+  "offer": {
+    "headline": "Qué vas a construir, módulo a módulo",
+    "intro": "Cada módulo termina con algo funcionando, no con teoría. Al final del último tienes un agente atendiendo clientes reales."
+  },
+
+  "bonus": {
+    "headline": "Y además te llevas esto"
+  },
+
+  "testimonials": {
+    "headline": "Lo que pasó cuando lo montaron"
+  },
+
+  "instructor": {
+    "headline": "Quién te va a enseñar esto",
+    "bio": "Llevo años aplicando IA a negocios digitales y enseñando lo que de verdad llega a producción, no lo que se ve bonito en una demo. He acompañado a más de mil personas en Academia Genix a montar sus primeros sistemas con IA."
+  },
+
+  "price": {
+    "headline": "Lo que cuesta seguir contestando tú mismo",
+    "cta": "Quiero mi agente funcionando",
+    "urgencia": "Precio de lanzamiento: sube a $97 al cerrar el primer grupo"
+  },
+
+  "guarantee": {
+    "texto": "Entra, mira los módulos, arma tu primer agente. Si en 7 días sientes que no es para ti, escribes un correo y te devolvemos todo. Sin formularios ni preguntas."
+  },
+
+  "faq_headline": "Antes de que preguntes",
+  "faq": [
+    {
+      "pregunta": "¿Necesito saber programar?",
+      "respuesta": "No. Todo el curso usa herramientas visuales y prompts. Si sabes usar WhatsApp y Google Calendar, tienes el nivel."
+    },
+    {
+      "pregunta": "¿Cuánto me va a costar la IA cada mes?",
+      "respuesta": "Para un negocio con volumen normal de mensajes, entre 5 y 20 dólares al mes. En el módulo 5 te muestro cómo medirlo y cómo bajarlo."
+    },
+    {
+      "pregunta": "¿Funciona con mi WhatsApp Business?",
+      "respuesta": "Sí. El módulo 4 cubre la conexión con WhatsApp Business paso a paso, y también con Instagram y web."
+    },
+    {
+      "pregunta": "¿Y si mi negocio es muy específico?",
+      "respuesta": "Eso es justo lo que resuelve la capa de conocimiento: el agente responde con TU información, no con lo que la IA cree saber de tu sector."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo necesito por semana?",
+      "respuesta": "Entre 3 y 4 horas. Los módulos son cortos y cada uno termina con algo construido, no con teoría."
+    }
+  ],
+
+  "final": {
+    "headline": "Mañana vas a contestar los mismos mensajes otra vez",
+    "subhead": "O montas el agente que los contesta por ti. Son 14 días y $47.",
+    "cta": "Empezar ahora",
+    "microcopy": "7 días de garantía · Acceso de por vida"
+  },
+
+  "ads": {
+    "$comment": "Paso 7. Un ángulo por creativo. 'texto_primario' es el cuerpo del anuncio en Meta; 'titular' va sobre la imagen.",
+    "angulos": [
+      {
+        "id": "dolor",
+        "titular": "Contestas a las 6 horas. Tu cliente ya compró.",
+        "subtitulo": "Un agente de IA responde en segundos y le agenda la cita",
+        "texto_primario": "El cliente no se fue por precio. Se fue porque contestaste tarde.\n\nEn 14 días puedes tener un agente que responde en segundos, califica y agenda solo. Sin programar.",
+        "cta": "Más información"
+      },
+      {
+        "id": "resultado",
+        "titular": "De 6 horas a 3 minutos de respuesta",
+        "subtitulo": "El sistema de 3 capas para montar tu primer agente",
+        "texto_primario": "No es un chatbot con respuestas genéricas.\n\nEs un agente que conoce tus precios, califica al cliente y le llena el calendario mientras tú trabajas en lo que sí paga.",
+        "cta": "Más información"
+      },
+      {
+        "id": "objecion",
+        "titular": "Sin programar. En serio.",
+        "subtitulo": "Si sabes usar WhatsApp y Calendar, tienes el nivel",
+        "texto_primario": "«Es que yo no sé de código.»\n\nNi falta. Todo el curso es visual. 24 clases, cada una termina con algo funcionando.",
+        "cta": "Más información"
+      }
+    ],
+    "carrusel": [
+      { "titular": "Contestas tarde.\nEl cliente ya compró.", "tipo": "gancho" },
+      { "titular": "No es tu oferta.\nEs que dependes de estar despierto.", "tipo": "dolor" },
+      { "titular": "El Sistema\nde 3 Capas", "subtitulo": "Conocimiento · Conversación · Acción", "tipo": "mecanismo" },
+      { "titular": "24 clases.\n5 módulos.\n3 bonus.", "tipo": "oferta" },
+      { "titular": "$47", "subtitulo": "7 días de garantía", "tipo": "cta" }
+    ]
+  }
+}
