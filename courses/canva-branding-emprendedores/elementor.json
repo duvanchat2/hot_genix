@@ -1,0 +1,3657 @@
+{
+  "version": "0.4",
+  "title": "Canva y Branding para Emprendedores",
+  "type": "page",
+  "content": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#00B4BD",
+        "background_color_b": "#7D2AE8",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=secondary",
+          "background_color_b": "globals/colors?id=primary"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Canva + Estrategia de Marca",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase"
+          },
+          "elements": [],
+          "id": "2f39869"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Tu marca se ve igual a la de todo el mundo porque usas las mismas plantillas gratis",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 18,
+              "color": "rgba(11,10,40,0.55)"
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.12
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 82
+            }
+          },
+          "elements": [],
+          "id": "db4aac0"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Aprende el sistema completo — estrategia, identidad visual y producción — para diseñar tú mismo(a) una marca que se distinga, sin pagar un diseñador cada vez.</p>",
+            "text_color": "rgba(255,255,255,0.94)",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            }
+          },
+          "elements": [],
+          "id": "53a3820"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Quiero mi marca en Canva",
+            "link": {
+              "url": "https://pay.hotmart.com/V87453694N?checkoutMode=10",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#FFFFFF",
+            "button_text_color": "#7D2AE8",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "44",
+              "bottom": "20",
+              "left": "44",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_weight": "700",
+            "__globals__": {
+              "button_text_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "6016df2"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Acceso inmediato · 7 días de garantía · Pago único de $59.90</p>",
+            "text_color": "rgba(255,255,255,0.72)",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            }
+          },
+          "elements": [],
+          "id": "21aeaef"
+        }
+      ],
+      "id": "d5549d5"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 56,
+          "column": "56",
+          "row": "40",
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F1ECFB",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 46
+            },
+            "flex_grow": 1
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/pain-canva.png",
+                  "source": "url",
+                  "alt": "No es que no tengas buen gusto. Es que nadie te enseñó el sistema."
+                },
+                "image_size": "full",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "id": "1446c79"
+            }
+          ],
+          "id": "bd9ea7e"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 46
+            },
+            "flex_grow": 1,
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 18,
+              "column": "18",
+              "row": "18",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "84544fc",
+                    "text": "Usas las mismas plantillas gratis que usa toda tu competencia",
+                    "selected_icon": {
+                      "value": "fas fa-times",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "80520ae",
+                    "text": "Pagas un diseñador por cada post porque tú sola no te animas",
+                    "selected_icon": {
+                      "value": "fas fa-times",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "8058c6a",
+                    "text": "Tienes Canva Pro y solo conoces una fracción de lo que hace",
+                    "selected_icon": {
+                      "value": "fas fa-times",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "4456299",
+                    "text": "Una publicación te toma una hora y aun así no te convence",
+                    "selected_icon": {
+                      "value": "fas fa-times",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "8449c26",
+                    "text": "No tienes un Kit de Marca: cada diseño nuevo parte de cero",
+                    "selected_icon": {
+                      "value": "fas fa-times",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "icon_color": "#7D2AE8",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "text_color": "#1B1730",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=primary",
+                  "text_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "id": "cc21bc4"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "El problema no es tu creatividad. Es que estás diseñando sin un sistema detrás.",
+                "header_size": "div",
+                "title_color": "#1B1730",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 21
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.35
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "id": "1ccbc97"
+            }
+          ],
+          "id": "c1a0ecc"
+        }
+      ],
+      "id": "d152586"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 26,
+          "column": "26",
+          "row": "26",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#170B2E",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "El Sistema ADN de Marca",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#00B4BD",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "__globals__": {
+              "title_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "af31d85"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Por qué las plantillas gratis no te están funcionando",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#F3EFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "2ac1482"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">El error más común es abrir Canva y ponerte a diseñar directamente. Sale algo bonito, pero inconsistente — no se siente como una marca, se siente como publicaciones sueltas. El Sistema ADN de Marca invierte el orden: primero la estrategia, después el sistema visual en Canva, y solo entonces la producción. Así cada diseño nuevo sale coherente en minutos.</p>",
+            "text_color": "#B7ACD6",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.65
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 70
+            }
+          },
+          "elements": [],
+          "id": "e3f44e3"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Conoce el sistema en tres pasos",
+            "header_size": "h3",
+            "align": "center",
+            "title_color": "#F3EFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "typography_font_weight": "700",
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "16f7570"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 68
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 34,
+              "column": "34",
+              "row": "34",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/mecanismo-01-estrategia.png",
+                      "source": "url",
+                      "alt": "Estrategia"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "id": "e320f0f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "01",
+                    "header_size": "div",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "2300f7e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Estrategia",
+                    "header_size": "h3",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a345f03"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Defines tu cliente ideal, la psicología de tus colores y tipografías con personalidad — antes de abrir una sola plantilla.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "ba56c9b"
+                }
+              ],
+              "id": "9429927"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/mecanismo-02-sistema.png",
+                      "source": "url",
+                      "alt": "Sistema"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "id": "1ec55e2"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "02",
+                    "header_size": "div",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a6da500"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Sistema",
+                    "header_size": "h3",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b33a3f4"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Construyes tu logo, tu paleta oficial y tu Kit de Marca en Canva para que todo salga coherente automáticamente.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "508b4a1"
+                }
+              ],
+              "id": "5826f56"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/mecanismo-03-produccion.png",
+                      "source": "url",
+                      "alt": "Producción"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "id": "2a5efca"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "03",
+                    "header_size": "div",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "284fbdc"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Producción",
+                    "header_size": "h3",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "1befce8"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Aplicas el sistema para crear redes, presentaciones de venta y papelería — hasta 30 piezas en minutos.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "87943b3"
+                }
+              ],
+              "id": "98251b9"
+            }
+          ],
+          "id": "9804f5d"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Quiero mi marca en Canva",
+            "link": {
+              "url": "https://pay.hotmart.com/V87453694N?checkoutMode=10",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#7D2AE8",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "44",
+              "bottom": "20",
+              "left": "44",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_weight": "700",
+            "__globals__": {
+              "background_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "f398c96"
+        }
+      ],
+      "id": "d15aa73"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#F1ECFB",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/banda-cientos-disenos.png",
+              "source": "url",
+              "alt": "Cientos de diseños en segundos listos para tu negocio"
+            },
+            "image_size": "full",
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [],
+          "id": "d3f1706"
+        }
+      ],
+      "id": "95580a2"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 46,
+          "column": "46",
+          "row": "46",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F1ECFB",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "De copiar y pegar a diseñar con sistema",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B1730",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 70
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "261e00b"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 56,
+              "column": "56",
+              "row": "40",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 42
+                },
+                "flex_grow": 1,
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/mockup-curso.png",
+                      "source": "url",
+                      "alt": "Canva y Branding para Emprendedores"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 82
+                    }
+                  },
+                  "elements": [],
+                  "id": "68576c0"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "$213",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_weight": "600",
+                    "typography_text_decoration": "line-through",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a6e4c66"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "$59.90 USD",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e342c89"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Pago único. Acceso de por vida y actualizaciones incluidas.",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "2e5d08c"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Quiero acceso al sistema",
+                    "link": {
+                      "url": "https://pay.hotmart.com/V87453694N?checkoutMode=10",
+                      "is_external": "on",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "align": "center",
+                    "size": "lg",
+                    "background_background": "gradient",
+                    "background_color": "#00B4BD",
+                    "background_color_b": "#7D2AE8",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 135
+                    },
+                    "button_text_color": "#FFFFFF",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 999,
+                      "right": 999,
+                      "bottom": 999,
+                      "left": 999,
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "22",
+                      "right": "46",
+                      "bottom": "22",
+                      "left": "46",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "background_color": "globals/colors?id=secondary",
+                      "background_color_b": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "fa41eef"
+                }
+              ],
+              "id": "d78a4dc"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 42
+                },
+                "flex_grow": 1,
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 15,
+                  "column": "15",
+                  "row": "15",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "253f617",
+                        "text": "Construyes tu Kit de Marca completo en Canva: logo, colores y tipografías, listo para usar en cualquier diseño",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "693bfae",
+                        "text": "Dejas de pagar un diseñador por cada publicación y creas tú mismo contenido profesional en minutos",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "6939bc4",
+                        "text": "Dominas las herramientas Pro de Canva: IA, animación y edición avanzada de imágenes",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "253712a",
+                        "text": "Creas hasta 30 publicaciones en 5 minutos con la función de creación en lote",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "2534d41",
+                        "text": "Tienes tu link en bio, presentaciones de venta y papelería digital e impresa listos para vender",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "6933008",
+                        "text": "Recibes más de 150 plantillas prediseñadas de marketing, ventas y redes sociales",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "_id": "29305d3",
+                        "text": "Obtienes un certificado de finalización que respalda lo aprendido",
+                        "selected_icon": {
+                          "value": "fas fa-check-circle",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "space_between": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "icon_color": "#7D2AE8",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=primary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8b16ea7"
+                }
+              ],
+              "id": "d38c860"
+            }
+          ],
+          "id": "f107ec1"
+        }
+      ],
+      "id": "955ec5e"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 14,
+          "column": "14",
+          "row": "14",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#170B2E",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Y para ayudarte aún más a crear contenido llamativo, estratégico y que realmente destaque…",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#00B4BD",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "6f2fa2c"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Quiero regalarte 4 bonus exclusivos que te van a dar el impulso extra</p>",
+            "text_color": "#B7ACD6",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 66
+            }
+          },
+          "elements": [],
+          "id": "5346472"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 66
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "40",
+              "row": "40",
+              "isLinked": true
+            },
+            "margin": {
+              "unit": "px",
+              "top": "26",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 1",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "cea146b"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/bonus-1-plantillas.png",
+                      "source": "url",
+                      "alt": "+150 plantillas prediseñadas"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "id": "b696a86"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "+150 plantillas prediseñadas",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b7746f7"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Marketing, ventas y redes sociales. Cambias colores y textos con tu Kit de Marca y quedan listas para usar.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "0d60988"
+                }
+              ],
+              "id": "fb1bdb3"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 2",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "743a7e9"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/bonus-2-comunidad.png",
+                      "source": "url",
+                      "alt": "Acceso a la comunidad de Canva para emprendedores"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "id": "d232757"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Acceso a la comunidad de Canva para emprendedores",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b3fdd5d"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Conecta, aprende y crece con emprendedores que, como tú, están llevando sus marcas al siguiente nivel.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "7b3be6c"
+                }
+              ],
+              "id": "f71e138"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 3",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e00e827"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/bonus-3-clases-vivo.png",
+                      "source": "url",
+                      "alt": "Acceso a clases semanales en vivo"
+                    },
+                    "image_size": "full",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "id": "57fed78"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Acceso a clases semanales en vivo",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "55aa8db"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Aprende, aplica y resuelve tus dudas en tiempo real con clases prácticas cada semana.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "1b928c9"
+                }
+              ],
+              "id": "3717bc7"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 4",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#00B4BD",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "02d774a"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Certificado de finalización",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#F3EFFF",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bfa8359"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Para respaldar que completaste el curso.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "4e1f7db"
+                }
+              ],
+              "id": "3b1a015"
+            }
+          ],
+          "id": "6986c3c"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Quiero acceso al sistema",
+            "link": {
+              "url": "https://pay.hotmart.com/V87453694N?checkoutMode=10",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "justify",
+            "size": "lg",
+            "background_background": "gradient",
+            "background_color": "#00B4BD",
+            "background_color_b": "#7D2AE8",
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "22",
+              "right": "40",
+              "bottom": "22",
+              "left": "40",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_font_weight": "800",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 66
+            },
+            "__globals__": {
+              "background_color": "globals/colors?id=secondary",
+              "background_color_b": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "50ca471"
+        }
+      ],
+      "id": "d15ce5c"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FCFBFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Los 6 módulos, de cero a tu marca funcionando",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B1730",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "13a550e"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">24 clases cortas. Cada módulo termina con algo construido — no con más teoría de diseño.</p>",
+            "text_color": "#6B6483",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "e61c5be"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 86
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1ECFB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 1",
+                    "header_size": "div",
+                    "title_color": "#7D2AE8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "5078a8d"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Bienvenida e Introducción a la Aplicación",
+                    "header_size": "h3",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bc253f3"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Configuras tu cuenta, entiendes la diferencia entre Canva Gratis y Pro, y aprendes a moverte en la interfaz sin perder tiempo.</p>",
+                    "text_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "700d4ad"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "93dc1cd",
+                        "text": "Tienes Canva configurado y sabes moverte en el panel de inicio, plantillas y carpetas",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#00B4BD",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "9d27e0c"
+                }
+              ],
+              "id": "cc73bd0"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1ECFB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 2",
+                    "header_size": "div",
+                    "title_color": "#7D2AE8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6649f6e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Los Cimientos de tu Marca (Estrategia)",
+                    "header_size": "h3",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bee2b87"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>El diseño sin estrategia es solo decoración: defines tu ADN de marca, colores, tipografías y moodboard.</p>",
+                    "text_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a3a2c66"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "e53ab10",
+                        "text": "Tienes definida la estrategia de tu marca: ADN, colores, tipografías y moodboard",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#00B4BD",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "a9b3eb4"
+                }
+              ],
+              "id": "c871782"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1ECFB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 3",
+                    "header_size": "div",
+                    "title_color": "#7D2AE8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "225e884"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Identidad Visual Sin Complicaciones",
+                    "header_size": "h3",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "97035fc"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Creas tu logo, tu paleta oficial con códigos HEX y configuras tu Kit de Marca para automatizar el diseño.</p>",
+                    "text_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "1bc8cb7"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "642b151",
+                        "text": "Tienes tu logo, tu paleta de colores y tu Kit de Marca configurado en Canva",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#00B4BD",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "1ffbe22"
+                }
+              ],
+              "id": "c879c6e"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1ECFB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 4",
+                    "header_size": "div",
+                    "title_color": "#7D2AE8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "3a96331"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Dominando la Herramienta (Nivel Pro)",
+                    "header_size": "h3",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "4239b0b"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Atajos, capas, edición avanzada de imágenes, IA de Canva y animación profesional.</p>",
+                    "text_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "02c320e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "52215ee",
+                        "text": "Diseñas más rápido usando atajos, IA y animaciones como un profesional",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#00B4BD",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "de4b182"
+                }
+              ],
+              "id": "8c7729d"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1ECFB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 5",
+                    "header_size": "div",
+                    "title_color": "#7D2AE8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "da4d63a"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Creación de Contenido para Redes Sociales",
+                    "header_size": "h3",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "37a8b07"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Carruseles con flujo continuo, reels, banners de LinkedIn y creación en lote con tablas de datos.</p>",
+                    "text_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "64f5384"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "c1ebb3b",
+                        "text": "Creas carruseles, reels y hasta 30 posts en 5 minutos usando tablas de datos",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#00B4BD",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "fb77497"
+                }
+              ],
+              "id": "cc6ac2a"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1ECFB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 6",
+                    "header_size": "div",
+                    "title_color": "#7D2AE8",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "2f0b47e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Material de Venta y Papelería",
+                    "header_size": "h3",
+                    "title_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "daefe2f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Tu link en bio, presentaciones de venta, papelería digital e impresa, y el checklist final de calidad.</p>",
+                    "text_color": "#6B6483",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "99d5afd"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "e894989",
+                        "text": "Tienes tu link en bio, tus presentaciones de venta y tu papelería lista para usar",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#00B4BD",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#1B1730",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "0ba9d95"
+                }
+              ],
+              "id": "c8687dc"
+            }
+          ],
+          "id": "3935248"
+        }
+      ],
+      "id": "d163a19"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_justify_content": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 44,
+          "column": "44",
+          "row": "44",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#170B2E",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 560
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quién te va a enseñar esto",
+                "header_size": "h2",
+                "title_color": "#F3EFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "468e1a2"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Olga Portocarrero es diseñadora gráfica y la profesora de este curso, creado para que cualquier emprendedor pueda construir su propia identidad de marca en Canva sin depender de un diseñador.</p>",
+                "text_color": "#6B6483",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "__globals__": {
+                  "text_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "d8076eb"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "fe3710b",
+                    "text": "Diseñadora gráfica",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_color": "#00B4BD",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_color": "#F3EFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=secondary",
+                  "text_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "3291ac9"
+            }
+          ],
+          "id": "34b05af"
+        }
+      ],
+      "id": "9561048"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 26,
+          "column": "26",
+          "row": "26",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#170B2E",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Lo que te cuesta seguir diseñando sin sistema",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#F3EFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "ed7ef05"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20,
+              "column": "20",
+              "row": "20",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "px",
+              "size": 620
+            },
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "36",
+              "bottom": "40",
+              "left": "36",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_color": "#FCFBFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            },
+            "__globals__": {
+              "background_color": "globals/colors?id=a1c2e30"
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "403a830",
+                    "text": "Canva y Branding para Emprendedores — <strong>$97</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "443cc7e",
+                    "text": "+150 plantillas prediseñadas — <strong>$97</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "843f6b3",
+                    "text": "Certificado de finalización — <strong>$19</strong>",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_color": "#00B4BD",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_color": "#1B1730",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=secondary",
+                  "text_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "id": "57cb216"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "color": "#E3E5EC",
+                "gap": {
+                  "unit": "px",
+                  "size": 6
+                }
+              },
+              "elements": [],
+              "id": "9e4c0f8"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Valor real: $213",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B6483",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_font_weight": "600",
+                "typography_text_decoration": "line-through",
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "78faaba"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "$59.90 USD",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#1B1730",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 62
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 46
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=text"
+                }
+              },
+              "elements": [],
+              "id": "a205909"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pago único. Acceso de por vida y actualizaciones incluidas.",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#6B6483",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "79d167c"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Quiero mi marca en Canva",
+                "link": {
+                  "url": "https://pay.hotmart.com/V87453694N?checkoutMode=10",
+                  "is_external": "on",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "align": "justify",
+                "size": "lg",
+                "background_color": "#7D2AE8",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 999,
+                  "right": 999,
+                  "bottom": 999,
+                  "left": 999,
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "40",
+                  "bottom": "22",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_font_weight": "700",
+                "__globals__": {
+                  "background_color": "globals/colors?id=primary"
+                }
+              },
+              "elements": [],
+              "id": "9159d6d"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Precio de lanzamiento: $59.90. Vuelve a $97 cuando cerremos las primeras inscripciones.",
+                "header_size": "div",
+                "align": "center",
+                "title_color": "#FF6B57",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "700",
+                "__globals__": {
+                  "title_color": "globals/colors?id=accent"
+                }
+              },
+              "elements": [],
+              "id": "ecd33c8"
+            }
+          ],
+          "id": "92bda51"
+        }
+      ],
+      "id": "d541159"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 20,
+          "column": "20",
+          "row": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "20",
+          "bottom": "64",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F1ECFB",
+        "__globals__": {
+          "background_color": "globals/colors?id=c8d3f41"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "url": "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/08/sellos-garantia.webp",
+              "source": "url",
+              "alt": "Garantía de 7 días"
+            },
+            "image_size": "full",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 52
+            }
+          },
+          "elements": [],
+          "id": "f077da5"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Garantía de 7 días",
+            "header_size": "h3",
+            "align": "center",
+            "title_color": "#1B1730",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 26
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "4bd3a92"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Entra, mira los primeros módulos, arma tu Kit de Marca. Si en 7 días sientes que no es para ti, escribes un correo y te devolvemos el 100%. Sin preguntas.</p>",
+            "text_color": "#6B6483",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 17
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 62
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "dec5d4a"
+        }
+      ],
+      "id": "913e6bf"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FCFBFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Antes de que preguntes",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B1730",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "87dbda2"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "f8e4802",
+                "tab_title": "¿Necesito saber de diseño para este curso?",
+                "tab_content": "<p>No. Empezamos desde cero: qué es Canva, cómo moverte en la interfaz, y avanzamos paso a paso hasta las herramientas de nivel Pro. Si sabes usar plantillas, tienes el nivel de entrada.</p>"
+              },
+              {
+                "_id": "34e29ff",
+                "tab_title": "¿Funciona si tengo la versión gratuita de Canva o necesito Pro?",
+                "tab_content": "<p>Puedes empezar con la versión gratuita. En el Módulo 0 te explico exactamente qué diferencia trae Canva Pro y por qué vale la pena la inversión cuando ya tienes un negocio detrás, para que decidas con información real.</p>"
+              },
+              {
+                "_id": "34e95bc",
+                "tab_title": "¿Cuánto tiempo toma completar el curso?",
+                "tab_content": "<p>24 clases cortas repartidas en 6 módulos. A tu ritmo, la mayoría lo termina en menos de 30 días dedicando pocas horas por semana.</p>"
+              },
+              {
+                "_id": "f8e6beb",
+                "tab_title": "¿Sirve para cualquier tipo de negocio o marca personal?",
+                "tab_content": "<p>Sí. El sistema (estrategia → identidad → producción) es el mismo sin importar tu nicho — lo que cambia son los colores, la tipografía y el contenido, y eso lo defines tú en el Módulo 1.</p>"
+              },
+              {
+                "_id": "f8ef0d7",
+                "tab_title": "¿Qué pasa si ya tengo un logo o una marca a medias?",
+                "tab_content": "<p>El curso te sirve igual: el Módulo 1 y 2 te ayudan a revisar y ordenar lo que ya tienes en un sistema real, en vez de empezar de cero.</p>"
+              }
+            ],
+            "selected_icon": {
+              "value": "fas fa-plus",
+              "library": "fa-solid"
+            },
+            "selected_active_icon": {
+              "value": "fas fa-minus",
+              "library": "fa-solid"
+            },
+            "title_html_tag": "h3",
+            "title_color": "#1B1730",
+            "content_color": "#6B6483",
+            "icon_color": "#7D2AE8",
+            "title_typography_typography": "custom",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "title_typography_font_weight": "700",
+            "content_typography_typography": "custom",
+            "content_typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "content_typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text",
+              "content_color": "globals/colors?id=e0f5b63",
+              "icon_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "bfb3c37"
+        }
+      ],
+      "id": "72f86c4"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#00B4BD",
+        "background_color_b": "#7D2AE8",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=secondary",
+          "background_color_b": "globals/colors?id=primary"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "La próxima publicación puede ser otra plantilla genérica más",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.18
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 74
+            }
+          },
+          "elements": [],
+          "id": "29d6a57"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">O el primer diseño de tu sistema de marca. Son 24 clases y $59.90.</p>",
+            "text_color": "#F0EDFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 64
+            }
+          },
+          "elements": [],
+          "id": "1a24892"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Empezar ahora",
+            "link": {
+              "url": "https://pay.hotmart.com/V87453694N?checkoutMode=10",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#FFFFFF",
+            "button_text_color": "#7D2AE8",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "22",
+              "right": "48",
+              "bottom": "22",
+              "left": "48",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "button_text_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "a109998"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "7 días de garantía · Acceso de por vida",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#E4DEFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            }
+          },
+          "elements": [],
+          "id": "45e2aac"
+        }
+      ],
+      "id": "76fab13"
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "content_width": {
+      "unit": "px",
+      "size": 1140
+    }
+  }
+}

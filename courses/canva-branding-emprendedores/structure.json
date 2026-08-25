@@ -1,0 +1,17 @@
+{
+  "$comment": "Estructura calibrada a partir del diseño final (Claude Design → export HTML → conversión a Elementor nativo). Difiere de templates/structure.default.json: usa las variantes con imagen real del curso.",
+  "secciones": [
+    { "seccion": "hero-copy" },
+    { "seccion": "pain-split-image" },
+    { "seccion": "mechanism-image" },
+    { "seccion": "band-image" },
+    { "seccion": "offer-mockup" },
+    { "seccion": "bonus-image" },
+    { "seccion": "offer", "nota": "currículo de los 6 módulos, sección separada de offer-mockup" },
+    { "seccion": "instructor" },
+    { "seccion": "price" },
+    { "seccion": "guarantee-image" },
+    { "seccion": "faq" },
+    { "seccion": "final-cta" }
+  ]
+}
