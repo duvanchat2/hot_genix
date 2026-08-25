@@ -6,14 +6,14 @@
     "headline": "Tu marca se ve igual a la de todo el mundo porque usas las mismas plantillas gratis",
     "subhead": "Aprende el sistema completo — estrategia, identidad visual y producción — para diseñar tú mismo(a) una marca que se distinga, sin pagar un diseñador cada vez.",
     "cta": "Quiero mi marca en Canva",
-    "microcopy": "Acceso inmediato · 7 días de garantía · Pago único de $35",
+    "microcopy": "Acceso inmediato · 7 días de garantía · Pago único de $59.90",
     "variantes": {
       "headline": [
         "Tu marca se ve igual a la de todo el mundo porque usas las mismas plantillas gratis",
         "Deja de pagar un diseñador por cada publicación",
         "Tienes Canva Pro y solo usas el 10% de lo que puede hacer"
       ],
-      "cta": ["Quiero mi marca en Canva", "Empezar ahora por $35"]
+      "cta": ["Quiero mi marca en Canva", "Empezar ahora por $59.90"]
     }
   },
 
@@ -33,10 +33,30 @@
   "mechanism": {
     "headline": "Por qué las plantillas gratis no te están funcionando",
     "explicacion": "El error más común es abrir Canva y ponerte a diseñar directamente. Sale algo bonito, pero inconsistente — no se siente como una marca, se siente como publicaciones sueltas. El Sistema ADN de Marca invierte el orden: primero la estrategia, después el sistema visual en Canva, y solo entonces la producción. Así cada diseño nuevo sale coherente en minutos.",
+    "pasos_titulo": "Conoce el sistema en tres pasos",
+    "cta": "Quiero mi marca en Canva",
     "pasos": [
-      { "titulo": "Estrategia", "descripcion": "Defines tu cliente ideal, la psicología de tus colores y tipografías con personalidad — antes de abrir una sola plantilla." },
-      { "titulo": "Sistema", "descripcion": "Construyes tu logo, tu paleta oficial y tu Kit de Marca en Canva para que todo salga coherente automáticamente." },
-      { "titulo": "Producción", "descripcion": "Aplicas el sistema para crear redes, presentaciones de venta y papelería — hasta 30 piezas en minutos." }
+      { "titulo": "Estrategia", "descripcion": "Defines tu cliente ideal, la psicología de tus colores y tipografías con personalidad — antes de abrir una sola plantilla.", "imagen": "REEMPLAZAR-URL-WP/mecanismo-01-estrategia.png" },
+      { "titulo": "Sistema", "descripcion": "Construyes tu logo, tu paleta oficial y tu Kit de Marca en Canva para que todo salga coherente automáticamente.", "imagen": "REEMPLAZAR-URL-WP/mecanismo-02-sistema.png" },
+      { "titulo": "Producción", "descripcion": "Aplicas el sistema para crear redes, presentaciones de venta y papelería — hasta 30 piezas en minutos.", "imagen": "REEMPLAZAR-URL-WP/mecanismo-03-produccion.png" }
+    ]
+  },
+
+  "band": {
+    "alt": "Cientos de diseños en segundos listos para tu negocio"
+  },
+
+  "offer_mockup": {
+    "headline": "De copiar y pegar a diseñar con sistema",
+    "cta": "Quiero acceso al sistema",
+    "beneficios": [
+      "Construyes tu Kit de Marca completo en Canva: logo, colores y tipografías, listo para usar en cualquier diseño",
+      "Dejas de pagar un diseñador por cada publicación y creas tú mismo contenido profesional en minutos",
+      "Dominas las herramientas Pro de Canva: IA, animación y edición avanzada de imágenes",
+      "Creas hasta 30 publicaciones en 5 minutos con la función de creación en lote",
+      "Tienes tu link en bio, presentaciones de venta y papelería digital e impresa listos para vender",
+      "Recibes más de 150 plantillas prediseñadas de marketing, ventas y redes sociales",
+      "Obtienes un certificado de finalización que respalda lo aprendido"
     ]
   },
 
@@ -46,11 +66,9 @@
   },
 
   "bonus": {
-    "headline": "Y para que empieces a producir desde el día uno"
-  },
-
-  "testimonials": {
-    "headline": "Lo que dicen quienes ya lo tomaron"
+    "headline": "Y para ayudarte aún más a crear contenido llamativo, estratégico y que realmente destaque…",
+    "intro": "Quiero regalarte 4 bonus exclusivos que te van a dar el impulso extra",
+    "cta": "Quiero acceso al sistema"
   },
 
   "instructor": {
@@ -61,7 +79,7 @@
   "price": {
     "headline": "Lo que te cuesta seguir diseñando sin sistema",
     "cta": "Quiero mi marca en Canva",
-    "urgencia": "Precio de lanzamiento: $35. Vuelve a $97 cuando cerremos las primeras inscripciones."
+    "urgencia": "Precio de lanzamiento: $59.90. Vuelve a $97 cuando cerremos las primeras inscripciones."
   },
 
   "guarantee": {
@@ -94,7 +112,7 @@
 
   "final": {
     "headline": "La próxima publicación puede ser otra plantilla genérica más",
-    "subhead": "O el primer diseño de tu sistema de marca. Son 24 clases y $35.",
+    "subhead": "O el primer diseño de tu sistema de marca. Son 24 clases y $59.90.",
     "cta": "Empezar ahora",
     "microcopy": "7 días de garantía · Acceso de por vida"
   },
@@ -129,7 +147,7 @@
       { "titular": "No es falta de gusto.\nEs falta de sistema.", "tipo": "dolor" },
       { "titular": "El Sistema\nADN de Marca", "subtitulo": "Estrategia · Sistema · Producción", "tipo": "mecanismo" },
       { "titular": "6 módulos.\n24 clases.\n+150 plantillas.", "tipo": "oferta" },
-      { "titular": "$35", "subtitulo": "7 días de garantía", "tipo": "cta" }
+      { "titular": "$59.90", "subtitulo": "7 días de garantía", "tipo": "cta" }
     ]
   }
 }

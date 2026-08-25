@@ -116,10 +116,12 @@ export function derivar(brief) {
     ...(m.otras ?? []),
   ].filter(Boolean);
 
-  // Stack de valor de la sección de precio: el curso como primera línea y cada bonus detrás.
+  // Stack de valor de la sección de precio: el curso como primera línea y cada bonus
+  // CON precio propio detrás. Un bonus con valor 0 (ej: acceso a comunidad) es un plus
+  // sin etiqueta de precio — se muestra en la sección de bonus, pero no infla el stack.
   const stackValor = [
     { concepto: brief.nombre, valor: brief.precio_ancla ?? precio },
-    ...bonus.map((b) => ({ concepto: b.nombre, valor: b.valor ?? 0 })),
+    ...bonus.filter((b) => (b.valor ?? 0) > 0).map((b) => ({ concepto: b.nombre, valor: b.valor })),
   ];
 
   return {

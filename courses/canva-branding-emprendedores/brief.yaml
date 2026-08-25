@@ -66,18 +66,27 @@ bonus:
   - nombre: "+150 plantillas prediseñadas"
     descripcion: "Marketing, ventas y redes sociales. Cambias colores y textos con tu Kit de Marca y quedan listas para usar."
     valor: 97
+    imagen: "REEMPLAZAR-URL-WP/bonus-1-plantillas.png"
+  - nombre: "Acceso a la comunidad de Canva para emprendedores"
+    descripcion: "Conecta, aprende y crece con emprendedores que, como tú, están llevando sus marcas al siguiente nivel."
+    valor: 0
+    imagen: "REEMPLAZAR-URL-WP/bonus-2-comunidad.png"
+  - nombre: "Acceso a clases semanales en vivo"
+    descripcion: "Aprende, aplica y resuelve tus dudas en tiempo real con clases prácticas cada semana."
+    valor: 0
+    imagen: "REEMPLAZAR-URL-WP/bonus-3-clases-vivo.png"
   - nombre: "Certificado de finalización"
     descripcion: "Para respaldar que completaste el curso."
     valor: 19
 
-precio: 35
+precio: 59.90
 precio_ancla: 97
 moneda: USD
 
 pago:
   nota: "Pago único. Acceso de por vida y actualizaciones incluidas."
 
-checkout_url: "https://CAMBIAR-tu-link-de-pago.com"
+checkout_url: "https://pay.hotmart.com/V87453694N?checkoutMode=10"
 
 garantia:
   dias: 7
@@ -85,7 +94,7 @@ garantia:
 
 urgencia:
   tipo: precio
-  detalle: "Precio de lanzamiento: $35. Vuelve a $97 cuando cerremos las primeras inscripciones."
+  detalle: "Precio de lanzamiento: $59.90. Vuelve a $97 cuando cerremos las primeras inscripciones."
 
 # Sin testimonios reales todavía: la sección se omite sola. Añádelos aquí en cuanto los tengas.
 prueba_social: []
