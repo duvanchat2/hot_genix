@@ -1,0 +1,117 @@
+# CAMBIAR antes de publicar: checkout_url, instructor.nombre/bio/foto (ver nota abajo).
+# Todo lo demás está completo con base en el temario que pasaste.
+
+slug: canva-branding-emprendedores
+nombre: "Canva y Branding para Emprendedores"
+subtitulo: "De plantilla genérica a una marca que se ve profesional, sin contratar diseñador"
+
+promesa: "Diseña tú mismo(a) toda la identidad de tu marca en Canva y crea contenido profesional para redes en minutos, sin depender de un diseñador"
+
+hero_type: copy
+
+avatar:
+  quien: "Emprendedores digitales, dueños de negocio y personas construyendo su marca personal que hoy usan las mismas plantillas gratuitas de Canva que usa todo el mundo"
+  nivel: principiante
+  dolor:
+    - "Uso las mismas plantillas gratis de Canva que usa todo el mundo y mi marca no se distingue de la competencia"
+    - "Pagar un diseñador por cada publicación no es sostenible para mi negocio"
+    - "Tengo Canva Pro pero solo uso el 10% de lo que puede hacer"
+    - "Paso una hora armando un solo post y aun así no me convence el resultado"
+  objeciones:
+    - "¿Necesito saber de diseño para este curso?"
+    - "¿Funciona si tengo la versión gratuita de Canva o necesito Pro?"
+    - "¿Cuánto tiempo toma completar el curso?"
+    - "¿Sirve para cualquier tipo de negocio o marca personal?"
+  estado_deseado: "Tener un Kit de Marca propio y un sistema para crear contenido profesional en minutos, sin depender de nadie"
+
+transformacion:
+  antes: "Plantillas genéricas, horas perdidas en cada diseño y una marca que no se distingue"
+  despues: "Una identidad de marca propia y un sistema en Canva para crear contenido en minutos"
+  plazo: "menos de 30 días"
+
+mecanismo:
+  nombre: "El Sistema ADN de Marca"
+  explicacion: "El error más común es abrir Canva y empezar a diseñar sin estrategia. El resultado: publicaciones bonitas pero inconsistentes, que no se sienten como una marca. El Sistema ADN de Marca invierte el orden — primero defines la estrategia, después construyes el sistema visual en Canva, y solo entonces produces contenido. Así cada diseño nuevo sale coherente en minutos, no en horas."
+  pasos:
+    - "Estrategia: defines el ADN de tu marca, colores con psicología detrás y tipografías con personalidad"
+    - "Sistema: construyes tu logo, tu paleta y tu Kit de Marca en Canva para que todo salga coherente"
+    - "Producción: aplicas el sistema para crear redes, material de venta y papelería en minutos"
+
+modulos:
+  - titulo: "Bienvenida e Introducción a la Aplicación"
+    descripcion: "Configuras tu cuenta, entiendes la diferencia entre Canva Gratis y Pro, y aprendes a moverte en la interfaz sin perder tiempo."
+    clases: 3
+    resultado: "Tienes Canva configurado y sabes moverte en el panel de inicio, plantillas y carpetas"
+  - titulo: "Los Cimientos de tu Marca (Estrategia)"
+    descripcion: "El diseño sin estrategia es solo decoración: defines tu ADN de marca, colores, tipografías y moodboard."
+    clases: 5
+    resultado: "Tienes definida la estrategia de tu marca: ADN, colores, tipografías y moodboard"
+  - titulo: "Identidad Visual Sin Complicaciones"
+    descripcion: "Creas tu logo, tu paleta oficial con códigos HEX y configuras tu Kit de Marca para automatizar el diseño."
+    clases: 4
+    resultado: "Tienes tu logo, tu paleta de colores y tu Kit de Marca configurado en Canva"
+  - titulo: "Dominando la Herramienta (Nivel Pro)"
+    descripcion: "Atajos, capas, edición avanzada de imágenes, IA de Canva y animación profesional."
+    clases: 4
+    resultado: "Diseñas más rápido usando atajos, IA y animaciones como un profesional"
+  - titulo: "Creación de Contenido para Redes Sociales"
+    descripcion: "Carruseles con flujo continuo, reels, banners de LinkedIn y creación en lote con tablas de datos."
+    clases: 4
+    resultado: "Creas carruseles, reels y hasta 30 posts en 5 minutos usando tablas de datos"
+  - titulo: "Material de Venta y Papelería"
+    descripcion: "Tu link en bio, presentaciones de venta, papelería digital e impresa, y el checklist final de calidad."
+    clases: 4
+    resultado: "Tienes tu link en bio, tus presentaciones de venta y tu papelería lista para usar"
+
+# Propuesta de bonus — CONFIRMAR que son entregables reales antes de publicar.
+bonus:
+  - nombre: "Kit de 50 plantillas editables"
+    descripcion: "Posts, historias y carruseles ya diseñados. Cambias colores y textos con tu Kit de Marca y quedan listos."
+    valor: 47
+  - nombre: "Paletas y tipografías por nicho"
+    descripcion: "Combinaciones ya armadas para 10 tipos de negocio distintos, para no partir de cero."
+    valor: 27
+  - nombre: "Checklist de Marca en 1 página"
+    descripcion: "PDF para revisar antes de publicar o imprimir cualquier pieza — el mismo que se enseña en el Módulo 5."
+    valor: 19
+  - nombre: "Comunidad privada de soporte"
+    descripcion: "Para resolver dudas mientras construyes tu marca."
+    valor: 37
+
+precio: 35
+precio_ancla: 97
+moneda: USD
+
+pago:
+  nota: "Pago único. Acceso de por vida y actualizaciones incluidas."
+
+checkout_url: "https://CAMBIAR-tu-link-de-pago.com"
+
+garantia:
+  dias: 7
+  texto: "Entra, mira los primeros módulos, arma tu Kit de Marca. Si en 7 días sientes que no es para ti, escribes un correo y te devolvemos el 100%. Sin preguntas."
+
+urgencia:
+  tipo: precio
+  detalle: "Precio de lanzamiento: $35. Vuelve a $97 cuando cerremos las primeras inscripciones."
+
+# Sin testimonios reales todavía: la sección se omite sola. Añádelos aquí en cuanto los tengas.
+prueba_social: []
+
+metricas: {}
+
+# CAMBIAR: nombre, bio y foto reales de la profesora (el temario dice "presentación de la
+# profesora" pero no me diste su nombre — no lo voy a inventar).
+instructor:
+  nombre: "[NOMBRE DE LA PROFESORA]"
+  bio: "[Bio real: experiencia con Canva/diseño/marca, a cuántas personas ha ayudado, credenciales]"
+  credenciales: []
+  foto: ""
+
+faq_extra: []
+
+seo:
+  title: "Canva y Branding para Emprendedores — Curso Completo"
+  description: "Diseña tú mismo(a) la identidad de tu marca en Canva y crea contenido profesional para redes, sin contratar diseñador."
+
+idioma: es-419

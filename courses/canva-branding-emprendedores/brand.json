@@ -1,0 +1,15 @@
+{
+  "$comment": "Paleta propuesta para un curso de diseño/marca dirigido a emprendedoras — cálida y editorial, no la tech-oscura de la base. No pude traer la referencia (finmarkacademy.com/canvaclub está bloqueada desde este entorno); ajusta libremente si tienes capturas de la referencia o preferencia propia.",
+  "meta": { "nombre": "" },
+  "colores": {
+    "primary":       { "hex": "#C1443B" },
+    "secondary":     { "hex": "#2F6F5E" },
+    "accent":        { "hex": "#E8A33D" },
+    "surface_dark":  { "hex": "#241B2F" },
+    "surface_light": { "hex": "#FFFDF8" },
+    "surface_muted": { "hex": "#F5EEE3" },
+    "text":          { "hex": "#241814" },
+    "text_on_dark":  { "hex": "#F7F1E8" },
+    "text_muted":    { "hex": "#7A6A5C" }
+  }
+}
