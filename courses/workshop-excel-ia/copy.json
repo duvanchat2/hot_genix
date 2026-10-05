@@ -1,0 +1,147 @@
+{
+  "$comment": "Ángulo: 'el problema no es Excel, es que lo usas como en 2010'. Evento en vivo de bajo ticket ($10): la decisión es rápida, el copy es corto y la fecha manda. Un solo ángulo para todo el público.",
+
+  "topbar": {
+    "texto": "Workshop en vivo · 12, 13 y 14 de octubre · 8:00 p.m. · Cupos limitados"
+  },
+
+  "hero": {
+    "eyebrow": "Workshop en vivo · 12, 13 y 14 de octubre",
+    "headline": "Deja de pelearte con Excel. Ponle la IA a trabajar por ti.",
+    "subhead": "En 3 clases en vivo aprendes a usar Claude y ChatGPT junto con Excel para crear desde un dashboard hasta sistemas completos, empezando desde cero y sin saber fórmulas.",
+    "fechas": ["Lun 12 oct", "Mar 13 oct", "Mié 14 oct"],
+    "hora": "8:00 p.m.",
+    "cta": "Reservar mi cupo por $10",
+    "microcopy": "Cupos limitados · Acceso a las grabaciones · Certificado incluido",
+    "variantes": {
+      "headline": [
+        "Deja de pelearte con Excel. Ponle la IA a trabajar por ti.",
+        "Excel + IA: lo que antes te tomaba una tarde, ahora te toma 5 minutos",
+        "No necesitas saber fórmulas. Necesitas saber pedírselas a la IA.",
+        "3 noches para dominar Excel con inteligencia artificial"
+      ],
+      "cta": ["Reservar mi cupo por $10", "Reservar mi cupo ahora"]
+    }
+  },
+
+  "pain": {
+    "headline": "El problema no es Excel. Es que lo estás usando como en 2010.",
+    "bullets": [
+      "Buscas en Google cómo hacer una fórmula, la copias, y no funciona",
+      "Armas reportes a mano, fila por fila, y te toma toda la tarde",
+      "Ves dashboards bonitos de otros y no sabes ni por dónde empezar",
+      "Tienes ChatGPT o Claude abiertos, pero no sabes cómo hacer que trabajen con tu Excel",
+      "Sientes que todos avanzan con IA y tú te estás quedando atrás"
+    ],
+    "cierre": "Hoy la diferencia entre quien domina Excel y quien no ya no es memorizar fórmulas. Es saber pedirle a la IA lo que necesitas."
+  },
+
+  "offer": {
+    "headline": "3 noches. De cero a construir sistemas en Excel con IA.",
+    "intro": "Cada clase termina con algo construido, no con más teoría.",
+    "etiqueta_resultado": "Sales con"
+  },
+
+  "audience": {
+    "headline": "Este workshop es para ti si…",
+    "bullets": [
+      "Trabajas con Excel y quieres hacer en minutos lo que hoy te toma horas",
+      "Buscas empleo o un ascenso y \"Excel avanzado\" aparece en todas las ofertas",
+      "Tienes un negocio y quieres llevar ventas, inventario o finanzas sin pagarle a alguien",
+      "Nunca has usado IA para trabajar y quieres empezar con algo práctico, no teórico"
+    ],
+    "cierre": "No necesitas saber fórmulas. Empezamos desde cero."
+  },
+
+  "offer_mockup": {
+    "headline": "Todo lo que incluye tu cupo",
+    "cta": "Reservar mi cupo por $10",
+    "beneficios": [
+      "3 clases en vivo: 12, 13 y 14 de octubre, 8:00 p.m.",
+      "Acceso a las grabaciones: si no puedes conectarte en vivo, no te pierdes nada",
+      "Preguntas en vivo con el instructor",
+      "Certificado de participación",
+      "Los archivos de Excel que construimos en clase"
+    ]
+  },
+
+  "instructor": {
+    "headline": "Quién te va a enseñar",
+    "bio": "[NOMBRE DEL INSTRUCTOR]: [1-2 líneas reales: experiencia con Excel e IA, cuántas personas ha formado, dónde trabaja o ha trabajado]."
+  },
+
+  "price": {
+    "headline": "Lo que cuesta quedarte haciendo Excel a mano",
+    "intro": "Un curso de Excel tradicional cuesta fácil $100 o más, y ninguno te enseña a usarlo con IA.",
+    "incluye": "Las 3 clases en vivo, las grabaciones y el certificado:",
+    "remate": "Menos que una pizza. Y lo que aprendes te ahorra horas cada semana desde el día siguiente.",
+    "cta": "Reservar mi cupo por $10",
+    "urgencia": "Los cupos son limitados para poder responder preguntas en vivo. Cuando se llenen, se cierran las inscripciones."
+  },
+
+  "faq_headline": "Preguntas frecuentes",
+  "faq": [
+    {
+      "pregunta": "¿Necesito saber Excel?",
+      "respuesta": "No. Empezamos desde cero. Si sabes abrir un archivo de Excel, tienes el nivel."
+    },
+    {
+      "pregunta": "¿Necesito pagar Claude o ChatGPT?",
+      "respuesta": "Puedes seguir el workshop con las versiones gratuitas. Te mostramos qué puedes hacer con cada una."
+    },
+    {
+      "pregunta": "¿Qué pasa si no puedo conectarme en vivo?",
+      "respuesta": "Tienes acceso a las grabaciones, así que puedes verlas cuando quieras."
+    },
+    {
+      "pregunta": "¿A qué hora son las clases?",
+      "respuesta": "Lunes 12, martes 13 y miércoles 14 de octubre, a las 8:00 p.m. [CONFIRMAR ZONA HORARIA]."
+    },
+    {
+      "pregunta": "¿Dónde son las clases?",
+      "respuesta": "100% online, en vivo. Te llega el link de acceso al correo al reservar."
+    },
+    {
+      "pregunta": "¿Recibo certificado?",
+      "respuesta": "Sí, al terminar el workshop recibes tu certificado de participación."
+    }
+  ],
+
+  "final": {
+    "headline": "El lunes empiezas a trabajar con Excel de otra forma. O sigues como hasta hoy.",
+    "subhead": "3 clases en vivo, grabaciones y certificado por $10.",
+    "cta": "Reservar mi cupo ahora",
+    "microcopy": "12, 13 y 14 de octubre · 8:00 p.m. · Cupos limitados"
+  },
+
+  "sticky": {
+    "texto": "Excel con IA · 12-14 oct · $10",
+    "cta": "Reservar cupo"
+  },
+
+  "ads": {
+    "angulos": [
+      {
+        "id": "dolor",
+        "titular": "Deja de buscar\nfórmulas en Google",
+        "subtitulo": "Pídeselas a la IA. 3 clases en vivo por $10",
+        "texto_primario": "¿Copias fórmulas de internet y no funcionan? En 3 clases en vivo aprendes a pedírselas a Claude y ChatGPT y a construir dashboards en minutos. 12, 13 y 14 de octubre. Solo $10.",
+        "cta": "Registrarte"
+      },
+      {
+        "id": "resultado",
+        "titular": "De cero a dashboards\ncon IA en 3 noches",
+        "subtitulo": "Excel + Claude + ChatGPT · En vivo",
+        "texto_primario": "Workshop en vivo: Excel + Claude + ChatGPT. Reportes, dashboards y sistemas completos, desde cero. Incluye grabaciones y certificado. $10, cupos limitados.",
+        "cta": "Registrarte"
+      },
+      {
+        "id": "precio",
+        "titular": "3 clases en vivo\npor $10",
+        "subtitulo": "12, 13 y 14 de octubre · 8:00 p.m.",
+        "texto_primario": "Aprende a usar IA con Excel este 12, 13 y 14 de octubre. Grabaciones y certificado incluidos. Reserva tu cupo antes de que se llenen.",
+        "cta": "Registrarte"
+      }
+    ]
+  }
+}

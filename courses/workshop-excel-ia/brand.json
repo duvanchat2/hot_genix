@@ -1,0 +1,19 @@
+{
+  "$comment": "Propuesta: verde de hoja de cálculo como primario (asociación inmediata con Excel) + violeta eléctrico como acento de IA. Fondo oscuro tipo 'tech' en hero y cierre. Claude Design puede ajustarla; si cambia, actualiza aquí los hex.",
+  "meta": { "nombre": "" },
+  "colores": {
+    "primary":       { "hex": "#16A34A" },
+    "secondary":     { "hex": "#7C3AED" },
+    "accent":        { "hex": "#FACC15" },
+    "surface_dark":  { "hex": "#0B1410" },
+    "surface_light": { "hex": "#FFFFFF" },
+    "surface_muted": { "hex": "#F1F7F3" },
+    "text":          { "hex": "#0F1A14" },
+    "text_on_dark":  { "hex": "#ECFDF3" },
+    "text_muted":    { "hex": "#5B6B62" }
+  },
+  "tipografia": {
+    "heading": { "familia": "Plus Jakarta Sans", "pesos": [700, 800], "fallback": "'Segoe UI', system-ui, sans-serif" },
+    "body":    { "familia": "Inter", "pesos": [400, 500, 600], "fallback": "'Segoe UI', system-ui, sans-serif" }
+  }
+}

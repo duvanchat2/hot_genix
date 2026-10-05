@@ -1,0 +1,16 @@
+{
+  "$comment": "Landing de evento en vivo de bajo ticket. Las secciones marcadas 'nueva' no tienen plantilla todavía: se crean al convertir el diseño de Claude Design a Elementor. Detalle visual de cada sección en DESIGN.md.",
+  "secciones": [
+    { "seccion": "topbar", "nota": "nueva: franja de fechas y cupos" },
+    { "seccion": "hero-copy", "nota": "con chips de fechas (copy.hero.fechas) y mockup Excel + chat IA" },
+    { "seccion": "pain-split-image" },
+    { "seccion": "offer", "nota": "agenda de las 3 clases (curso.modulos), tarjetas con fecha" },
+    { "seccion": "audience", "nota": "nueva: para quién es" },
+    { "seccion": "offer-mockup", "nota": "qué incluye tu cupo + precio + CTA" },
+    { "seccion": "instructor" },
+    { "seccion": "price", "nota": "sin precio tachado: $10 es el precio real" },
+    { "seccion": "faq" },
+    { "seccion": "final-cta" },
+    { "seccion": "sticky-cta", "nota": "nueva: barra fija inferior solo en móvil" }
+  ]
+}
