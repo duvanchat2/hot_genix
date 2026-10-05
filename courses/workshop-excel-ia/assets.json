@@ -1,0 +1,19 @@
+{
+  "$comment": "Prompts en inglés y sin texto en la imagen: el titular, el título del certificado y cualquier cifra se componen encima en el diseño. Generar con: python3 scripts/kie.py --course workshop-excel-ia",
+  "imagenes": [
+    {
+      "id": "dolor-excel",
+      "archivo": "dolor-excel.png",
+      "modelo": "nano-banana",
+      "prompt": "Photorealistic editorial photo of a tired Latin American professional in their early 30s sitting at a home desk late at night, rubbing their forehead in frustration while staring at a laptop. The laptop screen shows a cluttered generic spreadsheet with many cells highlighted in red, like formula errors. Dim room lit only by the cool blue-white glow of the screen; a cold cup of coffee and scattered sticky notes next to the laptop. Shallow depth of field, focus on the face and hands, screen slightly out of focus. Muted desaturated tones with a subtle green tint, cinematic, 35mm lens, natural skin texture. No readable text, no logos, no brand names, no watermark.",
+      "params": { "aspect_ratio": "4:5" }
+    },
+    {
+      "id": "incluye-mockup",
+      "archivo": "incluye-mockup.png",
+      "modelo": "nano-banana",
+      "prompt": "Clean premium 3D product mockup on a very dark green-black background (#0B1410). Center: a modern silver laptop at a three-quarter angle; its screen shows a live online class layout, a small webcam video tile of an instructor in the top corner and a bright spreadsheet dashboard with green bar charts and line graphs filling the rest. Next to the laptop: a smartphone leaning against it showing a video player, a certificate with a gold seal standing slightly behind, and a floating green spreadsheet file icon. Soft glow behind the objects in a green-to-violet gradient (#16A34A to #7C3AED). Studio lighting, soft reflections, subtle floor shadows, tech product render style. No readable text, no logos, no brand names, no watermark.",
+      "params": { "aspect_ratio": "1:1" }
+    }
+  ]
+}
