@@ -1,5 +1,4 @@
-# CAMBIAR antes de publicar: checkout_url, instructor (nombre, bio, foto), número de cupos,
-# zona horaria de las 8:00 p.m. Ver "Por confirmar" en DESIGN.md.
+# Por confirmar: zona horaria de las 8:00 p.m. (la landing dice hora de Colombia, GMT-5).
 
 slug: workshop-excel-ia
 nombre: "Excel con IA"
@@ -69,7 +68,7 @@ moneda: USD
 pago:
   nota: "Pago único. Incluye las 3 clases en vivo, las grabaciones y el certificado."
 
-checkout_url: "https://REEMPLAZAR-CHECKOUT"
+checkout_url: "https://pay.hotmart.com/I107901880V?off=nqon6kng"
 
 urgencia:
   tipo: cupos
@@ -81,10 +80,12 @@ prueba_social: []
 metricas: {}
 
 instructor:
-  nombre: "[NOMBRE DEL INSTRUCTOR]"
-  bio: "[1-2 líneas reales: experiencia con Excel e IA, cuántas personas ha formado, dónde trabaja o ha trabajado]"
-  credenciales: []
-  foto: ""
+  nombre: "Alejandro Rodríguez"
+  bio: "Experto en Excel y automatización de procesos, con más de 10 años de experiencia ayudando a empresas y profesionales a transformar la forma en que trabajan con datos. Fundador de ExcelService."
+  credenciales:
+    - "Más de 10 años en Excel y automatización de procesos"
+    - "Fundador de ExcelService"
+  foto: "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/10/instructor.webp"
 
 faq_extra:
   - pregunta: "¿Dónde son las clases?"
