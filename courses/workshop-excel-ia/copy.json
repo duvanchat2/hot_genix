@@ -151,26 +151,48 @@
     "cta": "Reservar cupo"
   },
   "ads": {
+    "$comment": "6 ángulos para Meta Ads. titular/subtitulo = texto del creativo y título del anuncio; texto_primario = texto principal; cta = botón de Meta.",
     "angulos": [
       {
         "id": "dolor",
         "titular": "Deja de buscar\nfórmulas en Google",
-        "subtitulo": "Pídeselas a la IA. 3 clases en vivo por $10",
-        "texto_primario": "¿Copias fórmulas de internet y no funcionan? En 3 clases en vivo aprendes a pedírselas a Claude y ChatGPT y a construir dashboards en minutos. 12, 13 y 14 de octubre. Solo $10.",
+        "subtitulo": "3 clases en vivo · $10",
+        "texto_primario": "¿Buscas en Google cómo hacer una fórmula, la copias… y no funciona?\n\nNo es que Excel sea difícil. Es que nadie te enseñó a pedírsela a la IA.\n\nEn este workshop en vivo aprendes a usar Claude y ChatGPT junto con Excel para:\n✅ Sacar la fórmula exacta que necesitas\n✅ Limpiar datos desordenados en segundos\n✅ Crear dashboards y sistemas desde cero\n\n📅 Lunes 12, martes 13 y miércoles 14 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Incluye grabaciones y certificado\n💵 Solo $10 USD\n\nCupos limitados. Reserva el tuyo 👇",
         "cta": "Registrarte"
       },
       {
         "id": "resultado",
         "titular": "De cero a dashboards\ncon IA en 3 noches",
-        "subtitulo": "Excel + Claude + ChatGPT · En vivo",
-        "texto_primario": "Workshop en vivo: Excel + Claude + ChatGPT. Reportes, dashboards y sistemas completos, desde cero. Incluye grabaciones y certificado. $10, cupos limitados.",
+        "subtitulo": "Workshop en vivo · $10",
+        "texto_primario": "3 noches. 3 cosas construidas.\n\n1️⃣ Lunes: le pides a la IA las fórmulas y sale tu primer reporte.\n2️⃣ Martes: armas un dashboard interactivo, aunque nunca hayas hecho uno.\n3️⃣ Miércoles: conectas la IA con Excel y creas un sistema completo de ventas, inventario o finanzas.\n\nWorkshop en vivo: Excel + Claude + ChatGPT, desde cero.\n\n📅 Lunes 12, martes 13 y miércoles 14 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Grabaciones y certificado incluidos\n💵 $10 USD · Cupos limitados",
         "cta": "Registrarte"
       },
       {
-        "id": "precio",
+        "id": "objecion",
+        "titular": "No necesitas\nsaber fórmulas",
+        "subtitulo": "Empezamos desde cero",
+        "texto_primario": "No necesitas saber fórmulas. Necesitas saber pedírselas a la IA.\n\nSi sabes abrir un archivo de Excel, tienes el nivel.\n\nEn 3 clases en vivo te mostramos, paso a paso, cómo poner a Claude y ChatGPT a hacer el trabajo pesado: fórmulas, limpieza de datos, tablas dinámicas y dashboards.\n\nSin teoría. Cada clase termina con algo construido.\n\n📅 Lunes 12, martes 13 y miércoles 14 de octubre · 8:00 p.m. (hora Colombia)\n¿No puedes conectarte en vivo? Te quedan las grabaciones.\n\n💵 $10 USD · Certificado incluido",
+        "cta": "Registrarte"
+      },
+      {
+        "id": "empleo",
+        "titular": "Suma Excel + IA\na tu perfil",
+        "subtitulo": "Incluye certificado",
+        "texto_primario": "\"Excel avanzado\" aparece en cada vez más ofertas de empleo. Y ahora se suma otro requisito: saber trabajar con IA.\n\nEste workshop te da las dos cosas en 3 noches:\n📊 Dashboards y reportes que puedes mostrar en tu trabajo o en una entrevista\n🤖 Claude y ChatGPT como copiloto para resolver en minutos lo que hoy te toma horas\n🎓 Certificado de participación\n\n📅 Lunes 12, martes 13 y miércoles 14 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Con acceso a las grabaciones\n\n💵 $10 USD. Cupos limitados.",
+        "cta": "Registrarte"
+      },
+      {
+        "id": "negocio",
+        "titular": "Tu sistema de ventas\nen Excel, con IA",
+        "subtitulo": "3 clases en vivo · $10",
+        "texto_primario": "¿Las ventas de tu negocio viven en un cuaderno o en un Excel que ya nadie entiende?\n\nCon ayuda de la IA puedes armar tu propio sistema de control de ventas, inventario y finanzas. Sin pagarle a nadie y sin saber fórmulas.\n\nEn la clase 3 del workshop lo construimos en vivo y sales con un sistema funcionando que adaptas a tu negocio. Antes, en las clases 1 y 2, aprendes lo necesario: usar Claude y ChatGPT con Excel y crear dashboards.\n\n📅 Lunes 12, martes 13 y miércoles 14 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Grabaciones + certificado\n💵 $10 USD · Cupos limitados",
+        "cta": "Registrarte"
+      },
+      {
+        "id": "instructor",
         "titular": "3 clases en vivo\npor $10",
-        "subtitulo": "12, 13 y 14 de octubre · 8:00 p.m.",
-        "texto_primario": "Aprende a usar IA con Excel este 12, 13 y 14 de octubre. Grabaciones y certificado incluidos. Reserva tu cupo antes de que se llenen.",
+        "subtitulo": "Empieza el lunes 12 de octubre",
+        "texto_primario": "Alejandro Rodríguez lleva más de 10 años ayudando a empresas y profesionales a automatizar su trabajo con Excel. Es fundador de ExcelService y hoy integra Excel con inteligencia artificial.\n\nDurante 3 noches te enseña en vivo cómo lo hace:\n→ Lunes 12: tu copiloto de Excel con IA\n→ Martes 13: dashboards sin sufrir\n→ Miércoles 14: sistemas avanzados\n\n🕗 8:00 p.m. (hora Colombia)\n🎥 Grabaciones y certificado incluidos\n\nTodo por $10 USD. Los cupos son limitados para poder responder preguntas en vivo. 👇",
         "cta": "Registrarte"
       }
     ]
