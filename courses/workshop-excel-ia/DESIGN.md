@@ -1,6 +1,6 @@
 # Excel con IA: brief de diseño para Claude Design
 
-Landing de venta de un **workshop en vivo de $10**: 3 clases, 12, 13 y 14 de octubre de 2026, 8:00 p.m.
+Landing de venta de un **workshop en vivo de $10**: 3 clases, 13, 14 y 15 de octubre de 2026, 8:00 p.m.
 La página se vende sola, sin marca de academia. **La marca es el nombre del curso: "Excel con IA".**
 
 Datos del curso en la misma carpeta: `brief.yaml` (información), `copy.json` (todos los textos),
@@ -58,16 +58,16 @@ oscuro (hero) → claro (dolor) → oscuro (agenda) → claro → muted → clar
 
 ### 0 · Topbar (nueva)
 Franja delgada fija arriba, con fondo degradado de marca y texto blanco de 14px centrado.
-> Workshop en vivo · 12, 13 y 14 de octubre · 8:00 p.m. · Cupos limitados
+> Workshop en vivo · 13, 14 y 15 de octubre · 8:00 p.m. · Cupos limitados
 
 ### 1 · Hero (fondo oscuro)
 **Layout:** dos columnas en desktop (texto a la izquierda, visual a la derecha) y una sola en
 móvil, con el visual debajo del CTA.
 
-- **Eyebrow** (chip violeta translúcido): Workshop en vivo · 12, 13 y 14 de octubre
+- **Eyebrow** (chip violeta translúcido): Workshop en vivo · 13, 14 y 15 de octubre
 - **H1:** Deja de pelearte con Excel. **Ponle la IA a trabajar por ti.** ← la segunda frase va con el degradado de marca
 - **Subtítulo:** En 3 clases en vivo aprendes a usar Claude y ChatGPT junto con Excel para crear desde un dashboard hasta sistemas completos, empezando desde cero y sin saber fórmulas.
-- **Chips de fecha:** 3 "tarjetas de calendario" pequeñas: `LUN 12 OCT` · `MAR 13 OCT` · `MIÉ 14 OCT`, con "8:00 p.m." debajo
+- **Chips de fecha:** 3 "tarjetas de calendario" pequeñas: `MAR 13 OCT` · `MIÉ 14 OCT` · `JUE 15 OCT`, con "8:00 p.m." debajo
 - **CTA:** Reservar mi cupo por $10
 - **Microcopy:** Cupos limitados · Acceso a las grabaciones · Certificado incluido
 
@@ -102,7 +102,7 @@ descripción y una franja inferior "Sales con:" con fondo verde translúcido.
 
 | | Clase 1 | Clase 2 | Clase 3 |
 |---|---|---|---|
-| Fecha | LUN 12 · 8:00 p.m. | MAR 13 · 8:00 p.m. | MIÉ 14 · 8:00 p.m. |
+| Fecha | MAR 13 · 8:00 p.m. | MIÉ 14 · 8:00 p.m. | JUE 15 · 8:00 p.m. |
 | Título | Tu copiloto de Excel | Dashboards sin sufrir | Sistemas avanzados |
 | Texto | Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas, que te expliquen una hoja que no entiendes y que limpien datos desordenados en segundos. | Tablas dinámicas, gráficos y un dashboard interactivo construido paso a paso con ayuda de la IA, aunque nunca hayas hecho uno. | Cómo conectar la IA con Excel y usarla para crear automatizaciones y sistemas completos: control de ventas, inventario, finanzas. |
 | Sales con | Tu primer reporte hecho con IA | Un dashboard listo para presentar | Un sistema funcionando que puedes adaptar a tu trabajo o negocio |
@@ -126,7 +126,7 @@ Cierra la sección con el CTA: Reservar mi cupo por $10.
 en vivo + certificado) con el precio debajo; a la derecha, la lista con checks verdes.
 
 - **H2:** Todo lo que incluye tu cupo
-- ✔ 3 clases en vivo: 12, 13 y 14 de octubre, 8:00 p.m.
+- ✔ 3 clases en vivo: 13, 14 y 15 de octubre, 8:00 p.m.
 - ✔ Acceso a las grabaciones: si no puedes conectarte en vivo, no te pierdes nada
 - ✔ Preguntas en vivo con el instructor *(confirmar)*
 - ✔ Certificado de participación
@@ -163,21 +163,21 @@ Acordeón con la primera pregunta abierta.
 - ¿Necesito saber Excel? · No. Empezamos desde cero. Si sabes abrir un archivo de Excel, tienes el nivel.
 - ¿Necesito pagar Claude o ChatGPT? · Puedes seguir el workshop con las versiones gratuitas. Te mostramos qué puedes hacer con cada una. *(confirmar)*
 - ¿Qué pasa si no puedo conectarme en vivo? · Tienes acceso a las grabaciones, así que puedes verlas cuando quieras.
-- ¿A qué hora son las clases? · Lunes 12, martes 13 y miércoles 14 de octubre, a las 8:00 p.m. [zona horaria por confirmar].
+- ¿A qué hora son las clases? · Martes 13, miércoles 14 y jueves 15 de octubre, a las 8:00 p.m. [zona horaria por confirmar].
 - ¿Dónde son las clases? · 100% online, en vivo. Te llega el link de acceso al correo al reservar. *(confirmar)*
 - ¿Recibo certificado? · Sí, al terminar el workshop recibes tu certificado de participación.
 
 ### 9 · CTA final (fondo oscuro con brillo del degradado)
 Centrado, con mucho aire.
 
-- **H2:** El lunes empiezas a trabajar con Excel de otra forma. O sigues como hasta hoy.
+- **H2:** El martes empiezas a trabajar con Excel de otra forma. O sigues como hasta hoy.
 - **Subtítulo:** 3 clases en vivo, grabaciones y certificado por $10.
 - **CTA:** Reservar mi cupo ahora
-- **Microcopy:** 12, 13 y 14 de octubre · 8:00 p.m. · Cupos limitados
+- **Microcopy:** 13, 14 y 15 de octubre · 8:00 p.m. · Cupos limitados
 
 ### 10 · Sticky CTA móvil (nueva)
 Barra fija abajo, solo en móvil, que aparece después del hero.
-> Excel con IA · 12-14 oct · $10 **[Reservar cupo]**
+> Excel con IA · 13-15 oct · $10 **[Reservar cupo]**
 
 ---
 
@@ -202,7 +202,7 @@ usar", pequeños y en una fila. Que no parezca un producto oficial de Microsoft,
 
 - **No inventar testimonios, cifras de alumnos ni valoraciones.** El brief no tiene ninguno, así que no hay sección de testimonios.
 - **No poner contador de "quedan X cupos"** ni números de cupos inventados. Basta con "Cupos limitados".
-- Una cuenta regresiva hasta el **lunes 12 de octubre a las 8:00 p.m.** sí es válida (la fecha es real). Es opcional y debe ir en el hero o el precio.
+- Una cuenta regresiva hasta el **martes 13 de octubre a las 8:00 p.m.** sí es válida (la fecha es real). Es opcional y debe ir en el hero o el precio.
 - Sin garantía de devolución: el brief no la menciona, así que no aparece.
 - Pensado para **convertir a Elementor**: secciones apiladas en contenedores flex, Google Fonts, degradados lineales y sombras simples. Evita efectos que Elementor no reproduce (blend modes complejos, máscaras SVG, animaciones con JS).
 - Mobile first: CTA visible sin hacer scroll en el hero móvil, ningún scroll horizontal y gutter de 16px.

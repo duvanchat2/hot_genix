@@ -2,7 +2,7 @@
 
 slug: workshop-excel-ia
 nombre: "Excel con IA"
-subtitulo: "Workshop en vivo · 3 clases · 12, 13 y 14 de octubre"
+subtitulo: "Workshop en vivo · 3 clases · 13, 14 y 15 de octubre"
 
 promesa: "En 3 clases en vivo aprendes a usar Claude y ChatGPT junto con Excel para crear desde un dashboard hasta sistemas completos, empezando desde cero"
 
@@ -39,15 +39,15 @@ mecanismo:
 
 # Las 3 clases en vivo. Temario por día = propuesta, CONFIRMAR con el instructor.
 modulos:
-  - titulo: "Clase 1 · Lunes 12 · Tu copiloto de Excel"
+  - titulo: "Clase 1 · Martes 13 · Tu copiloto de Excel"
     descripcion: "Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas, que te expliquen una hoja que no entiendes y que limpien datos desordenados en segundos."
     duracion: "En vivo · 8:00 p.m."
     resultado: "Tu primer reporte hecho con IA"
-  - titulo: "Clase 2 · Martes 13 · Dashboards sin sufrir"
+  - titulo: "Clase 2 · Miércoles 14 · Dashboards sin sufrir"
     descripcion: "Tablas dinámicas, gráficos y un dashboard interactivo construido paso a paso con ayuda de la IA, aunque nunca hayas hecho uno."
     duracion: "En vivo · 8:00 p.m."
     resultado: "Un dashboard listo para presentar"
-  - titulo: "Clase 3 · Miércoles 14 · Sistemas avanzados"
+  - titulo: "Clase 3 · Jueves 15 · Sistemas avanzados"
     descripcion: "Cómo conectar la IA con Excel y usarla para crear automatizaciones y sistemas completos: control de ventas, inventario, finanzas."
     duracion: "En vivo · 8:00 p.m."
     resultado: "Un sistema funcionando que puedes adaptar a tu trabajo o negocio"
@@ -73,7 +73,7 @@ checkout_url: "https://pay.hotmart.com/I107901880V?off=nqon6kng"
 urgencia:
   tipo: cupos
   detalle: "Los cupos son limitados para poder responder preguntas en vivo. Cuando se llenen, se cierran las inscripciones."
-  fecha_limite: "2026-10-12"
+  fecha_limite: "2026-10-13"
 
 prueba_social: []
 
@@ -95,6 +95,6 @@ faq_extra:
 
 seo:
   title: "Excel con IA — Workshop en vivo, 3 clases"
-  description: "Aprende a usar Claude y ChatGPT con Excel: dashboards y sistemas desde cero. 3 clases en vivo, 12, 13 y 14 de octubre. $10."
+  description: "Aprende a usar Claude y ChatGPT con Excel: dashboards y sistemas desde cero. 3 clases en vivo, 13, 14 y 15 de octubre. $10."
 
 idioma: es-419

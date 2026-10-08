@@ -11,7 +11,7 @@
 - **Formato:** online y en vivo, 3 clases.
 - **Plataforma de las clases:** online y en vivo por Zoom privado (solo para inscritos).
 - **Duración de cada clase:** [PENDIENTE]
-- **Fechas:** lunes 12, martes 13 y miércoles 14 de octubre de 2026.
+- **Fechas:** martes 13, miércoles 14 y jueves 15 de octubre de 2026.
 - **Hora:** 8:00 p.m., hora de Colombia (GMT-5).
 
 **Equivalencias de hora** (las mismas para los 3 días):
@@ -24,9 +24,9 @@
 | España | 3:00 a.m. del día siguiente |
 
 **Temario:**
-- **Clase 1, lunes 12: Tu copiloto de Excel.** Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas, que te expliquen una hoja que no entiendes y que limpien datos desordenados en segundos. *Sale con:* su primer reporte hecho con IA.
-- **Clase 2, martes 13: Dashboards sin sufrir.** Tablas dinámicas, gráficos y un dashboard interactivo construido paso a paso con ayuda de la IA, aunque nunca haya hecho uno. *Sale con:* un dashboard listo para presentar.
-- **Clase 3, miércoles 14: Sistemas avanzados.** Cómo conectar la IA con Excel para crear automatizaciones y sistemas completos de control de ventas, inventario y finanzas. *Sale con:* un sistema funcionando que puede adaptar a su trabajo o negocio.
+- **Clase 1, martes 13: Tu copiloto de Excel.** Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas, que te expliquen una hoja que no entiendes y que limpien datos desordenados en segundos. *Sale con:* su primer reporte hecho con IA.
+- **Clase 2, miércoles 14: Dashboards sin sufrir.** Tablas dinámicas, gráficos y un dashboard interactivo construido paso a paso con ayuda de la IA, aunque nunca haya hecho uno. *Sale con:* un dashboard listo para presentar.
+- **Clase 3, jueves 15: Sistemas avanzados.** Cómo conectar la IA con Excel para crear automatizaciones y sistemas completos de control de ventas, inventario y finanzas. *Sale con:* un sistema funcionando que puede adaptar a su trabajo o negocio.
 
 **Qué incluye el cupo:**
 - Las 3 clases en vivo.
@@ -96,7 +96,7 @@
 - **"No sé nada de Excel"**: Perfecto, empezamos desde cero. Si sabes abrir un archivo de Excel, tienes el nivel.
 - **"¿Tengo que pagar ChatGPT o Claude?"**: No, puedes seguir el workshop con las versiones gratuitas.
 - **"¿Es confiable? ¿No es estafa?"**: El pago se hace por Hotmart, una plataforma reconocida de pagos digitales, y recibes la confirmación en tu correo al instante.
-- **"Lo pienso y te aviso"**: Claro. Solo ten en cuenta que empieza el lunes 12 y los cupos son limitados. Te dejo el link por si te decides: [link]
+- **"Lo pienso y te aviso"**: Claro. Solo ten en cuenta que empieza el martes 13 y los cupos son limitados. Te dejo el link por si te decides: [link]
 - **"¿Sirve para Google Sheets o Mac?"**: Dame un minuto, lo consulto y te confirmo. [PENDIENTE: pasa a una persona]
 - **"Ya hice cursos de Excel"**: Este es distinto: no es memorizar fórmulas, es usar la IA para hacer el trabajo en minutos.
 - **"¿Por qué tan barato?"**: Es un workshop de lanzamiento, en vivo y de 3 clases. Queremos que más personas empiecen a usar IA con Excel.
@@ -110,7 +110,7 @@
 - **¿Necesito saber Excel?** No. Empezamos desde cero. Si sabes abrir un archivo de Excel, tienes el nivel.
 - **¿Necesito pagar Claude o ChatGPT?** Puedes seguir el workshop con las versiones gratuitas.
 - **¿Qué pasa si no puedo conectarme en vivo?** Tienes acceso a las grabaciones.
-- **¿A qué hora son las clases?** Lunes 12, martes 13 y miércoles 14 de octubre, 8:00 p.m. hora de Colombia. (Usa la tabla de equivalencias si el cliente es de otro país.)
+- **¿A qué hora son las clases?** Martes 13, miércoles 14 y jueves 15 de octubre, 8:00 p.m. hora de Colombia. (Usa la tabla de equivalencias si el cliente es de otro país.)
 - **¿Dónde son las clases?** 100% online y en vivo. El link de acceso llega al correo.
 - **¿Recibo certificado?** Sí, de participación, al terminar el workshop.
 - **¿Cuánto cuesta?** 10 USD, pago único.
@@ -130,15 +130,15 @@
 - Una pregunta a la vez. No repite información que ya dio.
 
 **Saludo inicial:**
-> Hola, gracias por escribir. El workshop Excel con IA son 3 clases en vivo (12, 13 y 14 de octubre, 8:00 p.m. hora Colombia) para aprender a usar ChatGPT y Claude con Excel desde cero. ¿Quieres que te cuente qué verás o te paso el link de inscripción?
+> Hola, gracias por escribir. El workshop Excel con IA son 3 clases en vivo (13, 14 y 15 de octubre, 8:00 p.m. hora Colombia) para aprender a usar ChatGPT y Claude con Excel desde cero. ¿Quieres que te cuente qué verás o te paso el link de inscripción?
 
 **Cierre con link:**
 > Aquí puedes reservar tu cupo por 10 USD: https://pay.hotmart.com/I107901880V?off=nqon6kng
 > Al pagar te llega la confirmación al correo. Cualquier duda, aquí estoy.
 
 **Seguimiento si el cliente deja de responder** (máximo 2 seguimientos):
-- **A las 24 horas:** "Hola, ¿pudiste revisar la información del workshop? Empieza el lunes 12 a las 8:00 p.m. Te dejo el link por si lo necesitas: [link]"
-- **El lunes 12 a mediodía:** "Hoy a las 8:00 p.m. empieza el workshop Excel con IA. Si quieres entrar, aún puedes inscribirte aquí: [link]"
+- **A las 24 horas:** "Hola, ¿pudiste revisar la información del workshop? Empieza el martes 13 a las 8:00 p.m. Te dejo el link por si lo necesitas: [link]"
+- **El martes 13 a mediodía:** "Hoy a las 8:00 p.m. empieza el workshop Excel con IA. Si quieres entrar, aún puedes inscribirte aquí: [link]"
 - Después de eso no escribe más, salvo que el cliente responda.
 
 ---
@@ -182,7 +182,7 @@
 > **Cliente:** Hola, quiero inscribirme al de Excel
 > **Asesor:** Hola, con gusto. Aquí puedes reservar tu cupo por 10 USD: https://pay.hotmart.com/I107901880V?off=nqon6kng — al pagar te llega la confirmación al correo.
 > **Cliente:** Listo, pagué
-> **Asesor:** Gracias. En unos minutos te debe llegar la confirmación de Hotmart al correo con el que pagaste (revisa también spam). Las clases son el lunes 12, martes 13 y miércoles 14 a las 8:00 p.m. hora Colombia.
+> **Asesor:** Gracias. En unos minutos te debe llegar la confirmación de Hotmart al correo con el que pagaste (revisa también spam). Las clases son el martes 13, miércoles 14 y jueves 15 a las 8:00 p.m. hora Colombia.
 
 **(b) Objeción de horario y precio**
 > **Cliente:** Me interesa pero a esa hora trabajo y no sé si vale la pena
