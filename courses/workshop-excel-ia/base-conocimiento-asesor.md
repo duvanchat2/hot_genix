@@ -9,7 +9,7 @@
 
 - **Nombre:** Excel con IA, workshop en vivo.
 - **Formato:** online y en vivo, 3 clases.
-- **Plataforma de las clases:** [PENDIENTE]
+- **Plataforma de las clases:** online y en vivo por Zoom privado (solo para inscritos).
 - **Duración de cada clase:** [PENDIENTE]
 - **Fechas:** lunes 12, martes 13 y miércoles 14 de octubre de 2026.
 - **Hora:** 8:00 p.m., hora de Colombia (GMT-5).
@@ -30,7 +30,7 @@
 
 **Qué incluye el cupo:**
 - Las 3 clases en vivo.
-- Acceso a las grabaciones. Dónde se ven y por cuánto tiempo: [PENDIENTE]
+- Acceso a las grabaciones en la plataforma de Genix Academy. Tiempo de acceso: [PENDIENTE]
 - Preguntas en vivo con el instructor.
 - Certificado de participación. Cómo y cuándo llega: [PENDIENTE]
 - Los archivos de Excel que se construyen en clase.
