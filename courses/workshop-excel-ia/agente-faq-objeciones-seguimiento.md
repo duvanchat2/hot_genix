@@ -17,13 +17,13 @@
 "Martes 13, miércoles 14 y jueves 15 de octubre, a las 8 de la noche (hora Colombia y Ecuador). Y si un día no puedes, queda grabado. ¿Te reservo el cupo?"
 
 **¿Cuánto dura cada clase?**
-"Cada clase dura [DURACIÓN, por ejemplo: alrededor de 2 horas], con tiempo para preguntas en vivo. Es práctica: sales con algo construido cada noche."
+"Cada clase dura entre 1 hora y hora y media, con sesión de preguntas y respuestas en vivo. Además recibes material y una guía de apoyo para practicar."
 
 **¿Dónde son las clases?**
-"Son en vivo por Zoom privado, solo para inscritos. El link de acceso te llega antes de la primera clase."
+"Son en vivo por Zoom privado. Al inscribirte entras a un grupo privado donde te enviamos el link de cada clase y todos los avisos."
 
 **¿Qué pasa si no puedo conectarme?**
-"Tranquilo, la grabación queda en nuestra plataforma de Genix Academy y la ves cuando quieras. Así no te pierdes nada."
+"Tranquilo, la grabación se sube a nuestra plataforma de Genix Academy y te avisamos por el grupo cuando esté lista. Así no te pierdes nada."
 
 **¿Necesito saber Excel?**
 "No, arrancamos desde cero. Si sabes abrir un archivo de Excel, ya tienes el nivel. La IA te ayuda con lo difícil."
@@ -51,7 +51,7 @@
 "Dame un minuto, lo consulto y te confirmo." (Pasar a humano hasta tener la respuesta.)
 
 **¿Me dan los archivos de la clase?**
-"Sí, te quedas con los archivos de Excel que construimos en clase."
+"Sí, recibes el material y una guía de apoyo de cada clase, además de los archivos de Excel que construimos."
 
 **¿Puedo ver más información?**
 "Claro, aquí está todo el detalle: https://productosdigitales.genixacademy.com/excelconia/"
@@ -141,12 +141,13 @@ El agente NO puede ver Hotmart. Nunca confirma un pago.
   "¡Qué bien, [nombre]! Te debe llegar la confirmación de Hotmart al correo con el que pagaste (revisa también spam). ¿Me confirmas a qué correo lo hiciste? Así el equipo verifica tu inscripción."
   → Etiqueta `dice_que_pago` + avisar al equipo para verificar en Hotmart.
 - **Cuando el equipo verifica que sí pagó:**
-  "Listo, [nombre], ya verificamos tu pago. Quedaste inscrito en el taller de Excel con IA. El link de Zoom te llega antes de la primera clase, el martes 13 a las 8 p.m. ¡Nos vemos allá!"
+  "Listo, [nombre], ya verificamos tu pago. Quedaste inscrito en el taller de Excel con IA. Únete al grupo privado, ahí te enviamos el link de Zoom y los avisos: [LINK GRUPO]. ¡Nos vemos el martes 13 a las 8 p.m.!"
 - **Si no aparece el pago:**
   "Hola [nombre], revisamos y todavía no nos aparece el pago con ese correo. ¿Me compartes una captura del comprobante de Hotmart para revisarlo?" (Humano.)
 
-### Recordatorios para inscritos (para que asistan)
-- **Martes 13, 12 m.:** "Hola [nombre], hoy a las 8 p.m. empezamos. Ten a mano Excel y tu cuenta de ChatGPT o Claude. Este es el link de Zoom: [LINK ZOOM]"
-- **Martes 13, 7:45 p.m.:** "En 15 minutos arrancamos 🚀 Entra aquí: [LINK ZOOM]"
-- **Miércoles 14 y jueves 15, 7:45 p.m.:** "Hoy seguimos con la clase [2 / 3]. Te esperamos: [LINK ZOOM]"
-- **Viernes 16:** "¡Gracias por acompañarnos! Las grabaciones quedan en la plataforma de Genix Academy: [LINK PLATAFORMA]"
+### Recordatorios para inscritos
+Los links de Zoom y de las grabaciones se comparten por el grupo privado. Por WhatsApp individual solo se recuerda entrar al grupo.
+- **Al verificar el pago:** mensaje de bienvenida con el [LINK GRUPO] (ver arriba).
+- **Martes 13, 12 m.:** "Hola [nombre], hoy a las 8 p.m. empezamos. El link de Zoom ya está en el grupo privado. Si aún no estás, entra aquí: [LINK GRUPO]"
+- **Martes 13, miércoles 14 y jueves 15, 7:45 p.m.:** "En 15 minutos arrancamos 🚀 El link está en el grupo."
+- **Viernes 16:** "¡Gracias por acompañarnos! Las grabaciones se suben a la plataforma de Genix Academy y te avisamos por el grupo."
