@@ -146,6 +146,9 @@ El agente NO puede ver Hotmart. Nunca confirma un pago.
 - **Si no aparece el pago:**
   "Hola [nombre], revisamos y todavía no nos aparece el pago con ese correo. ¿Me compartes una captura del comprobante de Hotmart para revisarlo?" (Humano.)
 
+### Regla del grupo privado
+El [LINK GRUPO] se envía SOLO a quien ya compró y tiene el pago verificado en Hotmart. Nunca a leads que no han pagado ni a quien solo dice "ya pagué" sin verificación. Si alguien lo pide sin haber comprado: "El grupo es exclusivo para inscritos. Apenas reserves tu cupo te envío el acceso: [link de pago]"
+
 ### Recordatorios para inscritos
 Los links de Zoom y de las grabaciones se comparten por el grupo privado. Por WhatsApp individual solo se recuerda entrar al grupo.
 - **Al verificar el pago:** mensaje de bienvenida con el [LINK GRUPO] (ver arriba).
