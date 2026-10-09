@@ -4,6 +4,7 @@
 > Reglas de estilo para todo este documento:
 > - Mensajes de máximo 3 líneas, una pregunta por mensaje y tono humano.
 > - Cada respuesta termina acercando a la persona al cupo.
+> - Imagen del taller (enviar después del mensaje de información, nunca en el saludo): https://productosdigitales.genixacademy.com/wp-content/uploads/2026/10/ChatGPT-Image-9-oct-2026-08_12_37-a.m.png
 > - Lo que esté entre [corchetes] lo debe completar el equipo. Mientras no esté completo, el agente responde: "Dame un minuto, lo consulto y te confirmo."
 
 ---
