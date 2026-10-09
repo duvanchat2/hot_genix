@@ -1,0 +1,284 @@
+{
+  "$comment": "Ángulo: 'el problema no es Excel, es que lo usas como en 2010'. Evento en vivo de bajo ticket ($10): la decisión es rápida, el copy es corto y la fecha manda. Un solo ángulo para todo el público. Estructura y textos calibrados con el diseño final de Claude Design (export index.html).",
+  "topbar": {
+    "texto": "Workshop en vivo · 13, 14 y 15 de octubre · 8:00 p.m. · Cupos limitados"
+  },
+  "hero": {
+    "eyebrow": "Workshop en vivo · 13, 14 y 15 de octubre",
+    "headline": "Deja de pelearte con Excel.",
+    "subhead": "En 3 clases en vivo aprendes a usar Claude y ChatGPT junto con Excel para crear desde un dashboard hasta sistemas completos, empezando desde cero y sin saber fórmulas.",
+    "cta": "Reservar mi cupo por $10",
+    "microcopy": "Cupos limitados · Acceso a las grabaciones · Certificado incluido",
+    "variantes": {
+      "headline": [
+        "Deja de pelearte con Excel. Ponle la IA a trabajar por ti.",
+        "Excel + IA: lo que antes te tomaba una tarde, ahora te toma 5 minutos",
+        "No necesitas saber fórmulas. Necesitas saber pedírselas a la IA.",
+        "3 noches para dominar Excel con inteligencia artificial"
+      ],
+      "cta": [
+        "Reservar mi cupo por $10",
+        "Reservar mi cupo ahora"
+      ],
+      "$comment": "Titular completo = headline + headline_destacado (el remate va en degradado)."
+    },
+    "headline_destacado": "Ponle la IA a trabajar por ti.",
+    "visual_html": "<div style=\"position:relative;padding-bottom:44px;\"> <div style=\"border-radius:14px;overflow:hidden;background:#FFFFFF;border:1px solid #24402F;box-shadow:0 30px 80px rgba(0,0,0,0.45);\"> <div style=\"display:flex;align-items:center;gap:7px;padding:10px 14px;background:#107C41;\"> <span style=\"width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.55);\"></span><span style=\"width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.35);\"></span><span style=\"width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.2);\"></span> <span style=\"margin-left:10px;font-size:12px;font-weight:600;color:#FFFFFF;\">ventas_2026.xlsx</span> </div> <div style=\"display:flex;align-items:center;gap:10px;padding:8px 12px;border-bottom:1px solid #E3E8E5;background:#F7F9F8;font-family:'JetBrains Mono',monospace;font-size:12px;\"> <span style=\"font-style:italic;font-weight:700;color:#5B6B62;\">fx</span><span style=\"color:#0F1A14;\">=SUMA(C2:C13)</span> </div> <div style=\"display:grid;grid-template-columns:28px repeat(6,1fr);font-family:'JetBrains Mono',monospace;font-size:10px;color:#5B6B62;background:#F1F4F2;border-bottom:1px solid #E3E8E5;\"> <span style=\"padding:4px 0;\"></span><span style=\"padding:4px 0;text-align:center;border-left:1px solid #E3E8E5;\">A</span><span style=\"padding:4px 0;text-align:center;border-left:1px solid #E3E8E5;\">B</span><span style=\"padding:4px 0;text-align:center;border-left:1px solid #E3E8E5;\">C</span><span style=\"padding:4px 0;text-align:center;border-left:1px solid #E3E8E5;\">D</span><span style=\"padding:4px 0;text-align:center;border-left:1px solid #E3E8E5;\">E</span><span style=\"padding:4px 0;text-align:center;border-left:1px solid #E3E8E5;\">F</span> </div> <div style=\"padding:16px;display:flex;flex-direction:column;gap:14px;background-image:linear-gradient(#EEF2EF 1px,transparent 1px),linear-gradient(90deg,#EEF2EF 1px,transparent 1px);background-size:100% 26px,16.66% 100%;\"> <div style=\"display:grid;grid-template-columns:repeat(3,1fr);gap:10px;\"> <div style=\"background:#FFFFFF;border:1px solid #DCE7E0;border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-size:10px;color:#5B6B62;font-weight:600;\">Ventas</span><span style=\"font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(14px,1.6vw,18px);font-weight:800;color:#0F1A14;\">$48.2K</span></div> <div style=\"background:#FFFFFF;border:1px solid #DCE7E0;border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-size:10px;color:#5B6B62;font-weight:600;\">Pedidos</span><span style=\"font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(14px,1.6vw,18px);font-weight:800;color:#0F1A14;\">1.284</span></div> <div style=\"background:#FFFFFF;border:1px solid #DCE7E0;border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-size:10px;color:#5B6B62;font-weight:600;\">Margen</span><span style=\"font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(14px,1.6vw,18px);font-weight:800;color:#16A34A;\">32%</span></div> </div> <div style=\"background:#FFFFFF;border:1px solid #DCE7E0;border-radius:8px;padding:12px 12px 8px;display:flex;flex-direction:column;gap:8px;\"> <span style=\"font-size:11px;font-weight:700;color:#0F1A14;\">Ventas por mes</span> <div style=\"display:flex;align-items:flex-end;gap:5px;height:110px;\"> <div style=\"flex:1;height:38%;background:#86EFAC;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:46%;background:#86EFAC;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:41%;background:#86EFAC;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:55%;background:#4ADE80;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:62%;background:#4ADE80;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:58%;background:#4ADE80;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:70%;background:#22C55E;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:66%;background:#22C55E;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:78%;background:#22C55E;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:84%;background:#16A34A;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:91%;background:#16A34A;border-radius:3px 3px 0 0;\"></div><div style=\"flex:1;height:100%;background:#15803D;border-radius:3px 3px 0 0;\"></div> </div> <div style=\"display:flex;gap:5px;font-family:'JetBrains Mono',monospace;font-size:9px;color:#5B6B62;\"><span style=\"flex:1;text-align:center;\">E</span><span style=\"flex:1;text-align:center;\">F</span><span style=\"flex:1;text-align:center;\">M</span><span style=\"flex:1;text-align:center;\">A</span><span style=\"flex:1;text-align:center;\">M</span><span style=\"flex:1;text-align:center;\">J</span><span style=\"flex:1;text-align:center;\">J</span><span style=\"flex:1;text-align:center;\">A</span><span style=\"flex:1;text-align:center;\">S</span><span style=\"flex:1;text-align:center;\">O</span><span style=\"flex:1;text-align:center;\">N</span><span style=\"flex:1;text-align:center;\">D</span></div> </div> </div> </div> <div style=\"position:absolute;left:0;bottom:0;max-width:min(300px,85%);display:flex;flex-direction:column;gap:8px;padding:14px 16px;border-radius:14px;background:#161B2E;border:1px solid rgba(167,139,250,0.45);box-shadow:0 18px 40px rgba(0,0,0,0.45);\"> <span style=\"display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:#C4B5FD;letter-spacing:0.04em;\">✦ IA</span> <span style=\"font-size:15px;line-height:1.45;color:#F5F3FF;font-weight:500;\">Crea un dashboard de ventas por mes</span> </div> </div>"
+  },
+  "pain": {
+    "headline": "El problema no es Excel. Es que lo estás usando como en 2010.",
+    "bullets": [
+      "Buscas en Google cómo hacer una fórmula, la copias, y no funciona",
+      "Armas reportes a mano, fila por fila, y te toma toda la tarde",
+      "Ves dashboards bonitos de otros y no sabes ni por dónde empezar",
+      "Tienes ChatGPT o Claude abiertos, pero no sabes cómo hacer que trabajen con tu Excel",
+      "Sientes que todos avanzan con IA y tú te estás quedando atrás"
+    ],
+    "cierre": "Hoy la diferencia entre quien domina Excel y quien no ya no es memorizar fórmulas. Es saber pedirle a la IA lo que necesitas."
+  },
+  "agenda": {
+    "headline": "3 noches. De cero a construir sistemas en Excel con IA.",
+    "intro": "Cada clase termina con algo construido, no con más teoría.",
+    "etiqueta_resultado": "Sales con:",
+    "cta": "Reservar mi cupo por $10",
+    "sesiones": [
+      {
+        "dia": "MAR",
+        "numero": "13",
+        "mes": "OCT",
+        "hora": "8:00 p.m.",
+        "clase": "Clase 1",
+        "titulo": "Tu copiloto de Excel",
+        "descripcion": "Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas, que te expliquen una hoja que no entiendes y que limpien datos desordenados en segundos.",
+        "resultado": "Tu primer reporte hecho con IA",
+        "icono": "far fa-comments",
+        "icono_lib": "fa-regular"
+      },
+      {
+        "dia": "MIÉ",
+        "numero": "14",
+        "mes": "OCT",
+        "hora": "8:00 p.m.",
+        "clase": "Clase 2",
+        "titulo": "Dashboards sin sufrir",
+        "descripcion": "Tablas dinámicas, gráficos y un dashboard interactivo construido paso a paso con ayuda de la IA, aunque nunca hayas hecho uno.",
+        "resultado": "Un dashboard listo para presentar",
+        "icono": "far fa-chart-bar",
+        "icono_lib": "fa-regular"
+      },
+      {
+        "dia": "JUE",
+        "numero": "15",
+        "mes": "OCT",
+        "hora": "8:00 p.m.",
+        "clase": "Clase 3",
+        "titulo": "Sistemas avanzados",
+        "descripcion": "Cómo conectar la IA con Excel y usarla para crear automatizaciones y sistemas completos: control de ventas, inventario, finanzas.",
+        "resultado": "Un sistema funcionando que puedes adaptar a tu trabajo o negocio",
+        "icono": "fas fa-cogs",
+        "icono_lib": "fa-solid"
+      }
+    ]
+  },
+  "audience": {
+    "headline": "Este workshop es para ti si…",
+    "bullets": [
+      "Trabajas con Excel y quieres hacer en minutos lo que hoy te toma horas",
+      "Buscas empleo o un ascenso y \"Excel avanzado\" aparece en todas las ofertas",
+      "Tienes un negocio y quieres llevar ventas, inventario o finanzas sin pagarle a alguien",
+      "Nunca has usado IA para trabajar y quieres empezar con algo práctico, no teórico"
+    ],
+    "cierre": "No necesitas saber fórmulas. Empezamos desde cero."
+  },
+  "offer_mockup": {
+    "headline": "Todo lo que incluye tu cupo",
+    "cta": "Reservar mi cupo por $10",
+    "beneficios": [
+      "3 clases en vivo: 13, 14 y 15 de octubre, 8:00 p.m.",
+      "Acceso a las grabaciones: si no puedes conectarte en vivo, no te pierdes nada",
+      "Preguntas en vivo con el instructor",
+      "Certificado de participación",
+      "Los archivos de Excel que construimos en clase"
+    ]
+  },
+  "instructor": {
+    "headline": "Quién te va a enseñar",
+    "bio_html": "<p><strong>Alejandro Rodríguez</strong> es experto en Excel y automatización de procesos, con más de 10 años de experiencia ayudando a empresas y profesionales a transformar la forma en que trabajan con datos.</p><p>A lo largo de su trayectoria ha participado en proyectos con más de 5 empresas, implementando sistemas en Excel orientados a optimizar reportes, organizar información, automatizar tareas repetitivas y mejorar la toma de decisiones.</p><p>Actualmente integra Excel con Inteligencia Artificial para crear procesos más rápidos, eficientes y fáciles de gestionar, reduciendo el trabajo manual y aprovechando herramientas como ChatGPT y otras soluciones de IA.</p><p>Es fundador de <strong>ExcelService</strong>, iniciativa enfocada en desarrollar soluciones para automatizar Excel y convertir procesos manuales en sistemas más inteligentes y productivos.</p>"
+  },
+  "price": {
+    "headline": "Lo que cuesta quedarte haciendo Excel a mano",
+    "intro": "Un curso de Excel tradicional cuesta fácil $100 o más, y ninguno te enseña a usarlo con IA.",
+    "incluye": "Las 3 clases en vivo, las grabaciones y el certificado:",
+    "remate": "Menos que una pizza. Y lo que aprendes te ahorra horas cada semana desde el día siguiente.",
+    "cta": "Reservar mi cupo por $10",
+    "urgencia": "Los cupos son limitados para poder responder preguntas en vivo. Cuando se llenen, se cierran las inscripciones."
+  },
+  "faq_headline": "Preguntas frecuentes",
+  "faq": [
+    {
+      "pregunta": "¿Necesito saber Excel?",
+      "respuesta": "No. Empezamos desde cero. Si sabes abrir un archivo de Excel, tienes el nivel."
+    },
+    {
+      "pregunta": "¿Necesito pagar Claude o ChatGPT?",
+      "respuesta": "Puedes seguir el workshop con las versiones gratuitas. Te mostramos qué puedes hacer con cada una."
+    },
+    {
+      "pregunta": "¿Qué pasa si no puedo conectarme en vivo?",
+      "respuesta": "Tienes acceso a las grabaciones, así que puedes verlas cuando quieras."
+    },
+    {
+      "pregunta": "¿A qué hora son las clases?",
+      "respuesta": "Martes 13, miércoles 14 y jueves 15 de octubre, a las 8:00 p.m. (hora de Colombia, GMT-5)."
+    },
+    {
+      "pregunta": "¿Dónde son las clases?",
+      "respuesta": "100% online, en vivo. Te llega el link de acceso al correo al reservar."
+    },
+    {
+      "pregunta": "¿Recibo certificado?",
+      "respuesta": "Sí, al terminar el workshop recibes tu certificado de participación."
+    }
+  ],
+  "final": {
+    "headline": "El martes empiezas a trabajar con Excel de otra forma. O sigues como hasta hoy.",
+    "subhead": "3 clases en vivo, grabaciones y certificado por $10.",
+    "cta": "Reservar mi cupo ahora",
+    "microcopy": "13, 14 y 15 de octubre · 8:00 p.m. · Cupos limitados"
+  },
+  "sticky": {
+    "texto": "Excel con IA · 13-15 oct",
+    "cta": "Reservar cupo"
+  },
+  "ads": {
+    "$comment": "6 ángulos para Meta Ads. titular/subtitulo = texto del creativo y título del anuncio; texto_primario = texto principal; cta = botón de Meta.",
+    "angulos": [
+      {
+        "id": "dolor",
+        "titular": "Deja de buscar\nfórmulas en Google",
+        "subtitulo": "3 clases en vivo · $10",
+        "texto_primario": "¿Buscas en Google cómo hacer una fórmula, la copias… y no funciona?\n\nNo es que Excel sea difícil. Es que nadie te enseñó a pedírsela a la IA.\n\nEn este workshop en vivo aprendes a usar Claude y ChatGPT junto con Excel para:\n✅ Sacar la fórmula exacta que necesitas\n✅ Limpiar datos desordenados en segundos\n✅ Crear dashboards y sistemas desde cero\n\n📅 Martes 13, miércoles 14 y jueves 15 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Incluye grabaciones y certificado\n💵 Solo $10 USD\n\nCupos limitados. Reserva el tuyo 👇",
+        "cta": "Registrarte",
+        "titulos": [
+          "Deja de buscar fórmulas en Google",
+          "Pídele las fórmulas a la IA",
+          "¿No te sale la fórmula? Pídesela a la IA",
+          "Excel sin pelear con fórmulas",
+          "La IA te escribe las fórmulas"
+        ],
+        "descripciones": [
+          "3 clases en vivo · $10",
+          "Desde cero · 13-15 oct",
+          "Grabaciones y certificado",
+          "Solo $10 USD · Cupos limitados",
+          "Empieza el martes 13 de octubre"
+        ]
+      },
+      {
+        "id": "resultado",
+        "titular": "De cero a dashboards\ncon IA en 3 noches",
+        "subtitulo": "Workshop en vivo · $10",
+        "texto_primario": "3 noches. 3 cosas construidas.\n\n1️⃣ Martes: le pides a la IA las fórmulas y sale tu primer reporte.\n2️⃣ Miércoles: armas un dashboard interactivo, aunque nunca hayas hecho uno.\n3️⃣ Jueves: conectas la IA con Excel y creas un sistema completo de ventas, inventario o finanzas.\n\nWorkshop en vivo: Excel + Claude + ChatGPT, desde cero.\n\n📅 Martes 13, miércoles 14 y jueves 15 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Grabaciones y certificado incluidos\n💵 $10 USD · Cupos limitados",
+        "cta": "Registrarte",
+        "titulos": [
+          "De cero a dashboards con IA en 3 noches",
+          "Tu primer dashboard con IA en 3 noches",
+          "3 noches, 3 cosas construidas en Excel",
+          "Dashboards y sistemas en Excel con IA",
+          "Excel + Claude + ChatGPT en 3 clases"
+        ],
+        "descripciones": [
+          "Workshop en vivo · $10",
+          "Clase 1: tu primer reporte",
+          "Sales con un sistema funcionando",
+          "13, 14 y 15 de octubre",
+          "Grabaciones incluidas"
+        ]
+      },
+      {
+        "id": "objecion",
+        "titular": "No necesitas\nsaber fórmulas",
+        "subtitulo": "Empezamos desde cero",
+        "texto_primario": "No necesitas saber fórmulas. Necesitas saber pedírselas a la IA.\n\nSi sabes abrir un archivo de Excel, tienes el nivel.\n\nEn 3 clases en vivo te mostramos, paso a paso, cómo poner a Claude y ChatGPT a hacer el trabajo pesado: fórmulas, limpieza de datos, tablas dinámicas y dashboards.\n\nSin teoría. Cada clase termina con algo construido.\n\n📅 Martes 13, miércoles 14 y jueves 15 de octubre · 8:00 p.m. (hora Colombia)\n¿No puedes conectarte en vivo? Te quedan las grabaciones.\n\n💵 $10 USD · Certificado incluido",
+        "cta": "Registrarte",
+        "titulos": [
+          "No necesitas saber fórmulas",
+          "Excel con IA desde cero",
+          "Si abres un Excel, tienes el nivel",
+          "Sin fórmulas. Sin teoría. Con IA.",
+          "Excel con IA aunque empieces de cero"
+        ],
+        "descripciones": [
+          "Empezamos desde cero",
+          "Cada clase, algo construido",
+          "Si no llegas, ves la grabación",
+          "$10 · Certificado incluido",
+          "Workshop en vivo · 13-15 oct"
+        ]
+      },
+      {
+        "id": "empleo",
+        "titular": "Suma Excel + IA\na tu perfil",
+        "subtitulo": "Incluye certificado",
+        "texto_primario": "\"Excel avanzado\" aparece en cada vez más ofertas de empleo. Y ahora se suma otro requisito: saber trabajar con IA.\n\nEste workshop te da las dos cosas en 3 noches:\n📊 Dashboards y reportes que puedes mostrar en tu trabajo o en una entrevista\n🤖 Claude y ChatGPT como copiloto para resolver en minutos lo que hoy te toma horas\n🎓 Certificado de participación\n\n📅 Martes 13, miércoles 14 y jueves 15 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Con acceso a las grabaciones\n\n💵 $10 USD. Cupos limitados.",
+        "cta": "Registrarte",
+        "titulos": [
+          "Suma Excel + IA a tu perfil",
+          "Excel avanzado + IA en 3 noches",
+          "Destaca en tu trabajo con Excel e IA",
+          "Lleva tu Excel al siguiente nivel con IA",
+          "Reportes y dashboards hechos con IA"
+        ],
+        "descripciones": [
+          "Incluye certificado",
+          "Certificado de participación",
+          "3 clases en vivo · $10",
+          "Desde cero · 8:00 p.m.",
+          "Cupos limitados"
+        ]
+      },
+      {
+        "id": "negocio",
+        "titular": "Tu sistema de ventas\nen Excel, con IA",
+        "subtitulo": "3 clases en vivo · $10",
+        "texto_primario": "¿Las ventas de tu negocio viven en un cuaderno o en un Excel que ya nadie entiende?\n\nCon ayuda de la IA puedes armar tu propio sistema de control de ventas, inventario y finanzas. Sin pagarle a nadie y sin saber fórmulas.\n\nEn la clase 3 del workshop lo construimos en vivo y sales con un sistema funcionando que adaptas a tu negocio. Antes, en las clases 1 y 2, aprendes lo necesario: usar Claude y ChatGPT con Excel y crear dashboards.\n\n📅 Martes 13, miércoles 14 y jueves 15 de octubre · 8:00 p.m. (hora Colombia)\n🎥 Grabaciones + certificado\n💵 $10 USD · Cupos limitados",
+        "cta": "Registrarte",
+        "titulos": [
+          "Tu sistema de ventas en Excel, con IA",
+          "Controla ventas e inventario con IA",
+          "Las finanzas de tu negocio, en Excel",
+          "Tu sistema en Excel, sin pagarle a nadie",
+          "Ventas, inventario y finanzas con IA"
+        ],
+        "descripciones": [
+          "3 clases en vivo · $10",
+          "Lo construimos en vivo",
+          "Sin saber fórmulas",
+          "Grabaciones + certificado",
+          "Clase 3: sistemas completos"
+        ]
+      },
+      {
+        "id": "instructor",
+        "titular": "3 clases en vivo\npor $10",
+        "subtitulo": "Empieza el martes 13 de octubre",
+        "texto_primario": "Alejandro Rodríguez lleva más de 10 años ayudando a empresas y profesionales a automatizar su trabajo con Excel. Es fundador de ExcelService y hoy integra Excel con inteligencia artificial.\n\nDurante 3 noches te enseña en vivo cómo lo hace:\n→ Martes 13: tu copiloto de Excel con IA\n→ Miércoles 14: dashboards sin sufrir\n→ Jueves 15: sistemas avanzados\n\n🕗 8:00 p.m. (hora Colombia)\n🎥 Grabaciones y certificado incluidos\n\nTodo por $10 USD. Los cupos son limitados para poder responder preguntas en vivo. 👇",
+        "cta": "Registrarte",
+        "titulos": [
+          "3 clases en vivo por $10",
+          "Empieza el martes 13 de octubre",
+          "Aprende Excel con IA con un experto",
+          "Cupos limitados: Excel con IA",
+          "Menos que una pizza: 3 clases en vivo"
+        ],
+        "descripciones": [
+          "Empieza el martes 13 de octubre",
+          "Con Alejandro Rodríguez",
+          "13, 14 y 15 oct · 8:00 p.m.",
+          "Grabaciones y certificado",
+          "Solo $10 USD"
+        ]
+      }
+    ]
+  }
+}

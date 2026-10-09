@@ -1,0 +1,30 @@
+{
+  "nombre": "band-image",
+  "descripcion": "Banda full-bleed de una sola imagen, sin padding ni texto. Rompe el ritmo del scroll entre secciones.",
+  "requiere": ["assets.banda-ejemplos"],
+  "nodos": [
+    {
+      "_if": "assets.banda-ejemplos",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+        "background_background": "classic",
+        "background_color": { "_color": "surface_muted" }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": { "url": "{{assets.banda-ejemplos}}", "source": "url", "alt": "{{copy.band.alt}}" },
+            "image_size": "full",
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

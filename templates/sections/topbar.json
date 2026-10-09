@@ -1,0 +1,69 @@
+{
+  "nombre": "topbar",
+  "descripcion": "Franja fina superior con degradado de marca: fecha, hora y escasez del evento. Queda fija arriba al hacer scroll (clase gx-sticky-top, requiere estilos-evento).",
+  "requiere": [
+    "copy.topbar.texto"
+  ],
+  "nodos": [
+    {
+      "_if": "copy.topbar.texto",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "center",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "16",
+          "bottom": "10",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": {
+          "_color": "primary"
+        },
+        "background_color_b": {
+          "_color": "secondary"
+        },
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "css_classes": "gx-sticky-top"
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "{{copy.topbar.texto}}",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "body"
+            },
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_font_weight": "600",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.4
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

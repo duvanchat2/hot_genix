@@ -1,6 +1,6 @@
 {
-  "nombre": "final-cta",
-  "descripcion": "Cierre: recapitula la promesa, repite el precio, repite el CTA y recuerda la garantía. Quien llega aquí ya leyó todo — solo necesita permiso para decidir.",
+  "nombre": "final-glow",
+  "descripcion": "CTA final sobre fondo oscuro con brillo de los dos colores de marca detrás: titular, subtítulo, botón degradado y microcopy.",
   "requiere": [
     "copy.final.headline",
     "copy.final.cta",
@@ -13,33 +13,40 @@
       "settings": {
         "content_width": "boxed",
         "flex_direction": "column",
-        "flex_align_items": "center",
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
         "padding": {
           "unit": "px",
-          "top": "96",
+          "top": "120",
           "right": "20",
-          "bottom": "96",
+          "bottom": "120",
           "left": "20",
           "isLinked": false
         },
-        "background_background": "gradient",
+        "padding_mobile": {
+          "unit": "px",
+          "top": "80",
+          "right": "16",
+          "bottom": "80",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
         "background_color": {
-          "_color": "secondary"
+          "_color": "surface_dark"
         },
-        "background_color_b": {
-          "_color": "primary"
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 22,
+          "column": "22",
+          "row": "22",
+          "isLinked": true
         },
-        "background_gradient_angle": {
-          "unit": "deg",
-          "size": 135
-        }
+        "boxed_width": {
+          "unit": "px",
+          "size": 820
+        },
+        "css_classes": "gx-glow-center",
+        "overflow": "hidden"
       },
       "elements": [
         {
@@ -49,11 +56,16 @@
             "title": "{{copy.final.headline}}",
             "header_size": "h2",
             "align": "center",
-            "title_color": "#FFFFFF",
+            "title_color": {
+              "_color": "text_on_dark"
+            },
             "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "heading"
+            },
             "typography_font_size": {
               "unit": "px",
-              "size": 42
+              "size": 46
             },
             "typography_font_size_mobile": {
               "unit": "px",
@@ -62,11 +74,11 @@
             "typography_font_weight": "800",
             "typography_line_height": {
               "unit": "em",
-              "size": 1.18
+              "size": 1.12
             },
-            "_element_custom_width": {
-              "unit": "%",
-              "size": 74
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.9
             }
           },
           "elements": []
@@ -77,19 +89,24 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p style=\"text-align:center\">{{copy.final.subhead}}</p>",
-            "text_color": "#F0EDFF",
+            "text_color": {
+              "_color": "text_on_dark_muted"
+            },
             "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "body"
+            },
             "typography_font_size": {
               "unit": "px",
               "size": 19
             },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 16
+            },
             "typography_line_height": {
               "unit": "em",
-              "size": 1.55
-            },
-            "_element_custom_width": {
-              "unit": "%",
-              "size": 64
+              "size": 1.6
             }
           },
           "elements": []
@@ -101,38 +118,51 @@
             "text": "{{copy.final.cta}}",
             "link": {
               "url": "{{curso.checkout_url}}",
-              "is_external": "on",
+              "is_external": "",
               "nofollow": "",
               "custom_attributes": ""
             },
             "align": "center",
+            "align_mobile": "justify",
             "size": "lg",
-            "background_color": "#FFFFFF",
-            "button_text_color": {
+            "background_background": "gradient",
+            "background_color": {
               "_color": "primary"
             },
+            "background_color_b": {
+              "_color": "secondary"
+            },
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "button_text_color": "#FFFFFF",
             "border_radius": {
               "unit": "px",
-              "top": "{{marca.escala.radioBoton}}",
-              "right": "{{marca.escala.radioBoton}}",
-              "bottom": "{{marca.escala.radioBoton}}",
-              "left": "{{marca.escala.radioBoton}}",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
               "isLinked": true
             },
             "text_padding": {
               "unit": "px",
-              "top": "22",
-              "right": "48",
-              "bottom": "22",
-              "left": "48",
+              "top": "20",
+              "right": "40",
+              "bottom": "20",
+              "left": "40",
               "isLinked": false
             },
             "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "body"
+            },
             "typography_font_size": {
               "unit": "px",
               "size": 19
             },
-            "typography_font_weight": "800"
+            "typography_font_weight": "800",
+            "_css_classes": "gx-btn"
           },
           "elements": []
         },
@@ -144,8 +174,13 @@
             "title": "{{copy.final.microcopy}}",
             "header_size": "div",
             "align": "center",
-            "title_color": "#E4DEFF",
+            "title_color": {
+              "_color": "text_on_dark_muted"
+            },
             "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "body"
+            },
             "typography_font_size": {
               "unit": "px",
               "size": 14

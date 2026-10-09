@@ -1,0 +1,95 @@
+{
+  "nombre": "pain-split-image",
+  "descripcion": "Variante de 'pain' a dos columnas: imagen a la izquierda, lista de dolores a la derecha. Usa curso.avatar.dolor (mismo dato que 'pain', otro layout).",
+  "requiere": ["copy.pain.bullets"],
+  "nodos": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": { "unit": "px", "size": 56, "column": "56", "row": "40", "isLinked": false },
+        "padding": { "unit": "px", "top": "{{marca.escala.seccionPaddingY}}", "right": "20", "bottom": "{{marca.escala.seccionPaddingY}}", "left": "20", "isLinked": false },
+        "background_background": "classic",
+        "background_color": { "_color": "surface_muted" }
+      },
+      "elements": [
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": { "unit": "%", "size": 46 },
+            "flex_grow": 1
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "_if": "assets.pain-canva",
+                "image": { "url": "{{assets.pain-canva}}", "source": "url", "alt": "{{copy.pain.headline}}" },
+                "image_size": "full",
+                "border_radius": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": { "unit": "%", "size": 46 },
+            "flex_grow": 1,
+            "flex_direction": "column",
+            "flex_gap": { "unit": "px", "size": 18, "column": "18", "row": "18", "isLinked": true }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": {
+                  "_map": "copy.pain.bullets",
+                  "_as": "d",
+                  "_template": {
+                    "text": "{{d}}",
+                    "selected_icon": { "value": "fas fa-times", "library": "fa-solid" }
+                  }
+                },
+                "space_between": { "unit": "px", "size": 16 },
+                "icon_color": { "_color": "primary" },
+                "icon_size": { "unit": "px", "size": 18 },
+                "text_color": { "_color": "text" },
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 17 },
+                "typography_line_height": { "unit": "em", "size": 1.5 }
+              },
+              "elements": []
+            },
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "_if": "copy.pain.cierre",
+                "title": "{{copy.pain.cierre}}",
+                "header_size": "div",
+                "title_color": { "_color": "text" },
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 21 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.35 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

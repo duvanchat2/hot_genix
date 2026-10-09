@@ -30,9 +30,16 @@
           "left": "20",
           "isLinked": false
         },
-        "background_background": "classic",
+        "background_background": "gradient",
         "background_color": {
-          "_color": "surface_dark"
+          "_color": "secondary"
+        },
+        "background_color_b": {
+          "_color": "primary"
+        },
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
         }
       },
       "elements": [
@@ -44,9 +51,7 @@
             "title": "{{copy.hero.eyebrow}}",
             "header_size": "div",
             "align": "center",
-            "title_color": {
-              "_color": "primary"
-            },
+            "title_color": "#FFFFFF",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",
@@ -68,8 +73,13 @@
             "title": "{{copy.hero.headline}}",
             "header_size": "h1",
             "align": "center",
-            "title_color": {
-              "_color": "text_on_dark"
+            "title_color": "#FFFFFF",
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 18,
+              "color": "rgba(11,10,40,0.55)"
             },
             "typography_typography": "custom",
             "typography_font_size": {
@@ -101,9 +111,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p style=\"text-align:center\">{{copy.hero.subhead}}</p>",
-            "text_color": {
-              "_color": "text_muted"
-            },
+            "text_color": "rgba(255,255,255,0.94)",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",
@@ -133,10 +141,10 @@
             },
             "align": "center",
             "size": "lg",
-            "background_color": {
+            "background_color": "#FFFFFF",
+            "button_text_color": {
               "_color": "primary"
             },
-            "button_text_color": "#FFFFFF",
             "border_radius": {
               "unit": "px",
               "top": "{{marca.escala.radioBoton}}",
@@ -168,9 +176,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p style=\"text-align:center\">{{copy.hero.microcopy}}</p>",
-            "text_color": {
-              "_color": "text_muted"
-            },
+            "text_color": "rgba(255,255,255,0.72)",
             "typography_typography": "custom",
             "typography_font_size": {
               "unit": "px",
