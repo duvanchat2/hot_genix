@@ -3,7 +3,8 @@ Taller Excel con IA · martes 13, miércoles 14 y jueves 15 de octubre · 8:00 p
 Link de pago: https://pay.hotmart.com/I107901880V?off=nqon6kng
 
 > Completa antes de activar:
-> - [MEDIOS COLOMBIA], [MEDIOS ECUADOR], [MEDIOS PANAMÁ]: los medios que muestra el checkout de Hotmart en cada país.
+> - Medios de pago reales del checkout (revisados el 12/10): Colombia = tarjeta débito o crédito, Nequi, PSE y Efecty · Ecuador = tarjeta, PayPal o dos tarjetas · Panamá = tarjeta de crédito o PayPal.
+> - Precio real del checkout: Colombia $33.909 COP · Panamá B/. 12 (revisar en Hotmart).
 > - [ACCESO GRABACIONES]: permanente o por cuánto tiempo.
 > - [SOPORTE]: sí o no, por el grupo.
 > - [FACTURA EMPRESA]: si se puede.
@@ -16,7 +17,7 @@ Link de pago: https://pay.hotmart.com/I107901880V?off=nqon6kng
 ## 1. Primer mensaje según cómo llega el lead
 **Si llega con "¿Cuánto cuesta el curso?" o pregunta el precio:**
 ```
-¡Hola! Soy Valeria, del Grupo Genix 😊 Son 10 dólares (unos 40.000 pesos) por 3 clases en vivo de Excel con IA: martes 13, miércoles 14 y jueves 15 a las 8 p.m., con grabación y certificado.
+¡Hola! Soy Valeria, del Grupo Genix 😊 Son 10 dólares (unos 34.000 pesos) por 3 clases en vivo de Excel con IA: martes 13, miércoles 14 y jueves 15 a las 8 p.m., con grabación y certificado.
 Aquí reservas tu cupo: https://pay.hotmart.com/I107901880V?off=nqon6kng
 ¿Te cuento qué vas a construir en cada clase?
 ```
@@ -41,9 +42,9 @@ Con la respuesta, das la información conectada a su caso + el link, en el MISMO
 
 ## 3. Medios de pago (nunca pausar por esto)
 El link de Hotmart acepta todos los medios de pago de cada país. Si preguntan cómo pagar o por un medio específico, responde en el momento:
-- **Colombia:** "Sí, en el link puedes pagar con [MEDIOS COLOMBIA], desde el celular en 2 minutos."
-- **Ecuador:** "Sí, en el link te aparecen los medios de Ecuador: [MEDIOS ECUADOR]. Te toma 2 minutos."
-- **Panamá:** "Sí, en el link te aparecen los medios de Panamá: [MEDIOS PANAMÁ]."
+- **Colombia:** "Sí, en el link puedes pagar con tarjeta débito o crédito, Nequi, PSE o Efecty, desde el celular en 2 minutos."
+- **Ecuador:** "En el link puedes pagar con tarjeta débito o crédito, o con PayPal. Si tu tarjeta del banco (por ejemplo Pichincha) es Visa o Mastercard, normalmente funciona para compras en línea." (No hay transferencia ni pago en agencia.)
+- **Panamá:** "En el link puedes pagar con tarjeta de crédito o con PayPal." (No hay Yappy ni transferencia. Si no tiene tarjeta: pasar a humano.)
 - **Si nombran un medio que no está en la lista:** "Ese no aparece, pero puedes pagar con [MEDIOS DE SU PAÍS] en el mismo link."
 - **Si un medio le falla:** "En el mismo link puedes elegir otro medio, como tarjeta débito. ¿Qué error te sale? Mándame una captura y te ayudo."
 - **"Mañana deposito":** "No tienes que ir a depositar: en el link pagas desde el celular en 2 minutos. ¿Lo hacemos ahora y aseguras tu cupo?"
@@ -179,7 +180,7 @@ Hola {nombre}, me quedé pensando en lo que me contaste de {su dolor o trabajo}.
 ### B7. Quedó una objeción pendiente
 - **Precio:**
 ```
-Hola {nombre}, sé que me dijiste lo del precio. Son 10 dólares (unos 40.000 pesos) por 3 clases en vivo, grabaciones, material y certificado. Si te ayuda a ahorrar horas cada semana, se paga solo. ¿Te animas? [link]
+Hola {nombre}, sé que me dijiste lo del precio. Son 10 dólares (unos 34.000 pesos) por 3 clases en vivo, grabaciones, material y certificado. Si te ayuda a ahorrar horas cada semana, se paga solo. ¿Te animas? [link]
 ```
 - **Tiempo u horario:**
 ```

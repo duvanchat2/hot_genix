@@ -51,7 +51,7 @@
 ## 2. PRECIO Y PAGO
 
 - **Precio:** 10 USD, pago único.
-- **Equivalente aproximado** (varía según la tasa del día y del medio de pago): unos 40.000 COP o unos 38 PEN. Siempre se dice "aproximadamente": el valor final lo muestra Hotmart al pagar.
+- **Equivalente aproximado** (varía según la tasa del día y del medio de pago): unos 34.000 COP (precio del checkout: $33.909). Siempre se dice "aproximadamente": el valor final lo muestra Hotmart al pagar.
 - **Link de pago:** https://pay.hotmart.com/I107901880V?off=nqon6kng
 - **Medios de pago:** los que muestre Hotmart según el país, por lo general tarjeta y opciones locales. El bot dice: "En el link ves los medios disponibles para tu país."
 - **Pagos fuera de Hotmart (Nequi, transferencia):** [PENDIENTE]. Mientras tanto, solo se vende por Hotmart.
