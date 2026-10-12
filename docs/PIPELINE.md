@@ -122,6 +122,23 @@ Catálogo actual en `templates/sections/`:
 | `faq` / `faq-plain` | no hay `copy.faq` |
 | `final-cta` | — |
 
+**Arquetipo evento en vivo** (workshops con fecha; primer uso: `workshop-excel-ia`).
+Toma las sesiones de `copy.agenda.sesiones` y pone `estilos-evento` **primero**:
+
+| Sección | Qué hace |
+|---|---|
+| `estilos-evento` | CSS de apoyo (clases `gx-*`): cuadrícula, brillos, botón degradado, ticket, barras fijas |
+| `topbar` | franja fija con fecha, hora y cupos |
+| `hero-event` | hero oscuro con chips de fecha por sesión y visual del producto (HTML o imagen) |
+| `pain-image-left` | foto vertical + titular + dolores con ✕ |
+| `agenda-cards` | una tarjeta por sesión con fecha, ícono y "Sales con" |
+| `audience-grid` | para quién es, grilla 2×2 |
+| `offer-split` | qué incluye: mockup + precio único + checks + CTA |
+| `instructor-round` | foto circular + bio en varios párrafos |
+| `price-ticket` | precio como entrada de evento, sin tachado |
+| `final-glow` | cierre oscuro con brillo de marca |
+| `sticky-cta` | barra fija inferior solo en móvil |
+
 Que una sección **desaparezca sola** cuando faltan sus datos es deliberado: mejor una
 landing más corta que una con un hueco de testimonios vacío.
 

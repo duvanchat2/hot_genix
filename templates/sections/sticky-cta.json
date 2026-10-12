@@ -1,0 +1,137 @@
+{
+  "nombre": "sticky-cta",
+  "descripcion": "Barra fija inferior solo en móvil: nombre y precio a la izquierda, botón a la derecha. Aparece al bajar más allá del hero (script en estilos-evento). Oculta en escritorio y tablet.",
+  "requiere": [
+    "copy.sticky.texto",
+    "copy.sticky.cta"
+  ],
+  "nodos": [
+    {
+      "_if": "copy.sticky.cta",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 12,
+          "column": "12",
+          "row": "12",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "16",
+          "bottom": "12",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": {
+          "_color": "surface_dark"
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#FFFFFF1F",
+        "css_classes": "gx-sticky-cta",
+        "hide_desktop": "hidden-desktop",
+        "hide_tablet": "hidden-tablet"
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "{{copy.sticky.texto}} · <span style=\"color:{{marca.colores.accent.hex}};font-weight:800\">{{d.simbolo}}{{d.precio | money}}</span>",
+            "header_size": "div",
+            "title_color": {
+              "_color": "text_on_dark"
+            },
+            "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "body"
+            },
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "600",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.3
+            },
+            "_element_width": "auto"
+          },
+          "elements": []
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "{{copy.sticky.cta}}",
+            "link": {
+              "url": "{{curso.checkout_url}}",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "right",
+            "align_mobile": "right",
+            "size": "lg",
+            "background_background": "gradient",
+            "background_color": {
+              "_color": "primary"
+            },
+            "background_color_b": {
+              "_color": "secondary"
+            },
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "12",
+              "right": "18",
+              "bottom": "12",
+              "left": "18",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_family": {
+              "_font": "body"
+            },
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_font_weight": "800",
+            "_css_classes": "gx-btn",
+            "_element_width": "auto"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

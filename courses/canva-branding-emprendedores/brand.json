@@ -1,0 +1,19 @@
+{
+  "$comment": "Paleta inspirada en el gradiente del ícono de Canva (turquesa → azul → morado) — decisión tomada en el canvas de Claude Design tras ver el logo de Canva. Sigue sin poder traer la referencia exacta (finmarkacademy.com/canvaclub está bloqueada desde este entorno); ajusta si consigues capturas.",
+  "meta": { "nombre": "" },
+  "colores": {
+    "primary":       { "hex": "#7D2AE8" },
+    "secondary":     { "hex": "#00B4BD" },
+    "accent":        { "hex": "#FF6B57" },
+    "surface_dark":  { "hex": "#170B2E" },
+    "surface_light": { "hex": "#FCFBFF" },
+    "surface_muted": { "hex": "#F1ECFB" },
+    "text":          { "hex": "#1B1730" },
+    "text_on_dark":  { "hex": "#F3EFFF" },
+    "text_muted":    { "hex": "#6B6483" }
+  },
+  "tipografia": {
+    "heading": { "familia": "Poppins", "pesos": [700, 800], "fallback": "'Segoe UI', system-ui, sans-serif" },
+    "body":    { "familia": "Work Sans", "pesos": [400, 500, 600], "fallback": "'Segoe UI', system-ui, sans-serif" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$comment": "Imágenes reales del diseño final (vienen de Claude Design, ya en assets/). 'url' es un placeholder deliberado: súbelas a WordPress → Medios y reemplaza cada valor por la URL real antes de publicar (ver templates/... generado). El archivo local vive en assets/ con el mismo nombre para referencia.",
+  "imagenes": [
+    { "id": "pain-canva", "archivo": "pain-canva.png", "url": "REEMPLAZAR-URL-WP/pain-canva.png" },
+    { "id": "mecanismo-01", "archivo": "mecanismo-01-estrategia.png", "url": "REEMPLAZAR-URL-WP/mecanismo-01-estrategia.png" },
+    { "id": "mecanismo-02", "archivo": "mecanismo-02-sistema.png", "url": "REEMPLAZAR-URL-WP/mecanismo-02-sistema.png" },
+    { "id": "mecanismo-03", "archivo": "mecanismo-03-produccion.png", "url": "REEMPLAZAR-URL-WP/mecanismo-03-produccion.png" },
+    { "id": "banda-ejemplos", "archivo": "banda-cientos-disenos.png", "url": "REEMPLAZAR-URL-WP/banda-cientos-disenos.png" },
+    { "id": "mockup-curso", "archivo": "mockup-curso.png", "url": "REEMPLAZAR-URL-WP/mockup-curso.png" },
+    { "id": "bonus-1", "archivo": "bonus-1-plantillas.png", "url": "REEMPLAZAR-URL-WP/bonus-1-plantillas.png" },
+    { "id": "bonus-2", "archivo": "bonus-2-comunidad.png", "url": "REEMPLAZAR-URL-WP/bonus-2-comunidad.png" },
+    { "id": "bonus-3", "archivo": "bonus-3-clases-vivo.png", "url": "REEMPLAZAR-URL-WP/bonus-3-clases-vivo.png" },
+    { "id": "sellos-garantia", "archivo": "sellos-garantia.webp", "url": "REEMPLAZAR-URL-WP/sellos-garantia.webp" },
+    { "id": "fondo-precio", "archivo": "fondo-precio.png", "url": "REEMPLAZAR-URL-WP/fondo-precio.png" }
+  ]
+}

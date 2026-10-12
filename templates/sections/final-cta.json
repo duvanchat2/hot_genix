@@ -29,9 +29,16 @@
           "left": "20",
           "isLinked": false
         },
-        "background_background": "classic",
+        "background_background": "gradient",
         "background_color": {
+          "_color": "secondary"
+        },
+        "background_color_b": {
           "_color": "primary"
+        },
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
         }
       },
       "elements": [
