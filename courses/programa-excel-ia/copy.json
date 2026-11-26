@@ -1,0 +1,147 @@
+{
+  "$comment": "Copy sacado del guion del webinar de Miguel Rodríguez. El VSL es la grabación del webinar; el titular del hero solo tiene que conseguir el play. Los datos [CONFIRMAR] del guion (ciudad, empresas) no están en la página.",
+
+  "hero": {
+    "eyebrow": "Clase grabada · Excel con IA",
+    "headline": "Mira cómo 300 filas desordenadas se vuelven un dashboard que se actualiza solo",
+    "cta": "Quiero mi sistema con Excel e IA",
+    "microcopy": "Edición de fundadores: 99 USD o 3 cuotas · 7 días de garantía · Acceso permanente",
+    "variantes": {
+      "headline": [
+        "Mira cómo 300 filas desordenadas se vuelven un dashboard que se actualiza solo",
+        "El reporte que te toma 3 horas cada lunes, en un minuto y con la versión gratis de ChatGPT",
+        "No te enseñamos a memorizar fórmulas: te enseñamos a pedírselas a la IA"
+      ],
+      "cta": ["Quiero mi sistema con Excel e IA", "Entrar a la edición de fundadores"]
+    }
+  },
+
+  "pain": {
+    "headline": "Tu reporte del lunes no debería tomarte el lunes completo",
+    "intro": "Si tu trabajo pasa por Excel, seguramente te suena alguna de estas frases. Nos las escribieron personas como tú:",
+    "bullets": [
+      "«Es mucha información que se debe analizar y consolidar»",
+      "«Tareas repetitivas. Me quitan tiempo»",
+      "«Quiero mostrar la información de forma gráfica, entendible y llamativa»",
+      "«No conozco nada de IA y por eso quiero aprender»",
+      "Cada semana copias, pegas, cruzas bases a mano y rehaces el mismo reporte del lunes pasado"
+    ],
+    "cierre": "El problema no es que seas malo en Excel. Es que te enseñaron a memorizar fórmulas, y nadie tiene tiempo para eso."
+  },
+
+  "mechanism": {
+    "headline": "Con IA, la regla del juego cambió",
+    "explicacion": "Antes, para armar un dashboard o automatizar un reporte necesitabas años de Excel. Hoy no: la IA te dice cada paso y tú lo sigues. Lo que necesitas no es saber Excel, es saber pedir. Y eso se aprende con tres secretos.",
+    "pasos": [
+      {
+        "titulo": "No memorices fórmulas: pídeselas a la IA",
+        "descripcion": "Le explicas lo que necesitas como a un compañero de trabajo y verificas el resultado: que las filas tengan sentido y que los totales cuadren."
+      },
+      {
+        "titulo": "Un buen reporte se ve, no se lee",
+        "descripcion": "Tu jefe no quiere 300 filas: quiere tres números y un gráfico que respondan cuánto, quién y cuándo."
+      },
+      {
+        "titulo": "Arma una vez, actualiza para siempre",
+        "descripcion": "Pegas los datos nuevos, das clic en Actualizar todo y el tablero se recalcula solo. El reporte de 3 horas pasa a tomarte un minuto."
+      }
+    ]
+  },
+
+  "audience": {
+    "headline": "Es para ti si tu trabajo pasa por Excel",
+    "bullets": [
+      "Eres contador o llevas la contabilidad de varios clientes y pasas días digitando",
+      "Eres asistente administrativa y armas los mismos informes cada semana",
+      "Manejas inventarios, bodega o despachos y siempre hay algo que no cuadra",
+      "Tienes una pequeña empresa y quieres ver tus números sin pagarle a alguien cada mes"
+    ],
+    "cierre": "Si haces algo más de dos veces al mes en Excel, se puede automatizar."
+  },
+
+  "offer": {
+    "headline": "Qué vas a construir en 4 semanas",
+    "intro": "Cada módulo termina con algo funcionando. Al final no te llevas solo un certificado: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes."
+  },
+
+  "bonus": {
+    "headline": "Todo lo que incluye tu inscripción",
+    "intro": "Además de los 6 módulos, te llevas esto. Los tres bonos de fundadores solo están en esta edición.",
+    "cta": "Quiero entrar como fundador"
+  },
+
+  "instructor": {
+    "headline": "Quién te va a enseñar",
+    "bio": "Soy Miguel Rodríguez. Llevo más de siete años en comercio exterior, donde todo pasaba por Excel: facturas, inventarios, presupuestos de varios países y tableros para la junta directiva. Cansado de ver horas perdidas copiando y pegando, empecé a automatizar mis propios reportes y fundé Excel Service para hacerlo por pequeñas empresas y contadores. Por años mi mensaje fue «No enseñamos Excel, lo hacemos por ti». Con la IA eso cambió, y por primera vez quiero enseñarte a hacerlo tú."
+  },
+
+  "price": {
+    "headline": "Edición de fundadores",
+    "cta": "Inscribirme por 99 USD",
+    "urgencia": "Al cerrar la edición de fundadores el precio sube a 129 USD y los bonos se retiran"
+  },
+
+  "guarantee": {
+    "texto": "Tienes 7 días de garantía por Hotmart: si no te gusta, pides tu dinero y listo, sin preguntas. Y además: si haces el módulo 1 y no te ahorra al menos una hora en tu primer reporte, te devolvemos tu dinero. El riesgo es nuestro, no tuyo."
+  },
+
+  "faq_headline": "Preguntas frecuentes",
+  "faq": [
+    {
+      "pregunta": "No sé nada de Excel, ¿igual puedo?",
+      "respuesta": "Sí. Empiezas con el módulo 0, desde lo más básico. Si sabes abrir Excel, copiar y pegar, tienes el nivel."
+    },
+    {
+      "pregunta": "¿Sirve con Office 2016, 2019 o 2021?",
+      "respuesta": "Sí. Funciona desde Excel 2016 en adelante. No necesitas Office 365."
+    },
+    {
+      "pregunta": "¿Tengo que pagar ChatGPT o Claude?",
+      "respuesta": "No. Todo el programa funciona con las versiones gratuitas, y en el módulo 0 te enseñamos a crear tus cuentas."
+    },
+    {
+      "pregunta": "¿Y si no puedo a la hora de las sesiones en vivo?",
+      "respuesta": "Las clases son grabadas, con acceso permanente, y las sesiones en vivo de preguntas también quedan grabadas."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo tengo acceso?",
+      "respuesta": "Acceso permanente al contenido grabado. El grupo de soporte está activo durante 60 días."
+    },
+    {
+      "pregunta": "¿Sirve para mi área?",
+      "respuesta": "Si tu trabajo usa datos en Excel, sí. Tienes plantillas por profesión y en el módulo 5 lo construyes con tu propio caso."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo al día tengo que dedicarle?",
+      "respuesta": "Las clases son cortas, de 20 a 40 minutos. Con una o dos horas a la semana avanzas sin problema."
+    },
+    {
+      "pregunta": "¿Puedo pagar en cuotas?",
+      "respuesta": "Sí. Un solo pago de 99 USD, o 2 cuotas de 55 USD o 3 de 39 USD. En Colombia son unos 340.000 pesos, según la tasa del día."
+    },
+    {
+      "pregunta": "No tengo tarjeta, ¿cómo pago?",
+      "respuesta": "En Colombia puedes pagar por PSE o Nequi. Si estás en Panamá o Ecuador y no tienes tarjeta, escríbenos al WhatsApp +57 301 110 2728: te damos las opciones de pago y recibes tu acceso en menos de una hora después de enviar el comprobante."
+    },
+    {
+      "pregunta": "¿Cómo sé que no es estafa?",
+      "respuesta": "El pago es por Hotmart, una plataforma reconocida, con 7 días de garantía. El acceso te llega de inmediato a tu correo. Y si tienes dudas antes de pagar, escríbenos al WhatsApp."
+    },
+    {
+      "pregunta": "¿Dan certificado?",
+      "respuesta": "Sí. Pero lo más valioso es que sales con tu dashboard y tu automatización funcionando."
+    }
+  ],
+
+  "final": {
+    "headline": "¿Vas a entregar el reporte en un minuto o te vas a seguir quedando hasta tarde?",
+    "subhead": "La IA ya está cambiando la forma de trabajar con Excel. En 4 semanas tienes tu propio sistema funcionando.",
+    "cta": "Inscribirme a la edición de fundadores",
+    "microcopy": "99 USD o 3 cuotas · 7 días de garantía · Acceso permanente"
+  },
+
+  "sticky": {
+    "texto": "Excel con IA · Fundadores",
+    "cta": "Inscribirme"
+  }
+}

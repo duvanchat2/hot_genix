@@ -1,0 +1,140 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Programa "Excel con IA. De las horas perdidas a tu propio sistema"
+# Página de venta con VSL (la grabación del webinar de Miguel Rodríguez).
+#
+# PENDIENTES antes de publicar (buscar [PENDIENTE]):
+#   - vsl.url: link del video (YouTube, Vimeo o Bunny).
+#   - checkout_url: link de pago de Hotmart del programa de 99 USD.
+#   - urgencia.fecha_limite: fecha real en que el precio sube a 129 USD.
+#   - instructor.foto: URL de la foto de Miguel.
+#   - Datos marcados [CONFIRMAR] en el guion (ciudad, empresas) quedaron FUERA
+#     hasta confirmarlos.
+# ─────────────────────────────────────────────────────────────────────────────
+
+slug: programa-excel-ia
+nombre: "Excel con IA. De las horas perdidas a tu propio sistema"
+subtitulo: "Programa de 4 semanas para construir con IA un dashboard que se actualiza solo y automatizar el reporte que hoy te roba horas"
+
+promesa: "En 4 semanas construyes con IA un dashboard que se actualiza solo y automatizas el reporte que hoy te roba horas cada semana, aunque empieces desde cero"
+
+hero_type: vsl
+
+vsl:
+  url: "https://www.youtube.com/watch?v=PENDIENTE"   # [PENDIENTE] link real del video
+  plataforma: youtube
+  portada: ""   # [PENDIENTE] miniatura del video; vacía, Elementor muestra la de YouTube
+
+avatar:
+  quien: "Contadores, asistentes administrativas, encargados de inventario y bodega, ingenieros y dueños de pequeñas empresas de Colombia, Ecuador y Panamá cuyo trabajo pasa por Excel"
+  nivel: principiante
+  dolor:
+    - "Es mucha información que se debe analizar y consolidar"
+    - "Tareas repetitivas que quitan tiempo todas las semanas"
+    - "Quiero mostrar la información de forma gráfica, entendible y llamativa"
+    - "No conozco nada de IA y quiero aprender"
+    - "Rehago el mismo reporte cada lunes: copiar, pegar y volver a armar los gráficos"
+  objeciones:
+    - "No sé nada de Excel, ¿igual puedo?"
+    - "¿Sirve con Office 2016, 2019 o 2021?"
+    - "¿Tengo que pagar ChatGPT o Claude?"
+    - "¿Y si no puedo a la hora de las sesiones en vivo?"
+    - "¿Sirve para mi área?"
+    - "No tengo tarjeta, ¿cómo pago?"
+    - "¿Cómo sé que no es estafa?"
+  estado_deseado: "Entregar el reporte en un minuto en vez de quedarse hasta tarde rehaciéndolo"
+
+transformacion:
+  antes: "Horas cada semana copiando, pegando y rehaciendo el mismo reporte"
+  despues: "Un dashboard propio que se actualiza con un clic y un reporte automatizado con tus datos"
+  plazo: "4 semanas"
+
+mecanismo:
+  nombre: "El método de los 3 secretos"
+  explicacion: "El problema no es que seas malo en Excel: es que te enseñaron a memorizar fórmulas. Con IA la regla cambió. Ya no necesitas saberte la fórmula, necesitas saber pedirla, mostrar el resultado en un tablero y armarlo una sola vez para que se actualice solo."
+  pasos:
+    - "No memorices fórmulas: pídeselas a la IA y verifica que estén bien"
+    - "Un buen reporte se ve, no se lee: tres números y un gráfico"
+    - "Arma una vez, actualiza para siempre: un clic y todo se recalcula"
+
+modulos:
+  - titulo: "Módulo 0 · Arranque"
+    descripcion: "Qué versión de Excel sirve, cómo crear tus cuentas gratis de ChatGPT y Claude, y nivelación desde cero: celda, fila, columna y tabla."
+    resultado: "Llegas listo, aunque nunca hayas usado Excel en serio"
+  - titulo: "Módulo 1 · Tu copiloto de fórmulas"
+    descripcion: "Aprendes a pedirle a la IA cualquier fórmula y a verificar que esté bien antes de usarla."
+    resultado: "Dejas de buscar fórmulas en Google y de memorizarlas"
+  - titulo: "Módulo 2 · Limpieza y cruce de bases"
+    descripcion: "Juntar información de varios archivos, quitar duplicados, cruzar datos e incluso sacar información de un PDF, como un extracto bancario."
+    resultado: "Bases limpias y unificadas en minutos, no en horas"
+  - titulo: "Módulo 3 · Tablas dinámicas y dashboards"
+    descripcion: "Lo que viste en el video, completo y a fondo: tablas dinámicas, gráficos y un tablero que cualquier jefe entiende en diez segundos."
+    resultado: "Tu primer dashboard listo para presentar"
+  - titulo: "Módulo 4 · Automatiza lo repetitivo"
+    descripcion: "Macros y scripts escritos por la IA. Tú no programas: la IA escribe el código y tú aprendes a pegarlo y usarlo."
+    resultado: "Tareas de horas que ahora corren solas"
+  - titulo: "Módulo 5 · Tu dashboard y tu primera automatización"
+    descripcion: "Trabajas con tus propios datos: estados financieros, inventarios, presupuestos o cartera."
+    resultado: "Sales con tu sistema funcionando en tu trabajo"
+
+bonus:
+  - nombre: "6 sesiones en vivo de preguntas"
+    descripcion: "Resuelves tus dudas en directo. Si no puedes a la hora, quedan grabadas."
+    valor: 0
+  - nombre: "Plantillas por profesión"
+    descripcion: "Contabilidad, inventarios, presupuestos y registro de clientes, listas para adaptar."
+    valor: 0
+  - nombre: "Biblioteca de 100 prompts"
+    descripcion: "Los prompts listos para copiar y pegar en ChatGPT o Claude."
+    valor: 0
+  - nombre: "Grupo de soporte durante 60 días"
+    descripcion: "Donde resuelves tus dudas mientras construyes tu sistema."
+    valor: 0
+  - nombre: "Bono de fundadores · Excel desde cero en 7 días"
+    descripcion: "Videos cortos de 5 minutos para que llegues listo, aunque no sepas nada de Excel."
+    valor: 0
+  - nombre: "Bono de fundadores · Revisión en vivo de archivos reales"
+    descripcion: "Una sesión en vivo donde se revisa el archivo real de tres alumnos, con sus datos."
+    valor: 0
+  - nombre: "Bono de fundadores · Tu IA gratis en 10 minutos"
+    descripcion: "Guía para crear y dejar listas tus cuentas gratuitas de IA."
+    valor: 0
+
+precio: 99
+precio_ancla: 129
+moneda: USD
+
+pago:
+  cuotas: 3
+  nota: "Un solo pago de 99 USD, o en cuotas: 2 de 55 USD o 3 de 39 USD. En Colombia son unos 340.000 COP."
+
+checkout_url: "https://pay.hotmart.com/PENDIENTE"   # [PENDIENTE] link del programa de 99 USD
+
+garantia:
+  dias: 7
+  texto: "Tienes 7 días de garantía por Hotmart: si no te gusta, pides tu dinero y listo, sin preguntas. Y además: si haces el módulo 1 y no te ahorra al menos una hora en tu primer reporte, te devolvemos tu dinero. El riesgo es nuestro, no tuyo."
+
+urgencia:
+  tipo: precio
+  detalle: "Edición de fundadores: al cerrarla, el precio sube a 129 USD y los bonos de fundadores se retiran"
+  # fecha_limite: 2026-12-01   # [PENDIENTE] fecha real de cierre; sin ella no se muestra cuenta regresiva
+
+prueba_social: []   # sin testimonios reales todavía: la sección se omite sola
+
+instructor:
+  nombre: "Miguel Rodríguez"
+  bio: "Más de siete años trabajando en comercio exterior: importaciones, exportaciones y aduanas. Facturas, inventarios, pronósticos y presupuestos de ventas de varios países, y tableros para la junta directiva: todo pasaba por Excel. Cansado de perder horas copiando, pegando y rehaciendo el mismo reporte, empezó a automatizar los suyos y fundó Excel Service para hacerlo por pequeñas empresas y contadores."
+  credenciales:
+    - "Fundador de Excel Service"
+    - "+7 años en comercio exterior"
+    - "Automatizaciones para una escuela de conducción, una exportadora de maracuyá y la contabilidad de estaciones de servicio"
+  foto: ""   # [PENDIENTE] URL de la foto
+
+faq_extra:
+  - pregunta: "¿Cuánto tiempo al día tengo que dedicarle?"
+    respuesta: "Las clases son cortas, de 20 a 40 minutos. Con una o dos horas a la semana avanzas sin problema."
+
+seo:
+  title: "Excel con IA · De las horas perdidas a tu propio sistema"
+  description: "Programa de 4 semanas: construye con IA un dashboard que se actualiza solo y automatiza tu reporte semanal, aunque empieces desde cero."
+
+idioma: es-419
