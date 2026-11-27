@@ -1,11 +1,10 @@
 {
-  "$comment": "Copy sacado del guion del webinar de Miguel Rodríguez. El VSL es la grabación del webinar; el titular del hero solo tiene que conseguir el play. Los datos [CONFIRMAR] del guion (ciudad, empresas) no están en la página.",
-
+  "$comment": "Copy sacado del guion del webinar de Miguel Rodríguez, adaptado a membresía mensual en Skool (10 USD/mes, solo tarjeta, cancela cuando quieras). Los datos [CONFIRMAR] del guion (ciudad, empresas) no están en la página.",
   "hero": {
     "eyebrow": "Clase grabada · Excel con IA",
     "headline": "Descubre cómo la IA automatiza tus archivos de Excel: reportes, dashboards y todo lo que hoy haces a mano",
-    "cta": "Quiero mi sistema con Excel e IA",
-    "microcopy": "Edición de fundadores: 99 USD o 3 cuotas · 7 días de garantía · Acceso permanente",
+    "cta": "Quiero entrar por 10 USD al mes",
+    "microcopy": "Precio de fundador · Cancela cuando quieras · Comunidad en Skool",
     "variantes": {
       "headline": [
         "Descubre cómo la IA automatiza tus archivos de Excel: reportes, dashboards y todo lo que hoy haces a mano",
@@ -14,10 +13,12 @@
         "Deja de quedarte hasta tarde rehaciendo el mismo reporte en Excel",
         "Mira cómo 300 filas desordenadas se vuelven un dashboard que se actualiza solo"
       ],
-      "cta": ["Quiero mi sistema con Excel e IA", "Entrar a la edición de fundadores"]
+      "cta": [
+        "Quiero entrar por 10 USD al mes",
+        "Quiero mi sistema con Excel e IA"
+      ]
     }
   },
-
   "pain": {
     "headline": "Tu reporte del lunes no debería tomarte el lunes completo",
     "intro": "Si tu trabajo pasa por Excel, seguramente te suena alguna de estas frases. Nos las escribieron personas como tú:",
@@ -30,7 +31,6 @@
     ],
     "cierre": "El problema no es que seas malo en Excel. Es que te enseñaron a memorizar fórmulas, y nadie tiene tiempo para eso."
   },
-
   "mechanism": {
     "headline": "Con IA, la regla del juego cambió",
     "explicacion": "Antes, para armar un dashboard o automatizar un reporte necesitabas años de Excel. Hoy no: la IA te dice cada paso y tú lo sigues. Lo que necesitas no es saber Excel, es saber pedir. Y eso se aprende con tres secretos.",
@@ -49,7 +49,6 @@
       }
     ]
   },
-
   "audience": {
     "headline": "Es para ti si tu trabajo pasa por Excel",
     "bullets": [
@@ -60,33 +59,27 @@
     ],
     "cierre": "Si haces algo más de dos veces al mes en Excel, se puede automatizar."
   },
-
   "offer": {
     "headline": "Qué vas a construir en 4 semanas",
-    "intro": "Cada módulo termina con algo funcionando. Al final no te llevas solo un certificado: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes."
+    "intro": "Cada módulo termina con algo funcionando. Al final no te llevas solo teoría: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes."
   },
-
   "bonus": {
     "headline": "Todo lo que incluye tu inscripción",
     "intro": "Además de los 6 módulos, te llevas esto. Los tres bonos de fundadores solo están en esta edición.",
     "cta": "Quiero entrar como fundador"
   },
-
   "instructor": {
     "headline": "Quién te va a enseñar",
     "bio": "Soy Miguel Rodríguez. Llevo más de siete años en comercio exterior, donde todo pasaba por Excel: facturas, inventarios, presupuestos de varios países y tableros para la junta directiva. Cansado de ver horas perdidas copiando y pegando, empecé a automatizar mis propios reportes y fundé Excel Service para hacerlo por pequeñas empresas y contadores. Por años mi mensaje fue «No enseñamos Excel, lo hacemos por ti». Con la IA eso cambió, y por primera vez quiero enseñarte a hacerlo tú."
   },
-
   "price": {
-    "headline": "Edición de fundadores",
-    "cta": "Inscribirme por 99 USD",
-    "urgencia": "Al cerrar la edición de fundadores el precio sube a 129 USD y los bonos se retiran"
+    "headline": "Precio de fundador",
+    "intro": "Si te ahorra una sola hora al mes, ya se pagó.",
+    "incluye": "Todo el programa, la comunidad y los bonos de fundador por:",
+    "remate": "al mes. Menos de 35 centavos de dólar al día, y cancelas cuando quieras.",
+    "cta": "Unirme por 10 USD al mes",
+    "urgencia": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 10 USD mientras sigas activo."
   },
-
-  "guarantee": {
-    "texto": "Tienes 7 días de garantía por Hotmart: si no te gusta, pides tu dinero y listo, sin preguntas. Y además: si haces el módulo 1 y no te ahorra al menos una hora en tu primer reporte, te devolvemos tu dinero. El riesgo es nuestro, no tuyo."
-  },
-
   "faq_headline": "Preguntas frecuentes",
   "faq": [
     {
@@ -102,12 +95,24 @@
       "respuesta": "No. Todo el programa funciona con las versiones gratuitas, y en el módulo 0 te enseñamos a crear tus cuentas."
     },
     {
+      "pregunta": "¿Qué es Skool?",
+      "respuesta": "Es la plataforma donde vive el programa: ahí ves las clases, descargas las plantillas y publicas tus dudas en la comunidad. Funciona desde el navegador o desde su app en el celular."
+    },
+    {
       "pregunta": "¿Y si no puedo a la hora de las sesiones en vivo?",
-      "respuesta": "Las clases son grabadas, con acceso permanente, y las sesiones en vivo de preguntas también quedan grabadas."
+      "respuesta": "Todo queda grabado dentro de Skool: las clases y también las sesiones en vivo de preguntas. Lo ves cuando puedas."
+    },
+    {
+      "pregunta": "¿Hay permanencia mínima?",
+      "respuesta": "No. Pagas 10 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos."
     },
     {
       "pregunta": "¿Cuánto tiempo tengo acceso?",
-      "respuesta": "Acceso permanente al contenido grabado. El grupo de soporte está activo durante 60 días."
+      "respuesta": "Mientras tu membresía esté activa tienes todo: los módulos, las grabaciones, las plantillas y la comunidad."
+    },
+    {
+      "pregunta": "¿Cómo pago?",
+      "respuesta": "Con tarjeta de crédito o débito, directamente en Skool. Si usas débito, revisa que esté habilitada para compras internacionales."
     },
     {
       "pregunta": "¿Sirve para mi área?",
@@ -118,32 +123,22 @@
       "respuesta": "Las clases son cortas, de 20 a 40 minutos. Con una o dos horas a la semana avanzas sin problema."
     },
     {
-      "pregunta": "¿Puedo pagar en cuotas?",
-      "respuesta": "Sí. Un solo pago de 99 USD, o 2 cuotas de 55 USD o 3 de 39 USD. En Colombia son unos 340.000 pesos, según la tasa del día."
-    },
-    {
-      "pregunta": "No tengo tarjeta, ¿cómo pago?",
-      "respuesta": "En Colombia puedes pagar por PSE o Nequi. Si estás en Panamá o Ecuador y no tienes tarjeta, escríbenos al WhatsApp +57 301 110 2728: te damos las opciones de pago y recibes tu acceso en menos de una hora después de enviar el comprobante."
-    },
-    {
       "pregunta": "¿Cómo sé que no es estafa?",
-      "respuesta": "El pago es por Hotmart, una plataforma reconocida, con 7 días de garantía. El acceso te llega de inmediato a tu correo. Y si tienes dudas antes de pagar, escríbenos al WhatsApp."
+      "respuesta": "El pago lo procesa Skool, una plataforma que usan miles de cursos y comunidades en el mundo; nosotros nunca vemos los datos de tu tarjeta. Entras apenas pagas, y si no te convence, cancelas cuando quieras."
     },
     {
       "pregunta": "¿Dan certificado?",
       "respuesta": "Sí. Pero lo más valioso es que sales con tu dashboard y tu automatización funcionando."
     }
   ],
-
   "final": {
     "headline": "¿Vas a entregar el reporte en un minuto o te vas a seguir quedando hasta tarde?",
     "subhead": "La IA ya está cambiando la forma de trabajar con Excel. En 4 semanas tienes tu propio sistema funcionando.",
-    "cta": "Inscribirme a la edición de fundadores",
-    "microcopy": "99 USD o 3 cuotas · 7 días de garantía · Acceso permanente"
+    "cta": "Unirme por 10 USD al mes",
+    "microcopy": "Precio de fundador · Cancela cuando quieras"
   },
-
   "sticky": {
-    "texto": "Excel con IA · Fundadores",
-    "cta": "Inscribirme"
+    "texto": "Excel con IA · 10 USD/mes",
+    "cta": "Unirme"
   }
 }

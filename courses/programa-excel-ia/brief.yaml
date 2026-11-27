@@ -4,8 +4,8 @@
 #
 # PENDIENTES antes de publicar (buscar [PENDIENTE]):
 #   - vsl.url: link del video (YouTube, Vimeo o Bunny).
-#   - checkout_url: link de pago de Hotmart del programa de 99 USD.
-#   - urgencia.fecha_limite: fecha real en que el precio sube a 129 USD.
+#   - checkout_url: link para unirse a la comunidad en Skool.
+#   - urgencia.fecha_limite: fecha real de cierre de fundadores (y el precio nuevo).
 #   - instructor.foto: URL de la foto de Miguel.
 #   - Datos marcados [CONFIRMAR] en el guion (ciudad, empresas) quedaron FUERA
 #     hasta confirmarlos.
@@ -13,7 +13,7 @@
 
 slug: programa-excel-ia
 nombre: "Excel con IA. De las horas perdidas a tu propio sistema"
-subtitulo: "Programa de 4 semanas para construir con IA un dashboard que se actualiza solo y automatizar el reporte que hoy te roba horas"
+subtitulo: "Membresía en Skool: programa de 4 semanas para construir con IA un dashboard que se actualiza solo y automatizar el reporte que hoy te roba horas"
 
 promesa: "Descubre cómo la IA automatiza tus archivos de Excel: en 4 semanas armas tus reportes y dashboards para que se actualicen solos y dejas de hacer a mano lo que hoy te quita horas, aunque empieces desde cero"
 
@@ -86,8 +86,8 @@ bonus:
   - nombre: "Biblioteca de 100 prompts"
     descripcion: "Los prompts listos para copiar y pegar en ChatGPT o Claude."
     valor: 0
-  - nombre: "Grupo de soporte durante 60 días"
-    descripcion: "Donde resuelves tus dudas mientras construyes tu sistema."
+  - nombre: "Comunidad de alumnos en Skool"
+    descripcion: "Donde publicas tus dudas y avanzas con otros alumnos mientras construyes tu sistema."
     valor: 0
   - nombre: "Bono de fundadores · Excel desde cero en 7 días"
     descripcion: "Videos cortos de 5 minutos para que llegues listo, aunque no sepas nada de Excel."
@@ -99,24 +99,23 @@ bonus:
     descripcion: "Guía para crear y dejar listas tus cuentas gratuitas de IA."
     valor: 0
 
-precio: 99
-precio_ancla: 129
+# Membresía mensual en Skool: 10 USD al mes, solo tarjeta, cancela cuando quiera.
+# Sin precio_ancla: el precio después de fundadores todavía no está definido.
+precio: 10
 moneda: USD
 
 pago:
-  cuotas: 3
-  nota: "Un solo pago de 99 USD, o en cuotas: 2 de 55 USD o 3 de 39 USD. En Colombia son unos 340.000 COP."
+  nota: "10 USD al mes, con tarjeta de crédito o débito en Skool. Sin permanencia: cancelas cuando quieras."
 
-checkout_url: "https://pay.hotmart.com/PENDIENTE"   # [PENDIENTE] link del programa de 99 USD
+checkout_url: "https://www.skool.com/PENDIENTE"   # [PENDIENTE] link para unirse a la comunidad
 
-garantia:
-  dias: 7
-  texto: "Tienes 7 días de garantía por Hotmart: si no te gusta, pides tu dinero y listo, sin preguntas. Y además: si haces el módulo 1 y no te ahorra al menos una hora en tu primer reporte, te devolvemos tu dinero. El riesgo es nuestro, no tuyo."
+# Sin garantía de días: Skool no tiene la garantía de Hotmart. La promesa real es
+# "cancela cuando quieras", que va en el precio y en las preguntas frecuentes.
 
 urgencia:
   tipo: precio
-  detalle: "Edición de fundadores: al cerrarla, el precio sube a 129 USD y los bonos de fundadores se retiran"
-  # fecha_limite: 2026-12-01   # [PENDIENTE] fecha real de cierre; sin ella no se muestra cuenta regresiva
+  detalle: "Precio de fundador: 10 USD al mes mientras sigas activo. Al cerrar la edición de fundadores, el precio sube para los que entren después."
+  # fecha_limite: 2026-12-01   # [PENDIENTE] fecha real de cierre de fundadores
 
 prueba_social: []   # sin testimonios reales todavía: la sección se omite sola
 

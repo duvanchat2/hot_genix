@@ -12,7 +12,7 @@
 <!--
   PENDIENTES antes de publicar (están en el <script> del final):
     VSL_ID        ID del video de YouTube (lo que va después de watch?v=)
-    CHECKOUT_URL  link de pago de Hotmart del programa de 99 USD
+    CHECKOUT_URL  link para unirse a la comunidad en Skool
   Y en el HTML:
     foto de Miguel (buscar "FOTO PENDIENTE")
 -->
@@ -141,9 +141,9 @@ body{margin:0;background:#0B1410;-webkit-font-smoothing:antialiased}
 
 /* Garantía */
 .guar{display:grid;grid-template-columns:auto 1fr;gap:clamp(18px,3vw,32px);align-items:center;background:var(--paper);border:1px solid var(--rule);border-radius:20px;padding:clamp(22px,4vw,40px)}
-.seal{width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,#FFFFFF 55%,transparent 56%),conic-gradient(var(--primary),var(--secondary),var(--primary));display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--fh);font-weight:800;color:var(--ink);line-height:1}
+.seal{width:136px;height:136px;flex-shrink:0;border-radius:50%;background:radial-gradient(circle,#FFFFFF 61%,transparent 62%),conic-gradient(var(--primary),var(--secondary),var(--primary));display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--fh);font-weight:800;color:var(--ink);line-height:1}
 .seal b{font-size:40px}
-.seal span{font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.seal span{font-size:10px;letter-spacing:0.04em;text-transform:uppercase;color:var(--muted);margin-top:4px}
 .guar p{color:var(--muted);margin-top:10px}
 
 /* FAQ */
@@ -175,7 +175,7 @@ footer a{color:var(--night-muted)!important}
 <body>
 <div class="gxp">
 
-<div class="topbar">Edición de fundadores · 99 USD · Al cerrarla, el precio sube a 129 USD</div>
+<div class="topbar">Precio de fundador: 10 USD al mes · Sube para los que entren después</div>
 
 <!-- 1 · HERO + VSL -->
 <section class="hero" id="inicio">
@@ -191,13 +191,13 @@ footer a{color:var(--night-muted)!important}
         <div>[PENDIENTE] Pega el ID del video en <code>VSL_ID</code></div>
       </div>
     </div>
-    <a class="btn js-checkout" href="#precio">Quiero mi sistema con Excel e IA <i class="fa-solid fa-arrow-right"></i></a>
-    <p class="micro" style="margin-top:-8px">Edición de fundadores: 99 USD o 3 cuotas · 7 días de garantía · Acceso permanente</p>
+    <a class="btn js-checkout" href="#precio">Quiero entrar por 10 USD al mes <i class="fa-solid fa-arrow-right"></i></a>
+    <p class="micro" style="margin-top:-8px">Precio de fundador · Cancela cuando quieras · Comunidad en Skool</p>
     <div class="trust">
-      <span><i class="fa-solid fa-shield-halved"></i>Pago seguro por Hotmart</span>
+      <span><i class="fa-solid fa-shield-halved"></i>Pago seguro en Skool</span>
       <span><i class="fa-brands fa-windows"></i>Excel 2016 en adelante</span>
       <span><i class="fa-solid fa-robot"></i>IA en su versión gratis</span>
-      <span><i class="fa-solid fa-infinity"></i>Acceso permanente</span>
+      <span><i class="fa-solid fa-door-open"></i>Cancela cuando quieras</span>
     </div>
   </div>
 </section>
@@ -260,7 +260,7 @@ footer a{color:var(--night-muted)!important}
     <div class="center">
       <span class="kicker">El programa · 4 semanas</span>
       <h2>Qué vas a construir en 4 semanas</h2>
-      <p class="lead">Cada módulo termina con algo funcionando. Al final no te llevas solo un certificado: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes.</p>
+      <p class="lead">Cada módulo termina con algo funcionando. Al final no te llevas solo teoría: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes.</p>
     </div>
     <div class="mods">
       <div class="mod"><span class="num">Módulo 0</span><div><h3>Arranque</h3><p>Qué versión de Excel sirve, cómo crear tus cuentas gratis de ChatGPT y Claude, y nivelación desde cero: celda, fila, columna y tabla.</p><div class="res"><i class="fa-solid fa-circle-check"></i>Llegas listo, aunque nunca hayas usado Excel en serio</div></div></div>
@@ -284,10 +284,10 @@ footer a{color:var(--night-muted)!important}
       <div class="inc-item"><i class="fa-solid fa-video"></i><div><h3>6 sesiones en vivo de preguntas</h3><p>Resuelves tus dudas en directo. Si no puedes a la hora, quedan grabadas.</p></div></div>
       <div class="inc-item"><i class="fa-solid fa-table-cells"></i><div><h3>Plantillas por profesión</h3><p>Contabilidad, inventarios, presupuestos y registro de clientes, listas para adaptar.</p></div></div>
       <div class="inc-item"><i class="fa-solid fa-wand-magic-sparkles"></i><div><h3>Biblioteca de 100 prompts</h3><p>Los prompts listos para copiar y pegar en ChatGPT o Claude.</p></div></div>
-      <div class="inc-item"><i class="fa-solid fa-people-group"></i><div><h3>Grupo de soporte durante 60 días</h3><p>Donde resuelves tus dudas mientras construyes tu sistema.</p></div></div>
+      <div class="inc-item"><i class="fa-solid fa-people-group"></i><div><h3>Comunidad de alumnos en Skool</h3><p>Donde publicas tus dudas y avanzas con otros alumnos mientras construyes tu sistema.</p></div></div>
     </div>
     <div class="founders">
-      <div class="founders-head"><span class="badge">Solo edición de fundadores</span><h3>Bonos que se retiran al cerrar esta edición</h3></div>
+      <div class="founders-head"><span class="badge">Solo edición de fundadores</span><h3>Bonos para quienes entran como fundadores</h3></div>
       <div class="inc">
         <div class="inc-item"><i class="fa-solid fa-seedling"></i><div><h3>Excel desde cero en 7 días</h3><p>Videos cortos de 5 minutos para que llegues listo, aunque no sepas nada de Excel.</p></div></div>
         <div class="inc-item"><i class="fa-solid fa-magnifying-glass-chart"></i><div><h3>Revisión en vivo de archivos reales</h3><p>Una sesión en vivo donde se revisa el archivo real de tres alumnos, con sus datos.</p></div></div>
@@ -323,45 +323,43 @@ footer a{color:var(--night-muted)!important}
 <section class="sec sec-night" id="precio">
   <div class="wrap">
     <div class="center">
-      <span class="kicker">Tu inscripción</span>
-      <h2>Edición de fundadores</h2>
+      <span class="kicker">Tu membresía</span>
+      <h2>Precio de fundador</h2>
+      <p class="lead">Si te ahorra una sola hora al mes, ya se pagó.</p>
     </div>
     <div class="price-card">
-      <span class="edition">Excel con IA · Programa de 4 semanas</span>
-      <p class="was">Precio al cerrar fundadores: <s>129 USD</s></p>
-      <p class="now">99 <small>USD</small></p>
-      <p class="cuotas">o 3 cuotas de 39 USD · o 2 de 55 USD</p>
-      <p class="cop">En Colombia son unos 340.000 COP, según la tasa del día</p>
+      <span class="edition">Excel con IA · Membresía en Skool</span>
+      <p class="was">Todo el programa, la comunidad y los bonos por</p>
+      <p class="now">10 <small>USD / mes</small></p>
+      <p class="cuotas">Menos de 35 centavos de dólar al día</p>
+      <p class="cop">En Colombia son unos 35.000 COP al mes, según la tasa del día</p>
       <ul class="checks">
-        <li><i class="fa-solid fa-check"></i>6 módulos, del 0 al 5, con acceso permanente</li>
+        <li><i class="fa-solid fa-check"></i>Los 6 módulos, del 0 al 5, con sus grabaciones</li>
         <li><i class="fa-solid fa-check"></i>6 sesiones en vivo de preguntas, grabadas</li>
         <li><i class="fa-solid fa-check"></i>Plantillas por profesión y biblioteca de 100 prompts</li>
-        <li><i class="fa-solid fa-check"></i>Grupo de soporte durante 60 días</li>
-        <li><i class="fa-solid fa-star" style="color:#CA8A04"></i>Bonos de fundadores: Excel desde cero en 7 días, revisión en vivo de archivos reales y guía Tu IA gratis en 10 minutos</li>
-        <li><i class="fa-solid fa-check"></i>Certificado</li>
+        <li><i class="fa-solid fa-check"></i>Comunidad de alumnos en Skool para resolver tus dudas</li>
+        <li><i class="fa-solid fa-star" style="color:#CA8A04"></i>Bonos de fundador: Excel desde cero en 7 días, revisión en vivo de archivos reales y guía Tu IA gratis en 10 minutos</li>
       </ul>
-      <a class="btn btn-block js-checkout" href="#precio">Inscribirme por 99 USD</a>
-      <div class="urg"><i class="fa-solid fa-clock"></i>Al cerrar la edición de fundadores el precio sube a 129 USD y los bonos se retiran.</div>
+      <a class="btn btn-block js-checkout" href="#precio">Unirme por 10 USD al mes</a>
+      <div class="urg"><i class="fa-solid fa-clock"></i>Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 10 USD mientras sigas activo.</div>
       <div class="pay">
-        <span><i class="fa-regular fa-credit-card"></i>Tarjeta</span>
-        <span><i class="fa-solid fa-building-columns"></i>PSE</span>
-        <span><i class="fa-solid fa-mobile-screen"></i>Nequi</span>
-        <span><i class="fa-solid fa-shield-halved"></i>Pago por Hotmart</span>
+        <span><i class="fa-regular fa-credit-card"></i>Tarjeta de crédito o débito</span>
+        <span><i class="fa-solid fa-shield-halved"></i>Pago seguro en Skool</span>
+        <span><i class="fa-solid fa-door-open"></i>Cancela cuando quieras</span>
       </div>
-      <p class="micro">¿En Panamá o Ecuador y sin tarjeta? <a href="https://wa.me/573011102728?text=Hola%2C%20quiero%20inscribirme%20a%20Excel%20con%20IA%20y%20no%20tengo%20tarjeta" target="_blank" rel="noopener">Escríbenos al WhatsApp +57 301 110 2728</a></p>
+      <p class="micro">¿Dudas antes de entrar? <a href="https://wa.me/573011102728?text=Hola%2C%20tengo%20una%20duda%20sobre%20Excel%20con%20IA" target="_blank" rel="noopener">Escríbenos al WhatsApp +57 301 110 2728</a></p>
     </div>
   </div>
 </section>
 
-<!-- 9 · GARANTÍA -->
-<section class="sec sec-mist" id="garantia">
+<!-- 9 · SIN PERMANENCIA -->
+<section class="sec sec-mist" id="sin-permanencia">
   <div class="wrap narrow">
     <div class="guar">
-      <div class="seal"><b>7</b><span>días</span></div>
+      <div class="seal"><b>0</b><span>permanencia</span></div>
       <div>
-        <h2 style="font-size:clamp(24px,3vw,32px)">El riesgo es nuestro, no tuyo</h2>
-        <p>Tienes 7 días de garantía por Hotmart: si no te gusta, pides tu dinero y listo, sin preguntas.</p>
-        <p>Y además: si haces el módulo 1 y no te ahorra al menos una hora en tu primer reporte, te devolvemos tu dinero.</p>
+        <h2 style="font-size:clamp(24px,3vw,32px)">Sin contratos ni letra pequeña</h2>
+        <p>Pagas mes a mes y cancelas cuando quieras desde tu cuenta de Skool. Si en algún momento sientes que ya no te sirve, te vas y no se te vuelve a cobrar.</p>
       </div>
     </div>
   </div>
@@ -375,13 +373,14 @@ footer a{color:var(--night-muted)!important}
       <details><summary>No sé nada de Excel, ¿igual puedo?<i class="fa-solid fa-plus"></i></summary><p>Sí. Empiezas con el módulo 0, desde lo más básico. Si sabes abrir Excel, copiar y pegar, tienes el nivel.</p></details>
       <details><summary>¿Sirve con Office 2016, 2019 o 2021?<i class="fa-solid fa-plus"></i></summary><p>Sí. Funciona desde Excel 2016 en adelante. No necesitas Office 365.</p></details>
       <details><summary>¿Tengo que pagar ChatGPT o Claude?<i class="fa-solid fa-plus"></i></summary><p>No. Todo el programa funciona con las versiones gratuitas, y en el módulo 0 te enseñamos a crear tus cuentas.</p></details>
-      <details><summary>¿Y si no puedo a la hora de las sesiones en vivo?<i class="fa-solid fa-plus"></i></summary><p>Las clases son grabadas, con acceso permanente, y las sesiones en vivo de preguntas también quedan grabadas.</p></details>
-      <details><summary>¿Cuánto tiempo tengo acceso?<i class="fa-solid fa-plus"></i></summary><p>Acceso permanente al contenido grabado. El grupo de soporte está activo durante 60 días.</p></details>
+      <details><summary>¿Qué es Skool?<i class="fa-solid fa-plus"></i></summary><p>Es la plataforma donde vive el programa: ahí ves las clases, descargas las plantillas y publicas tus dudas en la comunidad. Funciona desde el navegador o desde su app en el celular.</p></details>
+      <details><summary>¿Y si no puedo a la hora de las sesiones en vivo?<i class="fa-solid fa-plus"></i></summary><p>Todo queda grabado dentro de Skool: las clases y también las sesiones en vivo de preguntas. Lo ves cuando puedas.</p></details>
+      <details><summary>¿Hay permanencia mínima?<i class="fa-solid fa-plus"></i></summary><p>No. Pagas 10 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos.</p></details>
+      <details><summary>¿Cuánto tiempo tengo acceso?<i class="fa-solid fa-plus"></i></summary><p>Mientras tu membresía esté activa tienes todo: los módulos, las grabaciones, las plantillas y la comunidad.</p></details>
+      <details><summary>¿Cómo pago?<i class="fa-solid fa-plus"></i></summary><p>Con tarjeta de crédito o débito, directamente en Skool. Si usas débito, revisa que esté habilitada para compras internacionales.</p></details>
       <details><summary>¿Sirve para mi área?<i class="fa-solid fa-plus"></i></summary><p>Si tu trabajo usa datos en Excel, sí. Tienes plantillas por profesión y en el módulo 5 lo construyes con tu propio caso.</p></details>
       <details><summary>¿Cuánto tiempo al día tengo que dedicarle?<i class="fa-solid fa-plus"></i></summary><p>Las clases son cortas, de 20 a 40 minutos. Con una o dos horas a la semana avanzas sin problema.</p></details>
-      <details><summary>¿Puedo pagar en cuotas?<i class="fa-solid fa-plus"></i></summary><p>Sí. Un solo pago de 99 USD, o 2 cuotas de 55 USD o 3 de 39 USD. En Colombia son unos 340.000 pesos, según la tasa del día.</p></details>
-      <details><summary>No tengo tarjeta, ¿cómo pago?<i class="fa-solid fa-plus"></i></summary><p>En Colombia puedes pagar por PSE o Nequi. Si estás en Panamá o Ecuador y no tienes tarjeta, escríbenos al WhatsApp +57 301 110 2728: te damos las opciones de pago y recibes tu acceso en menos de una hora después de enviar el comprobante.</p></details>
-      <details><summary>¿Cómo sé que no es estafa?<i class="fa-solid fa-plus"></i></summary><p>El pago es por Hotmart, una plataforma reconocida, con 7 días de garantía. El acceso te llega de inmediato a tu correo. Y si tienes dudas antes de pagar, escríbenos al WhatsApp.</p></details>
+      <details><summary>¿Cómo sé que no es estafa?<i class="fa-solid fa-plus"></i></summary><p>El pago lo procesa Skool, una plataforma que usan miles de cursos y comunidades en el mundo; nosotros nunca vemos los datos de tu tarjeta. Entras apenas pagas, y si no te convence, cancelas cuando quieras.</p></details>
       <details><summary>¿Dan certificado?<i class="fa-solid fa-plus"></i></summary><p>Sí. Pero lo más valioso es que sales con tu dashboard y tu automatización funcionando.</p></details>
     </div>
   </div>
@@ -393,8 +392,8 @@ footer a{color:var(--night-muted)!important}
   <div class="wrap">
     <h2>¿Vas a entregar el reporte en un minuto o te vas a seguir quedando <span class="grad">hasta tarde</span>?</h2>
     <p class="lead" style="margin-top:0">La IA ya está cambiando la forma de trabajar con Excel. En 4 semanas tienes tu propio sistema funcionando.</p>
-    <a class="btn js-checkout" href="#precio">Inscribirme a la edición de fundadores <i class="fa-solid fa-arrow-right"></i></a>
-    <p class="micro" style="margin-top:0">99 USD o 3 cuotas · 7 días de garantía · Acceso permanente</p>
+    <a class="btn js-checkout" href="#precio">Unirme por 10 USD al mes <i class="fa-solid fa-arrow-right"></i></a>
+    <p class="micro" style="margin-top:0">Precio de fundador · Cancela cuando quieras</p>
   </div>
 </section>
 
@@ -403,8 +402,8 @@ footer a{color:var(--night-muted)!important}
 </footer>
 
 <div class="sticky" id="sticky">
-  <div class="t">Excel con IA · Fundadores<b>99 USD</b></div>
-  <a class="btn js-checkout" href="#precio">Inscribirme</a>
+  <div class="t">Excel con IA · Fundadores<b>10 USD/mes</b></div>
+  <a class="btn js-checkout" href="#precio">Unirme</a>
 </div>
 
 </div>
@@ -412,7 +411,7 @@ footer a{color:var(--night-muted)!important}
 (function () {
   // ── PENDIENTES ──────────────────────────────────────────────────────────
   var VSL_ID = '';        // ej: 'dQw4w9WgXcQ' (lo que va después de watch?v=)
-  var CHECKOUT_URL = '';  // ej: 'https://pay.hotmart.com/XXXXXXXX?off=XXXXXXXX'
+  var CHECKOUT_URL = '';  // ej: 'https://www.skool.com/tu-comunidad/about'
   // ────────────────────────────────────────────────────────────────────────
 
   if (VSL_ID) {
