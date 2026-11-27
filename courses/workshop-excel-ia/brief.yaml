@@ -1,0 +1,100 @@
+# Por confirmar: zona horaria de las 8:00 p.m. (la landing dice hora de Colombia, GMT-5).
+
+slug: workshop-excel-ia
+nombre: "Excel con IA"
+subtitulo: "Workshop en vivo · 3 clases · 13, 14 y 15 de octubre"
+
+promesa: "En 3 clases en vivo aprendes a usar Claude y ChatGPT junto con Excel para crear desde un dashboard hasta sistemas completos, empezando desde cero"
+
+hero_type: copy
+
+avatar:
+  quien: "Personas que usan Excel en el trabajo o en su negocio, buscan empleo o ascenso, o nunca han usado IA para trabajar y quieren algo práctico"
+  nivel: principiante
+  dolor:
+    - "Busco en Google cómo hacer una fórmula, la copio y no funciona"
+    - "Armo reportes a mano, fila por fila, y me toma toda la tarde"
+    - "Veo dashboards bonitos de otros y no sé ni por dónde empezar"
+    - "Tengo ChatGPT o Claude abiertos pero no sé cómo hacer que trabajen con mi Excel"
+    - "Siento que todos avanzan con IA y yo me estoy quedando atrás"
+  objeciones:
+    - "¿Necesito saber Excel?"
+    - "¿Necesito pagar Claude o ChatGPT?"
+    - "¿Qué pasa si no puedo conectarme en vivo?"
+    - "¿A qué hora son las clases?"
+  estado_deseado: "Usar la IA como copiloto para hacer en minutos, en Excel, lo que hoy le toma horas"
+
+transformacion:
+  antes: "Fórmulas copiadas de Google que no funcionan y reportes hechos a mano"
+  despues: "Dashboards y sistemas en Excel construidos con ayuda de Claude y ChatGPT"
+  plazo: "3 noches"
+
+mecanismo:
+  nombre: "Excel + IA como copiloto"
+  explicacion: "Hoy la diferencia entre quien domina Excel y quien no ya no es memorizar fórmulas. Es saber pedirle a la IA lo que necesitas y conectarla con tu hoja."
+  pasos:
+    - "Copiloto: le pides a la IA fórmulas, explicaciones y limpieza de datos"
+    - "Dashboards: construyes tablas dinámicas, gráficos y un dashboard interactivo"
+    - "Sistemas: conectas la IA con Excel para crear sistemas completos"
+
+# Las 3 clases en vivo. Temario por día = propuesta, CONFIRMAR con el instructor.
+modulos:
+  - titulo: "Clase 1 · Martes 13 · Tu copiloto de Excel"
+    descripcion: "Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas, que te expliquen una hoja que no entiendes y que limpien datos desordenados en segundos."
+    duracion: "En vivo · 8:00 p.m."
+    resultado: "Tu primer reporte hecho con IA"
+  - titulo: "Clase 2 · Miércoles 14 · Dashboards sin sufrir"
+    descripcion: "Tablas dinámicas, gráficos y un dashboard interactivo construido paso a paso con ayuda de la IA, aunque nunca hayas hecho uno."
+    duracion: "En vivo · 8:00 p.m."
+    resultado: "Un dashboard listo para presentar"
+  - titulo: "Clase 3 · Jueves 15 · Sistemas avanzados"
+    descripcion: "Cómo conectar la IA con Excel y usarla para crear automatizaciones y sistemas completos: control de ventas, inventario, finanzas."
+    duracion: "En vivo · 8:00 p.m."
+    resultado: "Un sistema funcionando que puedes adaptar a tu trabajo o negocio"
+
+# Lo que incluye el workshop además de las clases. Sin valor individual: no se inventa un stack.
+bonus:
+  - nombre: "Acceso a las grabaciones"
+    descripcion: "Si no puedes conectarte en vivo, no te pierdes nada."
+    valor: 0
+  - nombre: "Certificado de participación"
+    descripcion: "Al terminar el workshop."
+    valor: 0
+
+# Sin precio_ancla: $10 es el precio real, no un descuento. No tachar ningún precio.
+precio: 10
+moneda: USD
+
+pago:
+  nota: "Pago único. Incluye las 3 clases en vivo, las grabaciones y el certificado."
+
+checkout_url: "https://pay.hotmart.com/I107901880V?off=nqon6kng"
+
+urgencia:
+  tipo: cupos
+  detalle: "Los cupos son limitados para poder responder preguntas en vivo. Cuando se llenen, se cierran las inscripciones."
+  fecha_limite: "2026-10-13"
+
+prueba_social: []
+
+metricas: {}
+
+instructor:
+  nombre: "Alejandro Rodríguez"
+  bio: "Experto en Excel y automatización de procesos, con más de 10 años de experiencia ayudando a empresas y profesionales a transformar la forma en que trabajan con datos. Fundador de ExcelService."
+  credenciales:
+    - "Más de 10 años en Excel y automatización de procesos"
+    - "Fundador de ExcelService"
+  foto: "https://productosdigitales.genixacademy.com/wp-content/uploads/2026/10/instructor.webp"
+
+faq_extra:
+  - pregunta: "¿Dónde son las clases?"
+    respuesta: "100% online, en vivo. Te llega el link de acceso al correo al reservar."
+  - pregunta: "¿Recibo certificado?"
+    respuesta: "Sí, al terminar el workshop recibes tu certificado de participación."
+
+seo:
+  title: "Excel con IA — Workshop en vivo, 3 clases"
+  description: "Aprende a usar Claude y ChatGPT con Excel: dashboards y sistemas desde cero. 3 clases en vivo, 13, 14 y 15 de octubre. $10."
+
+idioma: es-419

@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Excel con IA · Cronograma del workshop en vivo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap">
+<style>
+  :root {
+    --verde: #16A34A;
+    --verde-osc: #0F7A37;
+    --violeta: #7C3AED;
+    --amarillo: #FACC15;
+    --oscuro: #0B1410;
+    --muted: #F1F7F3;
+    --texto: #0F1A14;
+    --texto-2: #5B6B62;
+    --borde: #DCE8E0;
+  }
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-family: 'Inter', 'DejaVu Sans', sans-serif; color: var(--texto); font-size: 10.5pt; line-height: 1.5; background: #fff; }
+  h1, h2, h3, .display { font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; }
+
+  .pagina { width: 210mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always; display: flex; flex-direction: column; }
+  .pagina:last-child { page-break-after: auto; }
+  .contenido { padding: 0 16mm; flex: 1; }
+
+  /* Cabecera */
+  .cabecera { flex-shrink: 0; background: var(--oscuro); color: #fff; padding: 12mm 16mm 15mm; position: relative; overflow: hidden; }
+  .cabecera::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(22,163,74,.10) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(22,163,74,.10) 1px, transparent 1px);
+    background-size: 9mm 6mm;
+  }
+  .cabecera::after {
+    content: ""; position: absolute; right: -40mm; top: -50mm; width: 130mm; height: 130mm; border-radius: 50%;
+    background: radial-gradient(circle, rgba(124,58,237,.45), rgba(124,58,237,0) 65%);
+  }
+  .cabecera > * { position: relative; z-index: 1; }
+  .chip { display: inline-block; font-size: 8.5pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #E9D5FF; background: rgba(124,58,237,.28); border: 1px solid rgba(196,167,255,.45); padding: 1.4mm 3.4mm; border-radius: 99px; }
+  .cabecera h1 { font-size: 40pt; font-weight: 800; line-height: 1.02; margin-top: 5mm; letter-spacing: -.01em; }
+  .cabecera h1 .grad { color: #4ADE80; }
+  .cabecera h1 .ia { color: #A78BFA; }
+  .cabecera .sub { font-size: 13pt; color: #CFE9D9; margin-top: 2.5mm; font-weight: 500; }
+  .formula { font-family: 'DejaVu Sans Mono', monospace; font-size: 8.5pt; color: rgba(74,222,128,.75); margin-top: 4mm; }
+
+  /* Ficha */
+  .ficha { flex-shrink: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: -7mm 16mm 0; background: #fff; border: 1px solid var(--borde); border-radius: 4mm; box-shadow: 0 2mm 6mm rgba(11,20,16,.08); position: relative; z-index: 2; }
+  .ficha div { padding: 4mm 4.5mm; border-right: 1px solid var(--borde); }
+  .ficha div:last-child { border-right: 0; }
+  .ficha .k { font-size: 7.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--texto-2); }
+  .ficha .v { font-size: 11pt; font-weight: 700; margin-top: .6mm; line-height: 1.3; }
+  .ficha .v small { display: block; font-size: 8.5pt; font-weight: 500; color: var(--texto-2); }
+
+  h2 { font-size: 17pt; font-weight: 800; margin: 6.5mm 0 1.5mm; letter-spacing: -.005em; }
+  .bajada { color: var(--texto-2); font-size: 10pt; margin-bottom: 4mm; }
+
+  /* Sesiones */
+  .sesion { display: grid; grid-template-columns: 30mm 1fr; gap: 0; border: 1px solid var(--borde); border-radius: 4mm; overflow: hidden; margin-bottom: 3.5mm; break-inside: avoid; }
+  .fecha { background: linear-gradient(160deg, var(--verde), var(--violeta)); color: #fff; text-align: center; padding: 4.5mm 2mm; display: flex; flex-direction: column; justify-content: center; }
+  .fecha .dia { font-size: 8.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; opacity: .9; }
+  .fecha .num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 30pt; font-weight: 800; line-height: 1; margin: 1mm 0; }
+  .fecha .mes { font-size: 8.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; }
+  .fecha .hora { margin-top: 2.5mm; font-size: 9pt; font-weight: 700; background: rgba(255,255,255,.18); border-radius: 99px; padding: .8mm 0; }
+  .detalle { padding: 3.2mm 5.5mm; }
+  .detalle .n { font-size: 8pt; font-weight: 700; color: var(--verde-osc); text-transform: uppercase; letter-spacing: .12em; }
+  .detalle h3 { font-size: 14pt; font-weight: 800; margin: .5mm 0 1.8mm; }
+  .detalle ul { list-style: none; }
+  .detalle li { position: relative; padding-left: 5mm; margin-bottom: 1mm; font-size: 10pt; }
+  .detalle li::before { content: ""; position: absolute; left: 0; top: 2.1mm; width: 2.2mm; height: 2.2mm; border-radius: .6mm; background: var(--verde); }
+  .resultado { margin-top: 2mm; background: var(--muted); border-left: 1mm solid var(--verde); padding: 1.8mm 3.5mm; font-size: 9.5pt; border-radius: 0 2mm 2mm 0; }
+  .resultado b { color: var(--verde-osc); }
+
+  /* Página 2 */
+  .cabecera.mini { padding: 7mm 16mm 7mm; }
+  .cabecera.mini .display { font-size: 15pt; font-weight: 800; }
+  .cabecera.mini .sub { font-size: 10pt; margin-top: .8mm; }
+
+  table { width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--borde); border-radius: 4mm; overflow: hidden; }
+  th, td { text-align: left; padding: 2.3mm 4.5mm; font-size: 10pt; border-bottom: 1px solid var(--borde); }
+  tr:last-child td { border-bottom: 0; }
+  th { background: var(--oscuro); color: #fff; font-size: 8pt; text-transform: uppercase; letter-spacing: .1em; font-weight: 700; }
+  td.h { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 12pt; white-space: nowrap; width: 34mm; }
+  tr.base td { background: #ECFDF3; }
+  tr.base td.h { color: var(--verde-osc); }
+  .nota { font-size: 8.5pt; color: var(--texto-2); margin-top: 2mm; }
+
+  .dos { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .caja { border: 1px solid var(--borde); border-radius: 4mm; padding: 4mm 5.5mm; }
+  .caja h3 { font-size: 12.5pt; font-weight: 800; margin-bottom: 2.4mm; }
+  .check { list-style: none; }
+  .check li { position: relative; padding-left: 6.5mm; margin-bottom: 2mm; font-size: 10pt; }
+  .check li::before { content: "✓"; position: absolute; left: 0; top: -.2mm; width: 4.4mm; height: 4.4mm; border-radius: 50%; background: var(--verde); color: #fff; font-size: 7.5pt; font-weight: 700; display: flex; align-items: center; justify-content: center; line-height: 1; }
+  .pasos { list-style: none; counter-reset: p; }
+  .pasos li { counter-increment: p; position: relative; padding-left: 8mm; margin-bottom: 1.8mm; font-size: 10pt; }
+  .pasos li::before { content: counter(p); position: absolute; left: 0; top: -.3mm; width: 5.4mm; height: 5.4mm; border-radius: 50%; background: linear-gradient(135deg, var(--verde), var(--violeta)); color: #fff; font-size: 8pt; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+
+  .resumen { margin-top: 5mm; background: var(--oscuro); color: #fff; border-radius: 4mm; padding: 5mm 7mm; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 6mm; }
+  .resumen .display { font-size: 14pt; font-weight: 800; }
+  .resumen p { color: #CFE9D9; font-size: 9.5pt; margin-top: 1mm; }
+  .resumen .precio { text-align: right; }
+  .resumen .precio .k { font-size: 7.5pt; text-transform: uppercase; letter-spacing: .12em; color: #CFE9D9; font-weight: 700; }
+  .resumen .precio .v { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 26pt; font-weight: 800; color: var(--amarillo); line-height: 1.1; }
+
+  .pie { flex-shrink: 0; display: flex; justify-content: space-between; font-size: 8pt; color: var(--texto-2); border-top: 1px solid var(--borde); margin: 0 16mm; padding: 3mm 0 8mm; }
+</style>
+</head>
+<body>
+
+<!-- ============ PÁGINA 1 ============ -->
+<section class="pagina">
+  <header class="cabecera">
+    <span class="chip">Workshop en vivo · Cronograma del evento</span>
+    <h1>Excel <span class="grad">con</span> <span class="ia">IA</span></h1>
+    <p class="sub">Aprende a usar Claude y ChatGPT con Excel: desde dashboards hasta sistemas avanzados, desde cero.</p>
+    <p class="formula">=CRONOGRAMA("13/10/2026"; "15/10/2026"; 3 SESIONES EN VIVO)</p>
+  </header>
+
+  <div class="ficha">
+    <div><p class="k">Fechas</p><p class="v">13, 14 y 15<small>de octubre de 2026</small></p></div>
+    <div><p class="k">Hora de inicio</p><p class="v">8:00 p.m.<small>hora de Colombia (GMT-5)</small></p></div>
+    <div><p class="k">Formato</p><p class="v">3 sesiones<small>online y en vivo</small></p></div>
+    <div><p class="k">Nivel</p><p class="v">Desde cero<small>idioma: español</small></p></div>
+  </div>
+
+  <div class="contenido">
+    <h2>Cronograma de sesiones</h2>
+    <p class="bajada">Tres sesiones consecutivas. Cada una termina con algo construido en Excel.</p>
+
+    <article class="sesion">
+      <div class="fecha"><span class="dia">Martes</span><span class="num">13</span><span class="mes">Octubre</span><span class="hora">8:00 p.m.</span></div>
+      <div class="detalle">
+        <p class="n">Sesión 1</p>
+        <h3>Tu copiloto de Excel</h3>
+        <ul>
+          <li>Cómo pedirle a Claude y ChatGPT las fórmulas exactas que necesitas</li>
+          <li>Que la IA te explique una hoja de cálculo que no entiendes</li>
+          <li>Limpieza y organización de datos desordenados en segundos</li>
+        </ul>
+        <p class="resultado"><b>Resultado:</b> tu primer reporte hecho con IA.</p>
+      </div>
+    </article>
+
+    <article class="sesion">
+      <div class="fecha"><span class="dia">Miércoles</span><span class="num">14</span><span class="mes">Octubre</span><span class="hora">8:00 p.m.</span></div>
+      <div class="detalle">
+        <p class="n">Sesión 2</p>
+        <h3>Dashboards sin sufrir</h3>
+        <ul>
+          <li>Tablas dinámicas construidas con ayuda de la IA</li>
+          <li>Gráficos claros para presentar tus datos</li>
+          <li>Un dashboard interactivo, paso a paso, aunque nunca hayas hecho uno</li>
+        </ul>
+        <p class="resultado"><b>Resultado:</b> un dashboard listo para presentar.</p>
+      </div>
+    </article>
+
+    <article class="sesion">
+      <div class="fecha"><span class="dia">Jueves</span><span class="num">15</span><span class="mes">Octubre</span><span class="hora">8:00 p.m.</span></div>
+      <div class="detalle">
+        <p class="n">Sesión 3</p>
+        <h3>Sistemas avanzados</h3>
+        <ul>
+          <li>Cómo conectar la IA con Excel</li>
+          <li>Automatizaciones para tareas repetitivas</li>
+          <li>Sistemas completos: control de ventas, inventario y finanzas</li>
+        </ul>
+        <p class="resultado"><b>Resultado:</b> un sistema funcionando que puedes adaptar a tu trabajo o negocio.</p>
+      </div>
+    </article>
+  </div>
+
+  <footer class="pie"><span>Excel con IA · Workshop en vivo · Octubre 2026</span><span>1 / 2</span></footer>
+</section>
+
+<!-- ============ PÁGINA 2 ============ -->
+<section class="pagina">
+  <header class="cabecera mini">
+    <p class="display">Excel con IA · Información del evento</p>
+    <p class="sub">Martes 13, miércoles 14 y jueves 15 de octubre de 2026 · 8:00 p.m. (Colombia)</p>
+  </header>
+
+  <div class="contenido">
+    <h2>Horario por país</h2>
+    <p class="bajada">Las tres sesiones inician a la misma hora. Equivalencias para el 13, 14 y 15 de octubre de 2026:</p>
+    <table>
+      <thead><tr><th>Hora de inicio</th><th>Países</th></tr></thead>
+      <tbody>
+        <tr><td class="h">7:00 p.m.</td><td>México, Guatemala, El Salvador, Honduras, Costa Rica</td></tr>
+        <tr class="base"><td class="h">8:00 p.m.</td><td>Colombia, Perú, Ecuador, Panamá</td></tr>
+        <tr><td class="h">9:00 p.m.</td><td>Venezuela, Bolivia, República Dominicana, Puerto Rico, Miami / Nueva York</td></tr>
+        <tr><td class="h">10:00 p.m.</td><td>Argentina, Chile, Uruguay, Paraguay</td></tr>
+      </tbody>
+    </table>
+    <p class="nota">Hora de referencia: Colombia (GMT-5).</p>
+
+    <h2 style="margin-bottom:4mm">Detalles del workshop</h2>
+    <div class="dos">
+      <div class="caja">
+        <h3>Qué incluye</h3>
+        <ul class="check">
+          <li>3 sesiones en vivo (13, 14 y 15 de oct.)</li>
+          <li>Acceso a las grabaciones</li>
+          <li>Certificado de participación</li>
+        </ul>
+      </div>
+      <div class="caja">
+        <h3>Requisitos</h3>
+        <ul class="check">
+          <li>Computador con conexión a internet</li>
+          <li>Microsoft Excel</li>
+          <li>Cuenta en ChatGPT y en Claude</li>
+          <li>No se requieren conocimientos previos</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="caja" style="margin-top:5mm">
+      <h3>Cómo participar</h3>
+      <ol class="pasos">
+        <li>Realizas tu inscripción a través de Hotmart.</li>
+        <li>Recibes por correo electrónico la confirmación y el enlace para conectarte a las sesiones.</li>
+        <li>Te conectas en vivo en cada fecha y hora del cronograma.</li>
+        <li>Si no puedes asistir a una sesión, la ves en la grabación.</li>
+        <li>Al finalizar el workshop recibes tu certificado de participación.</li>
+      </ol>
+    </div>
+
+    <div class="resumen">
+      <div>
+        <p class="display">3 sesiones en vivo + grabaciones + certificado</p>
+        <p>Workshop online · 13, 14 y 15 de octubre de 2026 · 8:00 p.m. (Colombia)</p>
+      </div>
+      <div class="precio"><p class="k">Inversión</p><p class="v">USD 10</p></div>
+    </div>
+  </div>
+
+  <footer class="pie"><span>Excel con IA · Workshop en vivo · Octubre 2026</span><span>2 / 2</span></footer>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+{
+  "$comment": "Copy sacado del guion del webinar de Miguel Rodríguez, adaptado a membresía mensual en Skool (20 USD/mes, solo tarjeta, cancela cuando quieras). Los datos [CONFIRMAR] del guion (ciudad, empresas) no están en la página.",
+  "hero": {
+    "eyebrow": "Clase grabada · Excel con IA",
+    "headline": "Descubre cómo la IA automatiza tus archivos de Excel: reportes, dashboards y todo lo que hoy haces a mano",
+    "cta": "Quiero entrar por 20 USD al mes",
+    "microcopy": "Precio de fundador · Cancela cuando quieras · Comunidad en Skool",
+    "variantes": {
+      "headline": [
+        "Descubre cómo la IA automatiza tus archivos de Excel: reportes, dashboards y todo lo que hoy haces a mano",
+        "El reporte que hoy te roba 3 horas cada semana, listo en 1 minuto con IA",
+        "¿Pierdes 3 horas cada semana copiando, pegando y rehaciendo el mismo reporte en Excel?",
+        "Deja de quedarte hasta tarde rehaciendo el mismo reporte en Excel",
+        "Mira cómo 300 filas desordenadas se vuelven un dashboard que se actualiza solo"
+      ],
+      "cta": [
+        "Quiero entrar por 20 USD al mes",
+        "Quiero mi sistema con Excel e IA"
+      ]
+    }
+  },
+  "pain": {
+    "headline": "Tu reporte del lunes no debería tomarte el lunes completo",
+    "intro": "Si tu trabajo pasa por Excel, seguramente te suena alguna de estas frases. Nos las escribieron personas como tú:",
+    "bullets": [
+      "«Es mucha información que se debe analizar y consolidar»",
+      "«Tareas repetitivas. Me quitan tiempo»",
+      "«Quiero mostrar la información de forma gráfica, entendible y llamativa»",
+      "«No conozco nada de IA y por eso quiero aprender»",
+      "Cada semana copias, pegas, cruzas bases a mano y rehaces el mismo reporte del lunes pasado"
+    ],
+    "cierre": "El problema no es que seas malo en Excel. Es que te enseñaron a memorizar fórmulas, y nadie tiene tiempo para eso."
+  },
+  "mechanism": {
+    "headline": "Con IA, la regla del juego cambió",
+    "explicacion": "Antes, para armar un dashboard o automatizar un reporte necesitabas años de Excel. Hoy no: la IA te dice cada paso y tú lo sigues. Lo que necesitas no es saber Excel, es saber pedir. Y eso se aprende con tres secretos.",
+    "pasos": [
+      {
+        "titulo": "No memorices fórmulas: pídeselas a la IA",
+        "descripcion": "Le explicas lo que necesitas como a un compañero de trabajo y verificas el resultado: que las filas tengan sentido y que los totales cuadren."
+      },
+      {
+        "titulo": "Un buen reporte se ve, no se lee",
+        "descripcion": "Tu jefe no quiere 300 filas: quiere tres números y un gráfico que respondan cuánto, quién y cuándo."
+      },
+      {
+        "titulo": "Arma una vez, actualiza para siempre",
+        "descripcion": "Pegas los datos nuevos, das clic en Actualizar todo y el tablero se recalcula solo. El reporte de 3 horas pasa a tomarte un minuto."
+      }
+    ]
+  },
+  "audience": {
+    "headline": "Es para ti si tu trabajo pasa por Excel",
+    "bullets": [
+      "Eres contador o llevas la contabilidad de varios clientes y pasas días digitando",
+      "Eres asistente administrativa y armas los mismos informes cada semana",
+      "Manejas inventarios, bodega o despachos y siempre hay algo que no cuadra",
+      "Tienes una pequeña empresa y quieres ver tus números sin pagarle a alguien cada mes"
+    ],
+    "cierre": "Si haces algo más de dos veces al mes en Excel, se puede automatizar."
+  },
+  "offer": {
+    "headline": "Qué vas a construir en 4 semanas",
+    "intro": "Cada módulo termina con algo funcionando. Al final no te llevas solo teoría: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes."
+  },
+  "bonus": {
+    "headline": "Todo lo que incluye tu inscripción",
+    "intro": "Además de los 6 módulos, te llevas esto. Los tres bonos de fundadores solo están en esta edición.",
+    "cta": "Quiero entrar como fundador"
+  },
+  "instructor": {
+    "headline": "Quién te va a enseñar",
+    "bio": "Soy Miguel Rodríguez. Llevo más de siete años en comercio exterior, donde todo pasaba por Excel: facturas, inventarios, presupuestos de varios países y tableros para la junta directiva. Cansado de ver horas perdidas copiando y pegando, empecé a automatizar mis propios reportes y fundé Excel Service para hacerlo por pequeñas empresas y contadores. Por años mi mensaje fue «No enseñamos Excel, lo hacemos por ti». Con la IA eso cambió, y por primera vez quiero enseñarte a hacerlo tú."
+  },
+  "price": {
+    "headline": "Precio de fundador",
+    "intro": "Si te ahorra una sola hora al mes, ya se pagó.",
+    "incluye": "Todo el programa, la comunidad y los bonos de fundador por:",
+    "remate": "al mes. Menos de 70 centavos de dólar al día, y cancelas cuando quieras.",
+    "cta": "Unirme por 20 USD al mes",
+    "urgencia": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 20 USD mientras sigas activo."
+  },
+  "faq_headline": "Preguntas frecuentes",
+  "faq": [
+    {
+      "pregunta": "No sé nada de Excel, ¿igual puedo?",
+      "respuesta": "Sí. Empiezas con el módulo 0, desde lo más básico. Si sabes abrir Excel, copiar y pegar, tienes el nivel."
+    },
+    {
+      "pregunta": "¿Sirve con Office 2016, 2019 o 2021?",
+      "respuesta": "Sí. Funciona desde Excel 2016 en adelante. No necesitas Office 365."
+    },
+    {
+      "pregunta": "¿Tengo que pagar ChatGPT o Claude?",
+      "respuesta": "No. Todo el programa funciona con las versiones gratuitas, y en el módulo 0 te enseñamos a crear tus cuentas."
+    },
+    {
+      "pregunta": "¿Qué es Skool?",
+      "respuesta": "Es la plataforma donde vive el programa: ahí ves las clases, descargas las plantillas y publicas tus dudas en la comunidad. Funciona desde el navegador o desde su app en el celular."
+    },
+    {
+      "pregunta": "¿Y si no puedo a la hora de las sesiones en vivo?",
+      "respuesta": "Todo queda grabado dentro de Skool: las clases y también las sesiones en vivo de preguntas. Lo ves cuando puedas."
+    },
+    {
+      "pregunta": "¿Hay permanencia mínima?",
+      "respuesta": "No. Pagas 20 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo tengo acceso?",
+      "respuesta": "Mientras tu membresía esté activa tienes todo: los módulos, las grabaciones, las plantillas y la comunidad."
+    },
+    {
+      "pregunta": "¿Cómo pago?",
+      "respuesta": "Con tarjeta de crédito o débito, directamente en Skool. Si usas débito, revisa que esté habilitada para compras internacionales."
+    },
+    {
+      "pregunta": "¿Sirve para mi área?",
+      "respuesta": "Si tu trabajo usa datos en Excel, sí. Tienes plantillas por profesión y en el módulo 5 lo construyes con tu propio caso."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo al día tengo que dedicarle?",
+      "respuesta": "Las clases son cortas, de 20 a 40 minutos. Con una o dos horas a la semana avanzas sin problema."
+    },
+    {
+      "pregunta": "¿Cómo sé que no es estafa?",
+      "respuesta": "El pago lo procesa Skool, una plataforma que usan miles de cursos y comunidades en el mundo; nosotros nunca vemos los datos de tu tarjeta. Entras apenas pagas, y si no te convence, cancelas cuando quieras."
+    },
+    {
+      "pregunta": "¿Dan certificado?",
+      "respuesta": "Sí. Pero lo más valioso es que sales con tu dashboard y tu automatización funcionando."
+    }
+  ],
+  "final": {
+    "headline": "¿Vas a entregar el reporte en un minuto o te vas a seguir quedando hasta tarde?",
+    "subhead": "La IA ya está cambiando la forma de trabajar con Excel. En 4 semanas tienes tu propio sistema funcionando.",
+    "cta": "Unirme por 20 USD al mes",
+    "microcopy": "Precio de fundador · Cancela cuando quieras"
+  },
+  "sticky": {
+    "texto": "Excel con IA · 20 USD/mes",
+    "cta": "Unirme"
+  }
+}

@@ -114,7 +114,8 @@
         "properties": {
           "nombre": { "type": "string" },
           "descripcion": { "type": "string" },
-          "valor": { "type": "number", "minimum": 0, "description": "Valor percibido en la moneda del curso. Alimenta el stack de valor." }
+          "valor": { "type": "number", "minimum": 0, "description": "Valor percibido en la moneda del curso. 0 si es un bonus sin precio individual (ej: acceso a comunidad). Alimenta el stack de valor solo cuando es mayor que 0." },
+          "imagen": { "type": "string", "description": "Nombre de archivo en assets/, para secciones tipo bonus-image." }
         }
       }
     },

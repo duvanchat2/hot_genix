@@ -1,0 +1,63 @@
+{
+  "$comment": "Paleta del diseño final de Claude Design: verde hoja de cálculo (primario) + violeta IA (secundario), fondos oscuros verdosos. Los *_soft son los tintes claros que se usan sobre fondo oscuro.",
+  "meta": {
+    "nombre": ""
+  },
+  "colores": {
+    "primary": {
+      "hex": "#16A34A"
+    },
+    "secondary": {
+      "hex": "#7C3AED"
+    },
+    "accent": {
+      "hex": "#FACC15"
+    },
+    "surface_dark": {
+      "hex": "#0B1410"
+    },
+    "surface_light": {
+      "hex": "#FFFFFF"
+    },
+    "surface_muted": {
+      "hex": "#F1F7F3"
+    },
+    "text": {
+      "hex": "#0F1A14"
+    },
+    "text_on_dark": {
+      "hex": "#ECFDF3"
+    },
+    "text_muted": {
+      "hex": "#5B6B62"
+    },
+    "primary_soft": {
+      "hex": "#4ADE80"
+    },
+    "secondary_soft": {
+      "hex": "#A78BFA"
+    },
+    "text_on_dark_muted": {
+      "hex": "#A7C4B3"
+    }
+  },
+  "tipografia": {
+    "heading": {
+      "familia": "Plus Jakarta Sans",
+      "pesos": [
+        700,
+        800
+      ],
+      "fallback": "'Segoe UI', system-ui, sans-serif"
+    },
+    "body": {
+      "familia": "Inter",
+      "pesos": [
+        400,
+        500,
+        600
+      ],
+      "fallback": "'Segoe UI', system-ui, sans-serif"
+    }
+  }
+}

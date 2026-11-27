@@ -1,0 +1,17 @@
+{
+  "$comment": "Página de venta con VSL (grabación del webinar). estilos-evento va primero porque audience-grid y sticky-cta usan sus clases gx-*. Sin proof-bar ni testimonios hasta tener métricas y testimonios reales. Sin sección de garantía: Skool no tiene la de Hotmart; 'cancela cuando quieras' va en precio y FAQ. bonus-image en vez de bonus: los bonos no tienen precio individual y bonus.json mostraría 'Valor: $0'.",
+  "secciones": [
+    { "seccion": "estilos-evento" },
+    { "seccion": "hero-vsl", "nota": "el titular solo tiene que conseguir el play" },
+    { "seccion": "pain" },
+    { "seccion": "mechanism", "nota": "los 3 secretos del webinar" },
+    { "seccion": "audience-grid" },
+    { "seccion": "offer", "nota": "módulos 0 a 5" },
+    { "seccion": "bonus-image", "nota": "incluidos + bonos de fundadores, sin valores inventados" },
+    { "seccion": "instructor" },
+    { "seccion": "price-ticket", "nota": "membresía: 10 USD al mes, el 'al mes' va en el remate" },
+    { "seccion": "faq" },
+    { "seccion": "final-cta" },
+    { "seccion": "sticky-cta" }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "$comment": "Calibrada con el diseño final de Claude Design (export index.html). Arquetipo 'evento en vivo': estilos-evento debe ir primero (CSS de apoyo para las clases gx-*). La sección de testimonios del diseño NO está incluida: pendiente confirmar que son testimonios reales.",
+  "secciones": [
+    {
+      "seccion": "estilos-evento"
+    },
+    {
+      "seccion": "topbar"
+    },
+    {
+      "seccion": "hero-event"
+    },
+    {
+      "seccion": "pain-image-left"
+    },
+    {
+      "seccion": "agenda-cards"
+    },
+    {
+      "seccion": "audience-grid"
+    },
+    {
+      "seccion": "offer-split"
+    },
+    {
+      "seccion": "instructor-round"
+    },
+    {
+      "seccion": "price-ticket"
+    },
+    {
+      "seccion": "faq"
+    },
+    {
+      "seccion": "final-glow"
+    },
+    {
+      "seccion": "sticky-cta"
+    }
+  ]
+}

@@ -1,0 +1,4197 @@
+{
+  "version": "0.4",
+  "title": "Excel con IA. De las horas perdidas a tu propio sistema",
+  "type": "page",
+  "content": [
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "min_height": {
+          "unit": "px",
+          "size": 0
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<style>\n.gx-grid{background-image:linear-gradient(color-mix(in srgb,#4ADE80 7%,transparent) 1px,transparent 1px),linear-gradient(90deg,color-mix(in srgb,#4ADE80 7%,transparent) 1px,transparent 1px);background-size:56px 28px}\n.gx-glow,.gx-glow-center{overflow:hidden}\n.gx-glow:before{content:\"\";position:absolute;right:-10%;top:10%;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,#7C3AED 22%,transparent),transparent 65%);pointer-events:none}\n.gx-glow-center:before{content:\"\";position:absolute;left:50%;top:50%;width:900px;height:520px;transform:translate(-50%,-50%);background:radial-gradient(ellipse at 35% 50%,color-mix(in srgb,#16A34A 30%,transparent),transparent 60%),radial-gradient(ellipse at 65% 50%,color-mix(in srgb,#7C3AED 30%,transparent),transparent 60%);pointer-events:none}\n.gx-glow>.e-con-inner,.gx-glow-center>.e-con-inner{position:relative;z-index:1}\n.gx-sticky-top{position:sticky;top:0;z-index:50}\n.gx-btn .elementor-button{transition:filter .12s,transform .12s}\n.gx-btn .elementor-button:hover,.gx-btn .elementor-button:focus{background-image:linear-gradient(135deg,#16A34A,#7C3AED)!important;color:#fff!important;filter:brightness(1.08)}\n.gx-btn .elementor-button:active{transform:scale(.98)}\n.gx-ticket{border:2px solid transparent!important;background:linear-gradient(color-mix(in srgb,#fff 4%,#0B1410),color-mix(in srgb,#fff 4%,#0B1410)) padding-box,linear-gradient(135deg,#16A34A,#7C3AED) border-box!important}\n.gx-cut{position:relative}\n.gx-cut:before,.gx-cut:after{content:\"\";position:absolute;top:50%;width:30px;height:30px;margin-top:-15px;border-radius:50%;background:#0B1410}\n.gx-cut:before{left:-43px}.gx-cut:after{right:-43px}\n.gx-chip{display:inline-block}\n@media (max-width:767px){\n  .gx-sticky-cta{position:fixed!important;left:0;right:0;bottom:0;z-index:60;transform:translateY(110%);transition:transform .25s}\n  .gx-scrolled .gx-sticky-cta{transform:none}\n  body{padding-bottom:76px}\n}\n</style>\n<script>(function(){function t(){document.documentElement.classList.toggle('gx-scrolled',window.scrollY>700)}addEventListener('scroll',t,{passive:true});t();})();</script>"
+          },
+          "elements": [],
+          "id": "51e348a"
+        }
+      ],
+      "id": "d939f07"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B1410",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Clase grabada · Excel con IA",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#16A34A",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "__globals__": {
+              "title_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "07d6467"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Descubre cómo la IA automatiza tus archivos de Excel: reportes, dashboards y todo lo que hoy haces a mano",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#ECFDF3",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "b3cec79"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "video",
+          "settings": {
+            "video_type": "youtube",
+            "youtube_url": "https://www.youtube.com/watch?v=PENDIENTE",
+            "vimeo_url": "https://www.youtube.com/watch?v=PENDIENTE",
+            "aspect_ratio": "169",
+            "autoplay": "",
+            "mute": "",
+            "controls": "yes",
+            "show_image_overlay": "yes",
+            "image_overlay": {
+              "url": "",
+              "source": "url"
+            },
+            "lightbox": "",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            }
+          },
+          "elements": [],
+          "id": "7e8f3d3"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Quiero entrar por 20 USD al mes",
+            "link": {
+              "url": "https://www.skool.com/PENDIENTE",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#16A34A",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "44",
+              "bottom": "20",
+              "left": "44",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_weight": "700",
+            "__globals__": {
+              "background_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "0f742d1"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Precio de fundador · Cancela cuando quieras · Comunidad en Skool</p>",
+            "text_color": "#5B6B62",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "52d2e95"
+        }
+      ],
+      "id": "953bc3f"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Tu reporte del lunes no debería tomarte el lunes completo",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0F1A14",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "99aba29"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Si tu trabajo pasa por Excel, seguramente te suena alguna de estas frases. Nos las escribieron personas como tú:</p>",
+            "text_color": "#5B6B62",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "c792edc"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "icon-list",
+          "settings": {
+            "icon_list": [
+              {
+                "_id": "02330ff",
+                "text": "«Es mucha información que se debe analizar y consolidar»",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "063554d",
+                "text": "«Tareas repetitivas. Me quitan tiempo»",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "c6372eb",
+                "text": "«Quiero mostrar la información de forma gráfica, entendible y llamativa»",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "c239670",
+                "text": "«No conozco nada de IA y por eso quiero aprender»",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              },
+              {
+                "_id": "c2281dd",
+                "text": "Cada semana copias, pegas, cruzas bases a mano y rehaces el mismo reporte del lunes pasado",
+                "selected_icon": {
+                  "value": "fas fa-times",
+                  "library": "fa-solid"
+                }
+              }
+            ],
+            "space_between": {
+              "unit": "px",
+              "size": 16
+            },
+            "icon_color": "#FACC15",
+            "icon_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "text_color": "#0F1A14",
+            "icon_typography_typography": "custom",
+            "text_indent": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.5
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 62
+            },
+            "__globals__": {
+              "icon_color": "globals/colors?id=accent",
+              "text_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "21dd8fb"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "El problema no es que seas malo en Excel. Es que te enseñaron a memorizar fórmulas, y nadie tiene tiempo para eso.",
+            "header_size": "h3",
+            "align": "center",
+            "title_color": "#0F1A14",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "typography_font_weight": "700",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.35
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 66
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "236f97d"
+        }
+      ],
+      "id": "9535083"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B1410",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "El método de los 3 secretos",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#7C3AED",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 1.5
+            },
+            "typography_text_transform": "uppercase",
+            "__globals__": {
+              "title_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "2643501"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Con IA, la regla del juego cambió",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#ECFDF3",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52"
+            }
+          },
+          "elements": [],
+          "id": "fd386b2"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Antes, para armar un dashboard o automatizar un reporte necesitabas años de Excel. Hoy no: la IA te dice cada paso y tú lo sigues. Lo que necesitas no es saber Excel, es saber pedir. Y eso se aprende con tres secretos.</p>",
+            "text_color": "#5B6B62",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 70
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "c122cbd"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 320
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#262636"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "01",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "af9f72e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "No memorices fórmulas: pídeselas a la IA",
+                    "header_size": "h3",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "ec9365c"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Le explicas lo que necesitas como a un compañero de trabajo y verificas el resultado: que las filas tengan sentido y que los totales cuadren.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "3b5cfc4"
+                }
+              ],
+              "id": "91e6d1e"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 320
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#262636"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "02",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6ed51ed"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Un buen reporte se ve, no se lee",
+                    "header_size": "h3",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e202fdc"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Tu jefe no quiere 300 filas: quiere tres números y un gráfico que respondan cuánto, quién y cuándo.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8265b18"
+                }
+              ],
+              "id": "d5e97b8"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "px",
+                  "size": 320
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "24",
+                  "bottom": "28",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#262636"
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "03",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "197c7a2"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Arma una vez, actualiza para siempre",
+                    "header_size": "h3",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "42e5b5a"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Pegas los datos nuevos, das clic en Actualizar todo y el tablero se recalcula solo. El reporte de 3 horas pasa a tomarte un minuto.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e9f1070"
+                }
+              ],
+              "id": "d5ebba2"
+            }
+          ],
+          "id": "e6fbf89"
+        }
+      ],
+      "id": "d937b1d"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "64",
+          "right": "16",
+          "bottom": "64",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 40,
+          "column": "40",
+          "row": "32",
+          "isLinked": false
+        },
+        "boxed_width": {
+          "unit": "px",
+          "size": 1000
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Es para ti si tu trabajo pasa por Excel",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0F1A14",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.6
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text",
+              "typography_font_family": "globals/typography?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "7b1a9f8"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_grow": 1,
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "view": "stacked",
+                    "shape": "circle",
+                    "position": "left",
+                    "content_vertical_alignment": "top",
+                    "title_text": "Eres contador o llevas la contabilidad de varios clientes y pasas días digitando",
+                    "description_text": "",
+                    "title_size": "div",
+                    "primary_color": "#16A34A",
+                    "secondary_color": "#FFFFFF",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": 9
+                    },
+                    "icon_space": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#0F1A14",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "title_typography_font_weight": "500",
+                    "title_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "primary_color": "globals/colors?id=primary",
+                      "title_color": "globals/colors?id=text",
+                      "title_typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "c200744"
+                }
+              ],
+              "id": "fe43e23"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_grow": 1,
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "view": "stacked",
+                    "shape": "circle",
+                    "position": "left",
+                    "content_vertical_alignment": "top",
+                    "title_text": "Eres asistente administrativa y armas los mismos informes cada semana",
+                    "description_text": "",
+                    "title_size": "div",
+                    "primary_color": "#16A34A",
+                    "secondary_color": "#FFFFFF",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": 9
+                    },
+                    "icon_space": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#0F1A14",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "title_typography_font_weight": "500",
+                    "title_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "primary_color": "globals/colors?id=primary",
+                      "title_color": "globals/colors?id=text",
+                      "title_typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "73a82cc"
+                }
+              ],
+              "id": "fa419d5"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_grow": 1,
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "view": "stacked",
+                    "shape": "circle",
+                    "position": "left",
+                    "content_vertical_alignment": "top",
+                    "title_text": "Manejas inventarios, bodega o despachos y siempre hay algo que no cuadra",
+                    "description_text": "",
+                    "title_size": "div",
+                    "primary_color": "#16A34A",
+                    "secondary_color": "#FFFFFF",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": 9
+                    },
+                    "icon_space": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#0F1A14",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "title_typography_font_weight": "500",
+                    "title_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "primary_color": "globals/colors?id=primary",
+                      "title_color": "globals/colors?id=text",
+                      "title_typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "ed4a04a"
+                }
+              ],
+              "id": "3a48bde"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_grow": 1,
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "24",
+                  "bottom": "24",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "14",
+                  "bottom": "14",
+                  "left": "14",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    },
+                    "view": "stacked",
+                    "shape": "circle",
+                    "position": "left",
+                    "content_vertical_alignment": "top",
+                    "title_text": "Tienes una pequeña empresa y quieres ver tus números sin pagarle a alguien cada mes",
+                    "description_text": "",
+                    "title_size": "div",
+                    "primary_color": "#16A34A",
+                    "secondary_color": "#FFFFFF",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "icon_padding": {
+                      "unit": "px",
+                      "size": 9
+                    },
+                    "icon_space": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#0F1A14",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "title_typography_font_weight": "500",
+                    "title_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "primary_color": "globals/colors?id=primary",
+                      "title_color": "globals/colors?id=text",
+                      "title_typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "668ae57"
+                }
+              ],
+              "id": "3e46859"
+            }
+          ],
+          "id": "5b2b6d4"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<span style=\"color:#FACC15\">⚡</span>&nbsp; Si haces algo más de dos veces al mes en Excel, se puede automatizar.",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#ECFDF3",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_weight": "700",
+            "_element_width": "auto",
+            "_padding": {
+              "unit": "px",
+              "top": "14",
+              "right": "24",
+              "bottom": "14",
+              "left": "24",
+              "isLinked": false
+            },
+            "_background_background": "classic",
+            "_background_color": "#0B1410",
+            "_border_radius": {
+              "unit": "px",
+              "top": "999",
+              "right": "999",
+              "bottom": "999",
+              "left": "999",
+              "isLinked": true
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52",
+              "typography_font_family": "globals/typography?id=secondary",
+              "_background_color": "globals/colors?id=b6b1d5f"
+            }
+          },
+          "elements": [],
+          "id": "392aa74"
+        }
+      ],
+      "id": "9944190"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 32,
+          "column": "32",
+          "row": "32",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Qué vas a construir en 4 semanas",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0F1A14",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 76
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "69173b7"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Cada módulo termina con algo funcionando. Al final no te llevas solo teoría: te llevas un dashboard y un reporte automatizado que puedes mostrarle a tu jefe el lunes.</p>",
+            "text_color": "#5B6B62",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 68
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=e0f5b63"
+            }
+          },
+          "elements": [],
+          "id": "b1668ed"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 86
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 1",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "f0e430f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulo 0 · Arranque",
+                    "header_size": "h3",
+                    "title_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "984b6f6"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Qué versión de Excel sirve, cómo crear tus cuentas gratis de ChatGPT y Claude, y nivelación desde cero: celda, fila, columna y tabla.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b4fbc02"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "0b59de1",
+                        "text": "Llegas listo, aunque nunca hayas usado Excel en serio",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#7C3AED",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6a304fb"
+                }
+              ],
+              "id": "e208d3a"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 2",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "927ba40"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulo 1 · Tu copiloto de fórmulas",
+                    "header_size": "h3",
+                    "title_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "af1e7c6"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Aprendes a pedirle a la IA cualquier fórmula y a verificar que esté bien antes de usarla.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "0c8abc6"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "c959ec0",
+                        "text": "Dejas de buscar fórmulas en Google y de memorizarlas",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#7C3AED",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "515a649"
+                }
+              ],
+              "id": "1e05608"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 3",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "52c9cb2"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulo 2 · Limpieza y cruce de bases",
+                    "header_size": "h3",
+                    "title_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "f7d68b0"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Juntar información de varios archivos, quitar duplicados, cruzar datos e incluso sacar información de un PDF, como un extracto bancario.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "4a7c372"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "d31a1cb",
+                        "text": "Bases limpias y unificadas en minutos, no en horas",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#7C3AED",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "60e0dbb"
+                }
+              ],
+              "id": "1e0daf5"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 4",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "cdcd8b4"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulo 3 · Tablas dinámicas y dashboards",
+                    "header_size": "h3",
+                    "title_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "5928b3c"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Lo que viste en el video, completo y a fondo: tablas dinámicas, gráficos y un tablero que cualquier jefe entiende en diez segundos.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "3ed3d12"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "057ff3b",
+                        "text": "Tu primer dashboard listo para presentar",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#7C3AED",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "d2af134"
+                }
+              ],
+              "id": "e20b124"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 5",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "14d183d"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulo 4 · Automatiza lo repetitivo",
+                    "header_size": "h3",
+                    "title_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "199c794"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Macros y scripts escritos por la IA. Tú no programas: la IA escribe el código y tú aprendes a pegarlo y usarlo.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "5bd651c"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "075bd04",
+                        "text": "Tareas de horas que ahora corren solas",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#7C3AED",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "efa9b9a"
+                }
+              ],
+              "id": "21feab1"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 8,
+                  "column": "8",
+                  "row": "8",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "28",
+                  "bottom": "26",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "background_background": "classic",
+                "background_color": "#F1F7F3",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 14,
+                  "right": 14,
+                  "bottom": 14,
+                  "left": 14,
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "background_color": "globals/colors?id=c8d3f41"
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MÓDULO 6",
+                    "header_size": "div",
+                    "title_color": "#16A34A",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "700",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.2
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8ac19b8"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Módulo 5 · Tu dashboard y tu primera automatización",
+                    "header_size": "h3",
+                    "title_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bcf005f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Trabajas con tus propios datos: estados financieros, inventarios, presupuestos o cartera.</p>",
+                    "text_color": "#5B6B62",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "__globals__": {
+                      "text_color": "globals/colors?id=e0f5b63"
+                    }
+                  },
+                  "elements": [],
+                  "id": "b569445"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "6112ef6",
+                        "text": "Sales con tu sistema funcionando en tu trabajo",
+                        "selected_icon": {
+                          "value": "fas fa-check",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "icon_color": "#7C3AED",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "text_color": "#0F1A14",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "600",
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=secondary",
+                      "text_color": "globals/colors?id=text"
+                    }
+                  },
+                  "elements": [],
+                  "id": "1df3b82"
+                }
+              ],
+              "id": "1dfc662"
+            }
+          ],
+          "id": "3a29ce7"
+        }
+      ],
+      "id": "9546515"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 14,
+          "column": "14",
+          "row": "14",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B1410",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Todo lo que incluye tu inscripción",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#7C3AED",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.2
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "34f03a9"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Además de los 6 módulos, te llevas esto. Los tres bonos de fundadores solo están en esta edición.</p>",
+            "text_color": "#B7ACD6",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 66
+            }
+          },
+          "elements": [],
+          "id": "030374a"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 66
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40,
+              "column": "40",
+              "row": "40",
+              "isLinked": true
+            },
+            "margin": {
+              "unit": "px",
+              "top": "26",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 1",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "d5a1da1"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "6 sesiones en vivo de preguntas",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "dd4557b"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Resuelves tus dudas en directo. Si no puedes a la hora, quedan grabadas.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "e0a237e"
+                }
+              ],
+              "id": "63d8f8d"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 2",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "bd6a2f4"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Plantillas por profesión",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "320f06c"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Contabilidad, inventarios, presupuestos y registro de clientes, listas para adaptar.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "f9a7e27"
+                }
+              ],
+              "id": "9fdb95e"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 3",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "01559de"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Biblioteca de 100 prompts",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "59ee5f7"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Los prompts listos para copiar y pegar en ChatGPT o Claude.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "8181dd6"
+                }
+              ],
+              "id": "9fd3472"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 4",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "eb844fd"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Comunidad de alumnos en Skool",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "5730e63"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Donde publicas tus dudas y avanzas con otros alumnos mientras construyes tu sistema.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "4dec61d"
+                }
+              ],
+              "id": "a3d58c0"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 5",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "f4510eb"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Bono de fundadores · Excel desde cero en 7 días",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "8d24a2a"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Videos cortos de 5 minutos para que llegues listo, aunque no sepas nada de Excel.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "bfdc2c2"
+                }
+              ],
+              "id": "63ce6b8"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 6",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "6adc408"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Bono de fundadores · Revisión en vivo de archivos reales",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "e38d49a"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Una sesión en vivo donde se revisa el archivo real de tres alumnos, con sus datos.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "24dbc29"
+                }
+              ],
+              "id": "5fd0a3c"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14,
+                  "column": "14",
+                  "row": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BONUS 7",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#7C3AED",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "800",
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.6
+                    },
+                    "typography_text_transform": "uppercase",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "ca16eee"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Bono de fundadores · Tu IA gratis en 10 minutos",
+                    "header_size": "h3",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_weight": "700",
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52"
+                    }
+                  },
+                  "elements": [],
+                  "id": "75fb89f"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align:center\">Guía para crear y dejar listas tus cuentas gratuitas de IA.</p>",
+                    "text_color": "#B7ACD6",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": [],
+                  "id": "77b4c6d"
+                }
+              ],
+              "id": "9fca4cc"
+            }
+          ],
+          "id": "51aea9d"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Quiero entrar como fundador",
+            "link": {
+              "url": "https://www.skool.com/PENDIENTE",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "justify",
+            "size": "lg",
+            "background_background": "gradient",
+            "background_color": "#7C3AED",
+            "background_color_b": "#16A34A",
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "22",
+              "right": "40",
+              "bottom": "22",
+              "left": "40",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_font_weight": "800",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 66
+            },
+            "__globals__": {
+              "background_color": "globals/colors?id=secondary",
+              "background_color_b": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "e39e415"
+        }
+      ],
+      "id": "953e029"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_align_items": "center",
+        "flex_justify_content": "center",
+        "flex_wrap": "wrap",
+        "flex_gap": {
+          "unit": "px",
+          "size": 44,
+          "column": "44",
+          "row": "44",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B1410",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 560
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16,
+              "column": "16",
+              "row": "16",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quién te va a enseñar",
+                "header_size": "h2",
+                "title_color": "#ECFDF3",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "1145f64"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Soy Miguel Rodríguez. Llevo más de siete años en comercio exterior, donde todo pasaba por Excel: facturas, inventarios, presupuestos de varios países y tableros para la junta directiva. Cansado de ver horas perdidas copiando y pegando, empecé a automatizar mis propios reportes y fundé Excel Service para hacerlo por pequeñas empresas y contadores. Por años mi mensaje fue «No enseñamos Excel, lo hacemos por ti». Con la IA eso cambió, y por primera vez quiero enseñarte a hacerlo tú.</p>",
+                "text_color": "#5B6B62",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "__globals__": {
+                  "text_color": "globals/colors?id=e0f5b63"
+                }
+              },
+              "elements": [],
+              "id": "3f0b098"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_list": [
+                  {
+                    "_id": "05f9173",
+                    "text": "Fundador de Excel Service",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "01f6d25",
+                    "text": "+7 años en comercio exterior",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  },
+                  {
+                    "_id": "41fdf2e",
+                    "text": "Automatizaciones para una escuela de conducción, una exportadora de maracuyá y la contabilidad de estaciones de servicio",
+                    "selected_icon": {
+                      "value": "fas fa-check",
+                      "library": "fa-solid"
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_color": "#7C3AED",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_color": "#ECFDF3",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=secondary",
+                  "text_color": "globals/colors?id=d9e4a52"
+                }
+              },
+              "elements": [],
+              "id": "cd6059c"
+            }
+          ],
+          "id": "8f4084e"
+        }
+      ],
+      "id": "d940ac3"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "104",
+          "right": "20",
+          "bottom": "104",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "64",
+          "right": "16",
+          "bottom": "64",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B1410",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 36,
+          "column": "36",
+          "row": "36",
+          "isLinked": true
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Precio de fundador",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#ECFDF3",
+            "typography_typography": "custom",
+            "typography_font_family": "Plus Jakarta Sans",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.6
+            },
+            "_element_width": "initial",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 64
+            },
+            "_element_custom_width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52",
+              "typography_font_family": "globals/typography?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "b7a9272"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">Si te ahorra una sola hora al mes, ya se pagó.</p>",
+            "text_color": "#A7C4B3",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "-22",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "_element_width": "initial",
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 64
+            },
+            "_element_custom_width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "__globals__": {
+              "text_color": "globals/colors?id=b3c9e42",
+              "typography_font_family": "globals/typography?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "42b725c"
+        },
+        {
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "width": {
+              "unit": "px",
+              "size": 620
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0",
+              "isLinked": true
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "20",
+              "isLinked": true
+            },
+            "css_classes": "gx-ticket",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10,
+                  "column": "10",
+                  "row": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "28",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "20",
+                  "bottom": "24",
+                  "left": "20",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Todo el programa, la comunidad y los bonos de fundador por:",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#A7C4B3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=b3c9e42",
+                      "typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "02389db"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "$20<span style=\"font-size:30px;margin-left:10px;letter-spacing:0\">USD</span>",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#FACC15",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Plus Jakarta Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 136
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 112
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 88
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -3
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=accent",
+                      "typography_font_family": "globals/typography?id=primary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "7cb730e"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "al mes. Menos de 70 centavos de dólar al día, y cancelas cuando quieras.",
+                    "header_size": "div",
+                    "align": "center",
+                    "title_color": "#ECFDF3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    },
+                    "_element_width": "initial",
+                    "_element_custom_width": {
+                      "unit": "%",
+                      "size": 80
+                    },
+                    "_element_custom_width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "__globals__": {
+                      "title_color": "globals/colors?id=d9e4a52",
+                      "typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "9ac8c89"
+                }
+              ],
+              "id": "1faca55"
+            },
+            {
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "dashed",
+                "weight": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "color": "#FFFFFF26",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "26",
+                  "bottom": "0",
+                  "left": "26",
+                  "isLinked": false
+                },
+                "_css_classes": "gx-cut"
+              },
+              "elements": [],
+              "id": "d330e34"
+            },
+            {
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_align_items": "stretch",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 16,
+                  "column": "16",
+                  "row": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "28",
+                  "right": "40",
+                  "bottom": "36",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "20",
+                  "bottom": "28",
+                  "left": "20",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Unirme por 20 USD al mes",
+                    "link": {
+                      "url": "https://www.skool.com/PENDIENTE",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "align": "justify",
+                    "align_mobile": "justify",
+                    "size": "lg",
+                    "background_background": "gradient",
+                    "background_color": "#16A34A",
+                    "background_color_b": "#7C3AED",
+                    "background_gradient_angle": {
+                      "unit": "deg",
+                      "size": 135
+                    },
+                    "button_text_color": "#FFFFFF",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "12",
+                      "right": "12",
+                      "bottom": "12",
+                      "left": "12",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "28",
+                      "bottom": "20",
+                      "left": "28",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 19
+                    },
+                    "typography_font_weight": "800",
+                    "_css_classes": "gx-btn",
+                    "__globals__": {
+                      "background_color": "globals/colors?id=primary",
+                      "background_color_b": "globals/colors?id=secondary",
+                      "typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "28324e5"
+                },
+                {
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "_id": "98d7528",
+                        "text": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 20 USD mientras sigas activo.",
+                        "selected_icon": {
+                          "value": "far fa-clock",
+                          "library": "fa-regular"
+                        }
+                      }
+                    ],
+                    "icon_color": "#FACC15",
+                    "icon_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "icon_self_vertical_align": "flex-start",
+                    "icon_vertical_offset": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "text_color": "#A7C4B3",
+                    "text_indent": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "icon_typography_typography": "custom",
+                    "icon_typography_font_family": "Inter",
+                    "icon_typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "icon_typography_line_height": {
+                      "unit": "em",
+                      "size": 1.5
+                    },
+                    "__globals__": {
+                      "icon_color": "globals/colors?id=accent",
+                      "text_color": "globals/colors?id=b3c9e42",
+                      "icon_typography_font_family": "globals/typography?id=secondary"
+                    }
+                  },
+                  "elements": [],
+                  "id": "86c879a"
+                }
+              ],
+              "id": "63b18d9"
+            }
+          ],
+          "id": "b7d1189"
+        }
+      ],
+      "id": "994d136"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 28,
+          "column": "28",
+          "row": "28",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": 88,
+          "right": "20",
+          "bottom": 88,
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "__globals__": {
+          "background_color": "globals/colors?id=a1c2e30"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Preguntas frecuentes",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#0F1A14",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 27
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "title_color": "globals/colors?id=text"
+            }
+          },
+          "elements": [],
+          "id": "48b7981"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "_id": "062dcde",
+                "tab_title": "No sé nada de Excel, ¿igual puedo?",
+                "tab_content": "<p>Sí. Empiezas con el módulo 0, desde lo más básico. Si sabes abrir Excel, copiar y pegar, tienes el nivel.</p>"
+              },
+              {
+                "_id": "0230063",
+                "tab_title": "¿Sirve con Office 2016, 2019 o 2021?",
+                "tab_content": "<p>Sí. Funciona desde Excel 2016 en adelante. No necesitas Office 365.</p>"
+              },
+              {
+                "_id": "0227b77",
+                "tab_title": "¿Tengo que pagar ChatGPT o Claude?",
+                "tab_content": "<p>No. Todo el programa funciona con las versiones gratuitas, y en el módulo 0 te enseñamos a crear tus cuentas.</p>"
+              },
+              {
+                "_id": "c62b2a9",
+                "tab_title": "¿Qué es Skool?",
+                "tab_content": "<p>Es la plataforma donde vive el programa: ahí ves las clases, descargas las plantillas y publicas tus dudas en la comunidad. Funciona desde el navegador o desde su app en el celular.</p>"
+              },
+              {
+                "_id": "c622dbd",
+                "tab_title": "¿Y si no puedo a la hora de las sesiones en vivo?",
+                "tab_content": "<p>Todo queda grabado dentro de Skool: las clases y también las sesiones en vivo de preguntas. Lo ves cuando puedas.</p>"
+              },
+              {
+                "_id": "022578d",
+                "tab_title": "¿Hay permanencia mínima?",
+                "tab_content": "<p>No. Pagas 20 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos.</p>"
+              },
+              {
+                "_id": "021ebd1",
+                "tab_title": "¿Cuánto tiempo tengo acceso?",
+                "tab_content": "<p>Mientras tu membresía esté activa tienes todo: los módulos, las grabaciones, las plantillas y la comunidad.</p>"
+              },
+              {
+                "_id": "c6209d3",
+                "tab_title": "¿Cómo pago?",
+                "tab_content": "<p>Con tarjeta de crédito o débito, directamente en Skool. Si usas débito, revisa que esté habilitada para compras internacionales.</p>"
+              },
+              {
+                "_id": "064155a",
+                "tab_title": "¿Sirve para mi área?",
+                "tab_content": "<p>Si tu trabajo usa datos en Excel, sí. Tienes plantillas por profesión y en el módulo 5 lo construyes con tu propio caso.</p>"
+              },
+              {
+                "_id": "c243293",
+                "tab_title": "¿Cuánto tiempo al día tengo que dedicarle?",
+                "tab_content": "<p>Las clases son cortas, de 20 a 40 minutos. Con una o dos horas a la semana avanzas sin problema.</p>"
+              },
+              {
+                "_id": "99a3e12",
+                "tab_title": "¿Cómo sé que no es estafa?",
+                "tab_content": "<p>El pago lo procesa Skool, una plataforma que usan miles de cursos y comunidades en el mundo; nosotros nunca vemos los datos de tu tarjeta. Entras apenas pagas, y si no te convence, cancelas cuando quieras.</p>"
+              },
+              {
+                "_id": "95a19c4",
+                "tab_title": "¿Dan certificado?",
+                "tab_content": "<p>Sí. Pero lo más valioso es que sales con tu dashboard y tu automatización funcionando.</p>"
+              }
+            ],
+            "selected_icon": {
+              "value": "fas fa-plus",
+              "library": "fa-solid"
+            },
+            "selected_active_icon": {
+              "value": "fas fa-minus",
+              "library": "fa-solid"
+            },
+            "title_html_tag": "h3",
+            "title_color": "#0F1A14",
+            "content_color": "#5B6B62",
+            "icon_color": "#16A34A",
+            "title_typography_typography": "custom",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "title_typography_font_weight": "700",
+            "content_typography_typography": "custom",
+            "content_typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "content_typography_line_height": {
+              "unit": "em",
+              "size": 1.6
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 78
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=text",
+              "content_color": "globals/colors?id=e0f5b63",
+              "icon_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "dd518fd"
+        }
+      ],
+      "id": "d54fb07"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "20",
+          "bottom": "96",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#7C3AED",
+        "background_color_b": "#16A34A",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=secondary",
+          "background_color_b": "globals/colors?id=primary"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "¿Vas a entregar el reporte en un minuto o te vas a seguir quedando hasta tarde?",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.18
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 74
+            }
+          },
+          "elements": [],
+          "id": "86ca649"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center\">La IA ya está cambiando la forma de trabajar con Excel. En 4 semanas tienes tu propio sistema funcionando.</p>",
+            "text_color": "#F0EDFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            },
+            "_element_custom_width": {
+              "unit": "%",
+              "size": 64
+            }
+          },
+          "elements": [],
+          "id": "e42b53c"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Unirme por 20 USD al mes",
+            "link": {
+              "url": "https://www.skool.com/PENDIENTE",
+              "is_external": "on",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "center",
+            "size": "lg",
+            "background_color": "#FFFFFF",
+            "button_text_color": "#16A34A",
+            "border_radius": {
+              "unit": "px",
+              "top": 999,
+              "right": 999,
+              "bottom": 999,
+              "left": 999,
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "22",
+              "right": "48",
+              "bottom": "22",
+              "left": "48",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 19
+            },
+            "typography_font_weight": "800",
+            "__globals__": {
+              "button_text_color": "globals/colors?id=primary"
+            }
+          },
+          "elements": [],
+          "id": "66a5a2a"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Precio de fundador · Cancela cuando quieras",
+            "header_size": "div",
+            "align": "center",
+            "title_color": "#E4DEFF",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            }
+          },
+          "elements": [],
+          "id": "85252ae"
+        }
+      ],
+      "id": "930f4b5"
+    },
+    {
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_gap": {
+          "unit": "px",
+          "size": 12,
+          "column": "12",
+          "row": "12",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "16",
+          "bottom": "12",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#0B1410",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#FFFFFF1F",
+        "css_classes": "gx-sticky-cta",
+        "hide_desktop": "hidden-desktop",
+        "hide_tablet": "hidden-tablet",
+        "__globals__": {
+          "background_color": "globals/colors?id=b6b1d5f"
+        }
+      },
+      "elements": [
+        {
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Excel con IA · 20 USD/mes · <span style=\"color:#FACC15;font-weight:800\">$20</span>",
+            "header_size": "div",
+            "title_color": "#ECFDF3",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_font_weight": "600",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.3
+            },
+            "_element_width": "auto",
+            "__globals__": {
+              "title_color": "globals/colors?id=d9e4a52",
+              "typography_font_family": "globals/typography?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "00751e4"
+        },
+        {
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Unirme",
+            "link": {
+              "url": "https://www.skool.com/PENDIENTE",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "align": "right",
+            "align_mobile": "right",
+            "size": "lg",
+            "background_background": "gradient",
+            "background_color": "#16A34A",
+            "background_color_b": "#7C3AED",
+            "background_gradient_angle": {
+              "unit": "deg",
+              "size": 135
+            },
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "12",
+              "right": "18",
+              "bottom": "12",
+              "left": "18",
+              "isLinked": false
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_font_weight": "800",
+            "_css_classes": "gx-btn",
+            "_element_width": "auto",
+            "__globals__": {
+              "background_color": "globals/colors?id=primary",
+              "background_color_b": "globals/colors?id=secondary",
+              "typography_font_family": "globals/typography?id=secondary"
+            }
+          },
+          "elements": [],
+          "id": "1862e18"
+        }
+      ],
+      "id": "8f0d066"
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "content_width": {
+      "unit": "px",
+      "size": 1140
+    }
+  }
+}

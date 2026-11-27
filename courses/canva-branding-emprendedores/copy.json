@@ -1,0 +1,153 @@
+{
+  "$comment": "Ángulo de venta: 'te ves igual a todo el mundo porque usas las mismas plantillas gratis'. No es un curso de Canva más — es el sistema de estrategia + herramienta + producción para que tu marca se distinga y dejes de depender de un diseñador.",
+
+  "hero": {
+    "eyebrow": "Canva + Estrategia de Marca",
+    "headline": "Tu marca se ve igual a la de todo el mundo porque usas las mismas plantillas gratis",
+    "subhead": "Aprende el sistema completo — estrategia, identidad visual y producción — para diseñar tú mismo(a) una marca que se distinga, sin pagar un diseñador cada vez.",
+    "cta": "Quiero mi marca en Canva",
+    "microcopy": "Acceso inmediato · 7 días de garantía · Pago único de $59.90",
+    "variantes": {
+      "headline": [
+        "Tu marca se ve igual a la de todo el mundo porque usas las mismas plantillas gratis",
+        "Deja de pagar un diseñador por cada publicación",
+        "Tienes Canva Pro y solo usas el 10% de lo que puede hacer"
+      ],
+      "cta": ["Quiero mi marca en Canva", "Empezar ahora por $59.90"]
+    }
+  },
+
+  "pain": {
+    "headline": "No es que no tengas buen gusto. Es que nadie te enseñó el sistema.",
+    "intro": "Canva prometía que cualquiera podría diseñar. Pero sin estrategia, lo único que logra es que mil marcas distintas usen la misma plantilla.",
+    "bullets": [
+      "Usas las mismas plantillas gratis que usa toda tu competencia",
+      "Pagas un diseñador por cada post porque tú sola no te animas",
+      "Tienes Canva Pro y solo conoces una fracción de lo que hace",
+      "Una publicación te toma una hora y aun así no te convence",
+      "No tienes un Kit de Marca: cada diseño nuevo parte de cero"
+    ],
+    "cierre": "El problema no es tu creatividad. Es que estás diseñando sin un sistema detrás."
+  },
+
+  "mechanism": {
+    "headline": "Por qué las plantillas gratis no te están funcionando",
+    "explicacion": "El error más común es abrir Canva y ponerte a diseñar directamente. Sale algo bonito, pero inconsistente — no se siente como una marca, se siente como publicaciones sueltas. El Sistema ADN de Marca invierte el orden: primero la estrategia, después el sistema visual en Canva, y solo entonces la producción. Así cada diseño nuevo sale coherente en minutos.",
+    "pasos_titulo": "Conoce el sistema en tres pasos",
+    "cta": "Quiero mi marca en Canva",
+    "pasos": [
+      { "titulo": "Estrategia", "descripcion": "Defines tu cliente ideal, la psicología de tus colores y tipografías con personalidad — antes de abrir una sola plantilla.", "imagen": "REEMPLAZAR-URL-WP/mecanismo-01-estrategia.png" },
+      { "titulo": "Sistema", "descripcion": "Construyes tu logo, tu paleta oficial y tu Kit de Marca en Canva para que todo salga coherente automáticamente.", "imagen": "REEMPLAZAR-URL-WP/mecanismo-02-sistema.png" },
+      { "titulo": "Producción", "descripcion": "Aplicas el sistema para crear redes, presentaciones de venta y papelería — hasta 30 piezas en minutos.", "imagen": "REEMPLAZAR-URL-WP/mecanismo-03-produccion.png" }
+    ]
+  },
+
+  "band": {
+    "alt": "Cientos de diseños en segundos listos para tu negocio"
+  },
+
+  "offer_mockup": {
+    "headline": "De copiar y pegar a diseñar con sistema",
+    "cta": "Quiero acceso al sistema",
+    "beneficios": [
+      "Construyes tu Kit de Marca completo en Canva: logo, colores y tipografías, listo para usar en cualquier diseño",
+      "Dejas de pagar un diseñador por cada publicación y creas tú mismo contenido profesional en minutos",
+      "Dominas las herramientas Pro de Canva: IA, animación y edición avanzada de imágenes",
+      "Creas hasta 30 publicaciones en 5 minutos con la función de creación en lote",
+      "Tienes tu link en bio, presentaciones de venta y papelería digital e impresa listos para vender",
+      "Recibes más de 150 plantillas prediseñadas de marketing, ventas y redes sociales",
+      "Obtienes un certificado de finalización que respalda lo aprendido"
+    ]
+  },
+
+  "offer": {
+    "headline": "Los 6 módulos, de cero a tu marca funcionando",
+    "intro": "24 clases cortas. Cada módulo termina con algo construido — no con más teoría de diseño."
+  },
+
+  "bonus": {
+    "headline": "Y para ayudarte aún más a crear contenido llamativo, estratégico y que realmente destaque…",
+    "intro": "Quiero regalarte 4 bonus exclusivos que te van a dar el impulso extra",
+    "cta": "Quiero acceso al sistema"
+  },
+
+  "instructor": {
+    "headline": "Quién te va a enseñar esto",
+    "bio": "Olga Portocarrero es diseñadora gráfica y la profesora de este curso, creado para que cualquier emprendedor pueda construir su propia identidad de marca en Canva sin depender de un diseñador."
+  },
+
+  "price": {
+    "headline": "Lo que te cuesta seguir diseñando sin sistema",
+    "cta": "Quiero mi marca en Canva",
+    "urgencia": "Precio de lanzamiento: $59.90. Vuelve a $97 cuando cerremos las primeras inscripciones."
+  },
+
+  "guarantee": {
+    "texto": "Entra, mira los primeros módulos, arma tu Kit de Marca. Si en 7 días sientes que no es para ti, escribes un correo y te devolvemos el 100%. Sin preguntas."
+  },
+
+  "faq_headline": "Antes de que preguntes",
+  "faq": [
+    {
+      "pregunta": "¿Necesito saber de diseño para este curso?",
+      "respuesta": "No. Empezamos desde cero: qué es Canva, cómo moverte en la interfaz, y avanzamos paso a paso hasta las herramientas de nivel Pro. Si sabes usar plantillas, tienes el nivel de entrada."
+    },
+    {
+      "pregunta": "¿Funciona si tengo la versión gratuita de Canva o necesito Pro?",
+      "respuesta": "Puedes empezar con la versión gratuita. En el Módulo 0 te explico exactamente qué diferencia trae Canva Pro y por qué vale la pena la inversión cuando ya tienes un negocio detrás, para que decidas con información real."
+    },
+    {
+      "pregunta": "¿Cuánto tiempo toma completar el curso?",
+      "respuesta": "24 clases cortas repartidas en 6 módulos. A tu ritmo, la mayoría lo termina en menos de 30 días dedicando pocas horas por semana."
+    },
+    {
+      "pregunta": "¿Sirve para cualquier tipo de negocio o marca personal?",
+      "respuesta": "Sí. El sistema (estrategia → identidad → producción) es el mismo sin importar tu nicho — lo que cambia son los colores, la tipografía y el contenido, y eso lo defines tú en el Módulo 1."
+    },
+    {
+      "pregunta": "¿Qué pasa si ya tengo un logo o una marca a medias?",
+      "respuesta": "El curso te sirve igual: el Módulo 1 y 2 te ayudan a revisar y ordenar lo que ya tienes en un sistema real, en vez de empezar de cero."
+    }
+  ],
+
+  "final": {
+    "headline": "La próxima publicación puede ser otra plantilla genérica más",
+    "subhead": "O el primer diseño de tu sistema de marca. Son 24 clases y $59.90.",
+    "cta": "Empezar ahora",
+    "microcopy": "7 días de garantía · Acceso de por vida"
+  },
+
+  "ads": {
+    "$comment": "Un ángulo por creativo. 'fondo' queda vacío hasta generar assets.json con kie.ai — sin fondo, el creativo usa la malla de color de marca.",
+    "angulos": [
+      {
+        "id": "dolor",
+        "titular": "Tu marca se ve\nigual a la de todos",
+        "subtitulo": "Porque usas las mismas plantillas gratis que todo el mundo",
+        "texto_primario": "Abres Canva, buscas una plantilla y la usas tal cual.\n\nEl problema: la está usando también tu competencia.\n\nEn 24 clases cortas armas tu propio sistema de marca — para que cada diseño se vea tuyo, no de plantilla.",
+        "cta": "Más información"
+      },
+      {
+        "id": "resultado",
+        "titular": "De una hora por post\na 5 minutos",
+        "subtitulo": "El sistema que arma tu marca una vez y produce en minutos",
+        "texto_primario": "No es aprender \"más trucos de Canva\".\n\nEs construir tu Kit de Marca una vez — logo, colores, tipografías — para que cada diseño nuevo salga coherente en minutos, no en horas.",
+        "cta": "Más información"
+      },
+      {
+        "id": "objecion",
+        "titular": "No necesitas saber\nde diseño",
+        "subtitulo": "Empezamos desde cero, en Canva, paso a paso",
+        "texto_primario": "«Es que yo no tengo ojo para el diseño.»\n\nPor eso el curso arranca con estrategia, no con estética. 24 clases cortas, cada una termina con algo construido.",
+        "cta": "Más información"
+      }
+    ],
+    "carrusel": [
+      { "titular": "Tu marca se ve\nigual a la de todos.", "tipo": "gancho" },
+      { "titular": "No es falta de gusto.\nEs falta de sistema.", "tipo": "dolor" },
+      { "titular": "El Sistema\nADN de Marca", "subtitulo": "Estrategia · Sistema · Producción", "tipo": "mecanismo" },
+      { "titular": "6 módulos.\n24 clases.\n+150 plantillas.", "tipo": "oferta" },
+      { "titular": "$59.90", "subtitulo": "7 días de garantía", "tipo": "cta" }
+    ]
+  }
+}

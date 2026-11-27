@@ -124,7 +124,11 @@ recuerda **borrar los `id`** del export: los pone el build.
 ## Compatibilidad de widgets
 
 Widgets usados: `heading`, `text-editor`, `button`, `image`, `icon-list`, `icon-box`,
-`video`, `divider`, `accordion`. Todos son del Elementor gratuito.
+`icon`, `video`, `divider`, `accordion`, `html`. Todos son del Elementor gratuito.
+
+Lo que los controles gratuitos no hacen (cuadrícula de fondo, brillos radiales, borde
+degradado, barra superior fija, CTA fijo en móvil) lo resuelve la sección `estilos-evento`:
+un widget `html` con un `<style>` y clases `gx-*` asignadas en *Avanzado → Clases CSS*.
 
 **`accordion` es el único con riesgo.** Elementor 3.24+ lo esconde en instalaciones
 nuevas a favor del acordeón anidado. Si no aparece:
