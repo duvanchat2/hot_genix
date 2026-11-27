@@ -99,13 +99,13 @@ bonus:
     descripcion: "Guía para crear y dejar listas tus cuentas gratuitas de IA."
     valor: 0
 
-# Membresía mensual en Skool: 10 USD al mes, solo tarjeta, cancela cuando quiera.
+# Membresía mensual en Skool: 20 USD al mes, solo tarjeta, cancela cuando quiera.
 # Sin precio_ancla: el precio después de fundadores todavía no está definido.
-precio: 10
+precio: 20
 moneda: USD
 
 pago:
-  nota: "10 USD al mes, con tarjeta de crédito o débito en Skool. Sin permanencia: cancelas cuando quieras."
+  nota: "20 USD al mes, con tarjeta de crédito o débito en Skool. Sin permanencia: cancelas cuando quieras."
 
 checkout_url: "https://www.skool.com/PENDIENTE"   # [PENDIENTE] link para unirse a la comunidad
 
@@ -114,7 +114,7 @@ checkout_url: "https://www.skool.com/PENDIENTE"   # [PENDIENTE] link para unirse
 
 urgencia:
   tipo: precio
-  detalle: "Precio de fundador: 10 USD al mes mientras sigas activo. Al cerrar la edición de fundadores, el precio sube para los que entren después."
+  detalle: "Precio de fundador: 20 USD al mes mientras sigas activo. Al cerrar la edición de fundadores, el precio sube para los que entren después."
   # fecha_limite: 2026-12-01   # [PENDIENTE] fecha real de cierre de fundadores
 
 prueba_social: []   # sin testimonios reales todavía: la sección se omite sola

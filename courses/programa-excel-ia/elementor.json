@@ -160,7 +160,7 @@
           "elType": "widget",
           "widgetType": "button",
           "settings": {
-            "text": "Quiero entrar por 10 USD al mes",
+            "text": "Quiero entrar por 20 USD al mes",
             "link": {
               "url": "https://www.skool.com/PENDIENTE",
               "is_external": "on",
@@ -3489,7 +3489,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "$10<span style=\"font-size:30px;margin-left:10px;letter-spacing:0\">USD</span>",
+                    "title": "$20<span style=\"font-size:30px;margin-left:10px;letter-spacing:0\">USD</span>",
                     "header_size": "div",
                     "align": "center",
                     "title_color": "#FACC15",
@@ -3528,7 +3528,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "al mes. Menos de 35 centavos de dólar al día, y cancelas cuando quieras.",
+                    "title": "al mes. Menos de 70 centavos de dólar al día, y cancelas cuando quieras.",
                     "header_size": "div",
                     "align": "center",
                     "title_color": "#ECFDF3",
@@ -3634,7 +3634,7 @@
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Unirme por 10 USD al mes",
+                    "text": "Unirme por 20 USD al mes",
                     "link": {
                       "url": "https://www.skool.com/PENDIENTE",
                       "is_external": "",
@@ -3692,7 +3692,7 @@
                     "icon_list": [
                       {
                         "_id": "98d7528",
-                        "text": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 10 USD mientras sigas activo.",
+                        "text": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 20 USD mientras sigas activo.",
                         "selected_icon": {
                           "value": "far fa-clock",
                           "library": "fa-regular"
@@ -3829,7 +3829,7 @@
               {
                 "_id": "022578d",
                 "tab_title": "¿Hay permanencia mínima?",
-                "tab_content": "<p>No. Pagas 10 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos.</p>"
+                "tab_content": "<p>No. Pagas 20 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos.</p>"
               },
               {
                 "_id": "021ebd1",
@@ -3997,7 +3997,7 @@
           "elType": "widget",
           "widgetType": "button",
           "settings": {
-            "text": "Unirme por 10 USD al mes",
+            "text": "Unirme por 20 USD al mes",
             "link": {
               "url": "https://www.skool.com/PENDIENTE",
               "is_external": "on",
@@ -4104,7 +4104,7 @@
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Excel con IA · 10 USD/mes · <span style=\"color:#FACC15;font-weight:800\">$10</span>",
+            "title": "Excel con IA · 20 USD/mes · <span style=\"color:#FACC15;font-weight:800\">$20</span>",
             "header_size": "div",
             "title_color": "#ECFDF3",
             "typography_typography": "custom",

@@ -1,9 +1,9 @@
 {
-  "$comment": "Copy sacado del guion del webinar de Miguel Rodríguez, adaptado a membresía mensual en Skool (10 USD/mes, solo tarjeta, cancela cuando quieras). Los datos [CONFIRMAR] del guion (ciudad, empresas) no están en la página.",
+  "$comment": "Copy sacado del guion del webinar de Miguel Rodríguez, adaptado a membresía mensual en Skool (20 USD/mes, solo tarjeta, cancela cuando quieras). Los datos [CONFIRMAR] del guion (ciudad, empresas) no están en la página.",
   "hero": {
     "eyebrow": "Clase grabada · Excel con IA",
     "headline": "Descubre cómo la IA automatiza tus archivos de Excel: reportes, dashboards y todo lo que hoy haces a mano",
-    "cta": "Quiero entrar por 10 USD al mes",
+    "cta": "Quiero entrar por 20 USD al mes",
     "microcopy": "Precio de fundador · Cancela cuando quieras · Comunidad en Skool",
     "variantes": {
       "headline": [
@@ -14,7 +14,7 @@
         "Mira cómo 300 filas desordenadas se vuelven un dashboard que se actualiza solo"
       ],
       "cta": [
-        "Quiero entrar por 10 USD al mes",
+        "Quiero entrar por 20 USD al mes",
         "Quiero mi sistema con Excel e IA"
       ]
     }
@@ -76,9 +76,9 @@
     "headline": "Precio de fundador",
     "intro": "Si te ahorra una sola hora al mes, ya se pagó.",
     "incluye": "Todo el programa, la comunidad y los bonos de fundador por:",
-    "remate": "al mes. Menos de 35 centavos de dólar al día, y cancelas cuando quieras.",
-    "cta": "Unirme por 10 USD al mes",
-    "urgencia": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 10 USD mientras sigas activo."
+    "remate": "al mes. Menos de 70 centavos de dólar al día, y cancelas cuando quieras.",
+    "cta": "Unirme por 20 USD al mes",
+    "urgencia": "Cuando cierre la edición de fundadores, el precio sube para los que entren después. Tú mantienes los 20 USD mientras sigas activo."
   },
   "faq_headline": "Preguntas frecuentes",
   "faq": [
@@ -104,7 +104,7 @@
     },
     {
       "pregunta": "¿Hay permanencia mínima?",
-      "respuesta": "No. Pagas 10 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos."
+      "respuesta": "No. Pagas 20 USD al mes y cancelas cuando quieras desde tu cuenta de Skool. Sin contratos ni cobros escondidos."
     },
     {
       "pregunta": "¿Cuánto tiempo tengo acceso?",
@@ -134,11 +134,11 @@
   "final": {
     "headline": "¿Vas a entregar el reporte en un minuto o te vas a seguir quedando hasta tarde?",
     "subhead": "La IA ya está cambiando la forma de trabajar con Excel. En 4 semanas tienes tu propio sistema funcionando.",
-    "cta": "Unirme por 10 USD al mes",
+    "cta": "Unirme por 20 USD al mes",
     "microcopy": "Precio de fundador · Cancela cuando quieras"
   },
   "sticky": {
-    "texto": "Excel con IA · 10 USD/mes",
+    "texto": "Excel con IA · 20 USD/mes",
     "cta": "Unirme"
   }
 }
